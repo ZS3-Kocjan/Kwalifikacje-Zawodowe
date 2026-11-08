@@ -191,7 +191,7 @@ const data = [
             },
             {
                 id: 31,
-                title: "W CSS właściwość `margin: 10px 20px;` ustawi marginesy:",
+                title: "W CSS właściwość\n\n```\nmargin: 10px 20px;\n```\n\nustawi marginesy:",
                 answers: [{ id: 0, text: "Wszystkie na 10px" }, { id: 1, text: "Góra/dół 10px, lewy/prawy 20px" }, { id: 2, text: "Góra/dół 20px, lewy/prawy 10px" }, { id: 3, text: "Tylko górny 10px i dolny 20px" }],
                 goodAnswer: 1
             },
@@ -227,7 +227,7 @@ const data = [
             },
             {
                 id: 37,
-                title: "W CSS właściwość `display: none;` powoduje:",
+                title: "W CSS właściwość\n\n```\ndisplay: none;\n```\n\npowoduje:",
                 answers: [{ id: 0, text: "Ustawienie elementu jako przezroczystego" }, { id: 1, text: "Ukrycie elementu i usunięcie go z układu strony" }, { id: 2, text: "Zmniejszenie elementu do minimum" }, { id: 3, text: "Zablokowanie edycji elementu" }],
                 goodAnswer: 1
             },
@@ -335,7 +335,7 @@ const data = [
             },
             {
                 id: 55,
-                title: "W CSS właściwość `box-sizing: border-box;` sprawia, że:",
+                title: "W CSS właściwość\n\n```\nbox-sizing: border-box;\n```\n\nsprawia, że:",
                 answers: [{ id: 0, text: "Marginesy są wliczane" }, { id: 1, text: "Padding i obramowanie są wliczane do szerokości" }, { id: 2, text: "Element jest ukryty" }, { id: 3, text: "Tło jest czerwone" }],
                 goodAnswer: 1
             },
@@ -372,7 +372,7 @@ const data = [
             {
                 id: 61,
                 title: "W CSS, aby usunąć podkreślenie linku:",
-                answers: [{ id: 0, text: "`text-style: none`" }, { id: 1, text: "`font-decoration: none`" }, { id: 2, text: "`text-decoration: none`" }, { id: 3, text: "`link-style: none`" }],
+                answers: [{ id: 0, text: "```\ntext-style: none\n```" }, { id: 1, text: "```\nfont-decoration: none\n```" }, { id: 2, text: "```\ntext-decoration: none\n```" }, { id: 3, text: "```\nlink-style: none\n```" }],
                 goodAnswer: 2
             },
             {
@@ -419,7 +419,7 @@ const data = [
             },
             {
                 id: 69,
-                title: "W CSS `opacity: 0.5` to:",
+                title: "W CSS\n\n```\nopacity: 0.5\n```\n\nto:",
                 answers: [{ id: 0, text: "Brak przezroczystości" }, { id: 1, text: "50% przezroczystości" }, { id: 2, text: "Ukrycie" }, { id: 3, text: "Jasność" }],
                 goodAnswer: 1
             },
@@ -545,7 +545,7 @@ const data = [
             },
             {
                 id: 90,
-                title: "`list-style-type: square` to:",
+                title: "W CSS\n\n```\nlist-style-type: square\n```\n\nto:",
                 answers: [{ id: 0, text: "Kółka" }, { id: 1, text: "Kwadraty" }, { id: 2, text: "Cyfry" }, { id: 3, text: "Brak" }],
                 goodAnswer: 1
             },
@@ -581,7 +581,7 @@ const data = [
             },
             {
                 id: 96,
-                title: "`text-align: justify` to:",
+                title: "W CSS\n\n```\ntext-align: justify\n```\n\nto:",
                 answers: [{ id: 0, text: "Center" }, { id: 1, text: "Wyjustowanie" }, { id: 2, text: "Right" }, { id: 3, text: "Caps" }],
                 goodAnswer: 1
             },
@@ -653,7 +653,7 @@ const data = [
             },
             {
                 id: 108,
-                title: "W CSS `flex-direction: column` ustawi elementy:",
+                title: "W CSS\n\n```\nflex-direction: column\n```\n\nustawi elementy:",
                 answers: [{ id: 0, text: "W poziomie" }, { id: 1, text: "W pionie" }, { id: 2, text: "Na ukos" }, { id: 3, text: "W losowej kolejności" }],
                 goodAnswer: 1
             },
@@ -677,7 +677,7 @@ const data = [
             },
             {
                 id: 112,
-                title: "W CSS `cursor: pointer` zmieni kursor na:",
+                title: "W CSS\n\n```\ncursor: pointer\n```\n\nzmieni kursor na:",
                 answers: [{ id: 0, text: "Strzałkę" }, { id: 1, text: "Rączkę (wskaźnik)" }, { id: 2, text: "Klepsydrę" }, { id: 3, text: "Tekstowy" }],
                 goodAnswer: 1
             },
@@ -737,7 +737,7 @@ const data = [
             },
             {
                 id: 122,
-                title: "W CSS `width: 100%` oznacza:",
+                title: "W CSS\n\n```\nwidth: 100%\n```\n\noznacza:",
                 answers: [{ id: 0, text: "100 pikseli" }, { id: 1, text: "Szerokość całego ekranu" }, { id: 2, text: "Szerokość elementu nadrzędnego" }, { id: 3, text: "Szerokość czcionki" }],
                 goodAnswer: 2
             },
@@ -767,7 +767,7 @@ const data = [
             },
             {
                 id: 127,
-                title: "W CSS `background-image: url('foto.jpg')` wstawi:",
+                title: "W CSS\n\n```\nbackground-image: url('foto.jpg')\n```\n\nwstawi:",
                 answers: [{ id: 0, text: "Obrazek w treści" }, { id: 1, text: "Obrazek jako tło" }, { id: 2, text: "Link do obrazka" }, { id: 3, text: "Ikonę strony" }],
                 goodAnswer: 1
             },
@@ -827,7 +827,7 @@ const data = [
             },
             {
                 id: 137,
-                title: "W CSS `border: none` spowoduje:",
+                title: "W CSS\n\n```\nborder: none\n```\n\nspowoduje:",
                 answers: [{ id: 0, text: "Cienkie obramowanie" }, { id: 1, text: "Brak obramowania" }, { id: 2, text: "Czerwone obramowanie" }, { id: 3, text: "Podwójne obramowanie" }],
                 goodAnswer: 1
             },
@@ -857,7 +857,7 @@ const data = [
             },
             {
                 id: 142,
-                title: "W CSS `text-transform: uppercase` zmieni tekst na:",
+                title: "W CSS\n\n```\ntext-transform: uppercase\n```\n\nzmieni tekst na:",
                 answers: [{ id: 0, text: "Małe litery" }, { id: 1, text: "WIELKIE LITERY" }, { id: 2, text: "Pogrubione" }, { id: 3, text: "Kursywę" }],
                 goodAnswer: 1
             },
@@ -887,7 +887,7 @@ const data = [
             },
             {
                 id: 147,
-                title: "W CSS `position: relative` pozycjonuje względem:",
+                title: "W CSS\n\n```\nposition: relative\n```\n\npozycjonuje względem:",
                 answers: [{ id: 0, text: "Okna" }, { id: 1, text: "Pierwotnego położenia" }, { id: 2, text: "Rodzica" }, { id: 3, text: "Góry strony" }],
                 goodAnswer: 1
             },
@@ -911,7 +911,7 @@ const data = [
             },
             {
                 id: 151,
-                title: "W CSS `visibility: hidden` sprawia, że:",
+                title: "W CSS\n\n```\nvisibility: hidden\n```\n\nsprawia, że:",
                 answers: [{ id: 0, text: "Element znika i nie zajmuje miejsca" }, { id: 1, text: "Element jest niewidoczny, ale zajmuje miejsce" }, { id: 2, text: "Element jest półprzezroczysty" }, { id: 3, text: "Element jest czerwony" }],
                 goodAnswer: 1
             },
@@ -941,7 +941,7 @@ const data = [
             },
             {
                 id: 156,
-                title: "W CSS `overflow: scroll` doda:",
+                title: "W CSS\n\n```\noverflow: scroll\n```\n\ndoda:",
                 answers: [{ id: 0, text: "Cień" }, { id: 1, text: "Paski przewijania" }, { id: 2, text: "Kolor" }, { id: 3, text: "Margines" }],
                 goodAnswer: 1
             },
@@ -1001,7 +1001,7 @@ const data = [
             },
             {
                 id: 166,
-                title: "W CSS `color: #FF0000` to kolor:",
+                title: "W CSS\n\n```\ncolor: #FF0000\n```\n\nto kolor:",
                 answers: [{ id: 0, text: "Zielony" }, { id: 1, text: "Czerwony" }, { id: 2, text: "Niebieski" }, { id: 3, text: "Biały" }],
                 goodAnswer: 1
             },
@@ -1031,7 +1031,7 @@ const data = [
             },
             {
                 id: 171,
-                title: "W CSS `display: block` sprawia, że element:",
+                title: "W CSS\n\n```\ndisplay: block\n```\n\nsprawia, że element:",
                 answers: [{ id: 0, text: "Jest w linii" }, { id: 1, text: "Zajmuje całą szerokość i zaczyna się od nowej linii" }, { id: 2, text: "Jest ukryty" }, { id: 3, text: "Jest elastyczny" }],
                 goodAnswer: 1
             },
@@ -1121,7 +1121,7 @@ const data = [
             },
             {
                 id: 186,
-                title: "W CSS `white-space: nowrap` spowoduje:",
+                title: "W CSS\n\n```\nwhite-space: nowrap\n```\n\nspowoduje:",
                 answers: [{ id: 0, text: "Ukrycie spacji" }, { id: 1, text: "Brak zawijania tekstu do nowej linii" }, { id: 2, text: "Pogrubienie" }, { id: 3, text: "Kursywę" }],
                 goodAnswer: 1
             },
@@ -1181,7 +1181,7 @@ const data = [
             },
             {
                 id: 196,
-                title: "W CSS `text-decoration: underline` to:",
+                title: "W CSS\n\n```\ntext-decoration: underline\n```\n\nto:",
                 answers: [{ id: 0, text: "Pogrubienie" }, { id: 1, text: "Podkreślenie" }, { id: 2, text: "Przekreślenie" }, { id: 3, text: "Nadkreślenie" }],
                 goodAnswer: 1
             },
@@ -1259,7 +1259,7 @@ const data = [
             },
             {
                 id: 209,
-                title: "W CSS właściwość `position: absolute` pozycjonuje element względem:",
+                title: "W CSS właściwość\n\n```\nposition: absolute\n```\n\npozycjonuje element względem:",
                 answers: [{ id: 0, text: "Okna przeglądarki" }, { id: 1, text: "Najbliższego pozycjonowanego przodka" }, { id: 2, text: "Poprzedniego elementu" }, { id: 3, text: "Góry strony" }],
                 goodAnswer: 1
             },
@@ -1295,7 +1295,7 @@ const data = [
             },
             {
                 id: 215,
-                title: "W CSS `display: inline-block` sprawia, że element:",
+                title: "W CSS\n\n```\ndisplay: inline-block\n```\n\nsprawia, że element:",
                 answers: [{ id: 0, text: "Jest niewidoczny" }, { id: 1, text: "Zachowuje się jak tekst, ale przyjmuje szerokość i wysokość" }, { id: 2, text: "Rozciąga się na całą stronę" }, { id: 3, text: "Jest usuwany z DOM" }],
                 goodAnswer: 1
             },
@@ -1325,7 +1325,7 @@ const data = [
             },
             {
                 id: 220,
-                title: "W CSS właściwość `list-style-type: none` stosuje się do:",
+                title: "W CSS właściwość\n\n```\nlist-style-type: none\n```\n\nstosuje się do:",
                 answers: [{ id: 0, text: "Usunięcia obramowania tabeli" }, { id: 1, text: "Usunięcia wypunktowania listy" }, { id: 2, text: "Ukrycia tekstu" }, { id: 3, text: "Zmiany czcionki" }],
                 goodAnswer: 1
             },
@@ -1415,7 +1415,7 @@ const data = [
             },
             {
                 id: 235,
-                title: "W CSS właściwość `clear: both` służy do:",
+                title: "W CSS właściwość\n\n```\nclear: both\n```\n\nsłuży do:",
                 answers: [{ id: 0, text: "Wyczyszczenia pamięci" }, { id: 1, text: "Zablokowania opływania elementu z obu stron" }, { id: 2, text: "Resetowania stylów" }, { id: 3, text: "Usunięcia tła" }],
                 goodAnswer: 1
             },
@@ -1445,7 +1445,7 @@ const data = [
             },
             {
                 id: 240,
-                title: "W CSS właściwość `font-style: italic` odpowiada za:",
+                title: "W CSS właściwość\n\n```\nfont-style: italic\n```\n\nodpowiada za:",
                 answers: [{ id: 0, text: "Pogrubienie" }, { id: 1, text: "Pochylenie (kursywę)" }, { id: 2, text: "Podkreślenie" }, { id: 3, text: "Wielkość liter" }],
                 goodAnswer: 1
             },
@@ -1475,7 +1475,7 @@ const data = [
             },
             {
                 id: 245,
-                title: "W CSS `overflow: hidden` powoduje:",
+                title: "W CSS\n\n```\noverflow: hidden\n```\n\npowoduje:",
                 answers: [{ id: 0, text: "Dodanie scrolla" }, { id: 1, text: "Ukrycie treści wystającej poza obszar elementu" }, { id: 2, text: "Ukrycie całego elementu" }, { id: 3, text: "Zwiększenie elementu" }],
                 goodAnswer: 1
             },
@@ -1565,7 +1565,7 @@ const data = [
             },
             {
                 id: 260,
-                title: "W CSS `resize: both` pozwala użytkownikowi na:",
+                title: "W CSS\n\n```\nresize: both\n```\n\npozwala użytkownikowi na:",
                 answers: [{ id: 0, text: "Zmianę tła" }, { id: 1, text: "Zmianę rozmiaru elementu (np. textarea)" }, { id: 2, text: "Kopiowanie tekstu" }, { id: 3, text: "Przesuwanie elementu" }],
                 goodAnswer: 1
             },
@@ -1625,7 +1625,7 @@ const data = [
             },
             {
                 id: 270,
-                title: "W CSS `font-size: 1.2rem` oznacza rozmiar:",
+                title: "W CSS\n\n```\nfont-size: 1.2rem\n```\n\noznacza rozmiar:",
                 answers: [{ id: 0, text: "12 pikseli" }, { id: 1, text: "120% rozmiaru elementu html" }, { id: 2, text: "120% rodzica" }, { id: 3, text: "Stały 1.2cm" }],
                 goodAnswer: 1
             },
@@ -1655,7 +1655,7 @@ const data = [
             },
             {
                 id: 275,
-                title: "W CSS `flex-grow: 1` sprawia, że:",
+                title: "W CSS\n\n```\nflex-grow: 1\n```\n\nsprawia, że:",
                 answers: [{ id: 0, text: "Element się nie zmienia" }, { id: 1, text: "Element rośnie, by wypełnić wolną przestrzeń" }, { id: 2, text: "Element znika" }, { id: 3, text: "Element ma margines 1px" }],
                 goodAnswer: 1
             },
@@ -1685,7 +1685,7 @@ const data = [
             },
             {
                 id: 280,
-                title: "W CSS `border: 1px solid red` to:",
+                title: "W CSS\n\n```\nborder: 1px solid red\n```\n\nto:",
                 answers: [{ id: 0, text: "Tło" }, { id: 1, text: "Obramowanie ciągłe czerwone" }, { id: 2, text: "Cień" }, { id: 3, text: "Margines wewnętrzny" }],
                 goodAnswer: 1
             },
@@ -1715,7 +1715,7 @@ const data = [
             },
             {
                 id: 285,
-                title: "W CSS `position: fixed` pozycjonuje względem:",
+                title: "W CSS\n\n```\nposition: fixed\n```\n\npozycjonuje względem:",
                 answers: [{ id: 0, text: "Rodzica" }, { id: 1, text: "Okna przeglądarki (viewport)" }, { id: 2, text: "Góry dokumentu" }, { id: 3, text: "Innego elementu fixed" }],
                 goodAnswer: 1
             },
@@ -1745,7 +1745,7 @@ const data = [
             },
             {
                 id: 290,
-                title: "W CSS właściwość `opacity: 0` sprawia, że element:",
+                title: "W CSS właściwość\n\n```\nopacity: 0\n```\n\nsprawia, że element:",
                 answers: [{ id: 0, text: "Jest widoczny" }, { id: 1, text: "Jest całkowicie przezroczysty, ale zajmuje miejsce" }, { id: 2, text: "Jest usunięty z układu" }, { id: 3, text: "Zmienia kolor na biały" }],
                 goodAnswer: 1
             },
@@ -1895,7 +1895,7 @@ const data = [
             },
             {
                 id: 315,
-                title: "W CSS `cursor: wait` zmieni kursor w:",
+                title: "W CSS\n\n```\ncursor: wait\n```\n\nzmieni kursor w:",
                 answers: [{ id: 0, text: "Rączkę" }, { id: 1, text: "Symbol ładowania (klepsydrę)" }, { id: 2, text: "Krzyżyk" }, { id: 3, text: "Strzałkę" }],
                 goodAnswer: 1
             },
@@ -1925,7 +1925,7 @@ const data = [
             },
             {
                 id: 320,
-                title: "W CSS `user-select: none` powoduje:",
+                title: "W CSS\n\n```\nuser-select: none\n```\n\npowoduje:",
                 answers: [{ id: 0, text: "Brak możliwości wpisywania" }, { id: 1, text: "Zablokowanie możliwości zaznaczania tekstu" }, { id: 2, text: "Ukrycie kursora" }, { id: 3, text: "Dezaktywację linków" }],
                 goodAnswer: 1
             },
@@ -1955,7 +1955,7 @@ const data = [
             },
             {
                 id: 325,
-                title: "W CSS właściwość `filter: grayscale(100%)` zrobi obrazek:",
+                title: "W CSS właściwość\n\n```\nfilter: grayscale(100%)\n```\n\nzrobi obrazek:",
                 answers: [{ id: 0, text: "Niebieskim" }, { id: 1, text: "Czarno-białym" }, { id: 2, text: "Przezroczystym" }, { id: 3, text: "Odwróconym" }],
                 goodAnswer: 1
             },
@@ -1985,7 +1985,7 @@ const data = [
             },
             {
                 id: 330,
-                title: "W CSS `overflow-y: scroll` wymusza pasek przewijania:",
+                title: "W CSS\n\n```\noverflow-y: scroll\n```\n\nwymusza pasek przewijania:",
                 answers: [{ id: 0, text: "Poziomy" }, { id: 1, text: "Pionowy" }, { id: 2, text: "Oba" }, { id: 3, text: "Żaden" }],
                 goodAnswer: 1
             },
@@ -2015,7 +2015,7 @@ const data = [
             },
             {
                 id: 335,
-                title: "W CSS `box-sizing: content-box` (domyślnie) sprawia, że szerokość:",
+                title: "W CSS\n\n```\nbox-sizing: content-box\n```\n\n(domyślnie) sprawia, że szerokość:",
                 answers: [{ id: 0, text: "Zawiera padding" }, { id: 1, text: "Dotyczy tylko samej zawartości (bez paddingu i border)" }, { id: 2, text: "Zależy od marginesu" }, { id: 3, text: "Jest zawsze 100%" }],
                 goodAnswer: 1
             },
@@ -2075,7 +2075,7 @@ const data = [
             },
             {
                 id: 345,
-                title: "W CSS `display: grid` służy do tworzenia:",
+                title: "W CSS\n\n```\ndisplay: grid\n```\n\nsłuży do tworzenia:",
                 answers: [{ id: 0, text: "Listy" }, { id: 1, text: "Układu siatkowego (dwuwymiarowego)" }, { id: 2, text: "Animacji" }, { id: 3, text: "Cienia" }],
                 goodAnswer: 1
             },
@@ -2105,7 +2105,7 @@ const data = [
             },
             {
                 id: 350,
-                title: "W CSS `vertical-align: middle` działa głównie wewnątrz:",
+                title: "W CSS\n\n```\nvertical-align: middle\n```\n\ndziała głównie wewnątrz:",
                 answers: [{ id: 0, text: "`<div>`" }, { id: 1, text: "Komórek tabeli (`<td>`)" }, { id: 2, text: "Akapitów `<p>`" }, { id: 3, text: "Sekcji `<section>`" }],
                 goodAnswer: 1
             },
@@ -2135,7 +2135,7 @@ const data = [
             },
             {
                 id: 355,
-                title: "W CSS właściwość `font-variant: small-caps` powoduje:",
+                title: "W CSS właściwość\n\n```\nfont-variant: small-caps\n```\n\npowoduje:",
                 answers: [{ id: 0, text: "Małe litery" }, { id: 1, text: "Zamianę małych liter na małe wersje wielkich liter" }, { id: 2, text: "Pogrubienie" }, { id: 3, text: "Pochylenie" }],
                 goodAnswer: 1
             },
@@ -2165,7 +2165,7 @@ const data = [
             },
             {
                 id: 360,
-                title: "W CSS `border-collapse: collapse` stosuje się w:",
+                title: "W CSS\n\n```\nborder-collapse: collapse\n```\n\nstosuje się w:",
                 answers: [{ id: 0, text: "Listach" }, { id: 1, text: "Tabelach (łączenie krawędzi)" }, { id: 2, text: "Obrazkach" }, { id: 3, text: "Formularzach" }],
                 goodAnswer: 1
             },
@@ -2195,7 +2195,7 @@ const data = [
             },
             {
                 id: 365,
-                title: "W CSS `cursor: move` wskazuje na możliwość:",
+                title: "W CSS\n\n```\ncursor: move\n```\n\nwskazuje na możliwość:",
                 answers: [{ id: 0, text: "Kliknięcia" }, { id: 1, text: "Przesunięcia elementu" }, { id: 2, text: "Edycji" }, { id: 3, text: "Usunięcia" }],
                 goodAnswer: 1
             },
@@ -2226,7 +2226,7 @@ const data = [
             {
                 id: 370,
                 title: "W CSS właściwość `float` nie działa na elementach z:",
-                answers: [{ id: 0, text: "`position: absolute`" }, { id: 1, text: "`position: static`" }, { id: 2, text: "`display: block`" }, { id: 3, text: "`color: red`" }],
+                answers: [{ id: 0, text: "```\nposition: absolute\n```" }, { id: 1, text: "```\nposition: static\n```" }, { id: 2, text: "```\ndisplay: block\n```" }, { id: 3, text: "```\ncolor: red\n```" }],
                 goodAnswer: 0
             },
             {
@@ -2285,7 +2285,7 @@ const data = [
             },
             {
                 id: 380,
-                title: "W CSS `text-transform: capitalize` zmieni:",
+                title: "W CSS\n\n```\ntext-transform: capitalize\n```\n\nzmieni:",
                 answers: [{ id: 0, text: "Wszystko na wielkie litery" }, { id: 1, text: "Pierwszą literę każdego słowa na wielką" }, { id: 2, text: "Wszystko na małe litery" }, { id: 3, text: "Tylko pierwszą literę zdania" }],
                 goodAnswer: 1
             },
@@ -2315,7 +2315,7 @@ const data = [
             },
             {
                 id: 385,
-                title: "W CSS właściwość `list-style-position: inside` umieszcza punktory:",
+                title: "W CSS właściwość\n\n```\nlist-style-position: inside\n```\n\numieszcza punktory:",
                 answers: [{ id: 0, text: "Na zewnątrz tekstu" }, { id: 1, text: "Wewnątrz obszaru treści elementu listy" }, { id: 2, text: "Na górze" }, { id: 3, text: "Z prawej strony" }],
                 goodAnswer: 1
             },
@@ -2375,7 +2375,7 @@ const data = [
             },
             {
                 id: 395,
-                title: "W CSS `white-space: pre` zachowuje:",
+                title: "W CSS\n\n```\nwhite-space: pre\n```\n\nzachowuje:",
                 answers: [{ id: 0, text: "Kolory" }, { id: 1, text: "Spacje i znaki nowej linii" }, { id: 2, text: "Marginesy" }, { id: 3, text: "Tylko tekst" }],
                 goodAnswer: 1
             },
