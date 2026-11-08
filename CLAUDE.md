@@ -38,12 +38,12 @@ packages/web-site/               The only package
   eslint.config.js               Flat config; unused vars starting with a capital or _ are allowed
   public/cursor*.png             Custom cursor images used by index.css
   scripts/check-code-marks.js    Assert-based check of the parser and all question text
+  scripts/splitCode.js           Splits a string into plain text and code parts
   src/
     main.jsx                     React root, without StrictMode
     App.jsx                      Page shell and dark background: Header, Main, Footer
     index.css                    Tailwind import, :root styles, .pointer, .disabled, .text-shadow, .clip-text
     data/data.js                 The entire question bank
-    data/splitCode.js            Splits a string into plain text and code parts
     components/
       Main.jsx                   All quiz state, and the switch between menu and quiz views
       Card.jsx                   Qualification card in the menu; registers the GSAP plugins

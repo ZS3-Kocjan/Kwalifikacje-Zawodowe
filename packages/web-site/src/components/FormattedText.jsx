@@ -1,5 +1,5 @@
 import React from 'react'
-import { splitCode } from '../data/splitCode'
+import { splitCode } from '../../scripts/splitCode'
 
 function FormattedText({ text }) {
     return splitCode(text).map((part, i) => {
