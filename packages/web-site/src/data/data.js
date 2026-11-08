@@ -6,31 +6,31 @@ const data = [
             {
                 id: 0,
                 title: "Który z atrybutów znacznika `<img>` w HTML odpowiada za tekst alternatywny?",
-                answers: [{ id: 0, text: "title" }, { id: 1, text: "alt" }, { id: 2, text: "src" }, { id: 3, text: "longdesc" }],
+                answers: [{ id: 0, text: "`title`" }, { id: 1, text: "`alt`" }, { id: 2, text: "`src`" }, { id: 3, text: "`longdesc`" }],
                 goodAnswer: 1
             },
             {
                 id: 1,
                 title: "W języku PHP, aby połączyć się z bazą danych MySQL, należy użyć funkcji:",
-                answers: [{ id: 0, text: "mysqli_connect()" }, { id: 1, text: "mysql_open()" }, { id: 2, text: "db_connect()" }, { id: 3, text: "connect_mysql()" }],
+                answers: [{ id: 0, text: "`mysqli_connect()`" }, { id: 1, text: "`mysql_open()`" }, { id: 2, text: "`db_connect()`" }, { id: 3, text: "`connect_mysql()`" }],
                 goodAnswer: 0
             },
             {
                 id: 2,
                 title: "Która właściwość CSS służy do zmiany koloru tła elementu?",
-                answers: [{ id: 0, text: "color" }, { id: 1, text: "bgcolor" }, { id: 2, text: "background-color" }, { id: 3, text: "back-color" }],
+                answers: [{ id: 0, text: "`color`" }, { id: 1, text: "`bgcolor`" }, { id: 2, text: "`background-color`" }, { id: 3, text: "`back-color`" }],
                 goodAnswer: 2
             },
             {
                 id: 3,
                 title: "W języku SQL polecenie służące do usuwania danych z tabeli to:",
-                answers: [{ id: 0, text: "REMOVE" }, { id: 1, text: "DROP" }, { id: 2, text: "DELETE" }, { id: 3, text: "TRUNCATE" }],
+                answers: [{ id: 0, text: "`REMOVE`" }, { id: 1, text: "`DROP`" }, { id: 2, text: "`DELETE`" }, { id: 3, text: "`TRUNCATE`" }],
                 goodAnswer: 2
             },
             {
                 id: 4,
                 title: "Który symbol w języku JavaScript oznacza operator logiczny 'I' (AND)?",
-                answers: [{ id: 0, text: "||" }, { id: 1, text: "&&" }, { id: 2, text: "!" }, { id: 3, text: "&" }],
+                answers: [{ id: 0, text: "`||`" }, { id: 1, text: "`&&`" }, { id: 2, text: "`!`" }, { id: 3, text: "`&`" }],
                 goodAnswer: 1
             },
             {
@@ -42,13 +42,13 @@ const data = [
             {
                 id: 6,
                 title: "Który znacznik HTML służy do utworzenia listy numerowanej?",
-                answers: [{ id: 0, text: "<ul>" }, { id: 1, text: "<li>" }, { id: 2, text: "<ol>" }, { id: 3, text: "<list>" }],
+                answers: [{ id: 0, text: "`<ul>`" }, { id: 1, text: "`<li>`" }, { id: 2, text: "`<ol>`" }, { id: 3, text: "`<list>`" }],
                 goodAnswer: 2
             },
             {
                 id: 7,
                 title: "Jakie rozszerzenie ma plik kaskadowych arkuszy stylów?",
-                answers: [{ id: 0, text: ".css" }, { id: 1, text: ".cas" }, { id: 2, text: ".style" }, { id: 3, text: ".html" }],
+                answers: [{ id: 0, text: "`.css`" }, { id: 1, text: "`.cas`" }, { id: 2, text: "`.style`" }, { id: 3, text: "`.html`" }],
                 goodAnswer: 0
             },
             {
@@ -60,19 +60,19 @@ const data = [
             {
                 id: 9,
                 title: "Która z metod obiektu `XMLHttpRequest` wysyła żądanie do serwera?",
-                answers: [{ id: 0, text: "open()" }, { id: 1, text: "get()" }, { id: 2, text: "send()" }, { id: 3, text: "post()" }],
+                answers: [{ id: 0, text: "`open()`" }, { id: 1, text: "`get()`" }, { id: 2, text: "`send()`" }, { id: 3, text: "`post()`" }],
                 goodAnswer: 2
             },
             {
                 id: 10,
                 title: "W CSS, aby tekst był pogrubiony, należy użyć właściwości `font-weight` z wartością:",
-                answers: [{ id: 0, text: "italic" }, { id: 1, text: "bold" }, { id: 2, text: "underline" }, { id: 3, text: "heavy" }],
+                answers: [{ id: 0, text: "`italic`" }, { id: 1, text: "`bold`" }, { id: 2, text: "`underline`" }, { id: 3, text: "`heavy`" }],
                 goodAnswer: 1
             },
             {
                 id: 11,
                 title: "Zmienne w języku PHP zaczynają się od znaku:",
-                answers: [{ id: 0, text: "#" }, { id: 1, text: "&" }, { id: 2, text: "$" }, { id: 3, text: "@" }],
+                answers: [{ id: 0, text: "`#`" }, { id: 1, text: "`&`" }, { id: 2, text: "`$`" }, { id: 3, text: "`@`" }],
                 goodAnswer: 2
             },
             {
@@ -90,7 +90,7 @@ const data = [
             {
                 id: 14,
                 title: "Jak w JavaScript zdefiniować funkcję o nazwie `mojaFunkcja`?",
-                answers: [{ id: 0, text: "function:mojaFunkcja()" }, { id: 1, text: "function mojaFunkcja()" }, { id: 2, text: "new function mojaFunkcja()" }, { id: 3, text: "def mojaFunkcja()" }],
+                answers: [{ id: 0, text: "`function:mojaFunkcja()`" }, { id: 1, text: "`function mojaFunkcja()`" }, { id: 2, text: "`new function mojaFunkcja()`" }, { id: 3, text: "`def mojaFunkcja()`" }],
                 goodAnswer: 1
             },
             {
@@ -102,19 +102,19 @@ const data = [
             {
                 id: 16,
                 title: "Który znacznik HTML jest używany do osadzania kodu JavaScript bezpośrednio w dokumencie?",
-                answers: [{ id: 0, text: "<javascript>" }, { id: 1, text: "<scripting>" }, { id: 2, text: "<script>" }, { id: 3, text: "<js>" }],
+                answers: [{ id: 0, text: "`<javascript>`" }, { id: 1, text: "`<scripting>`" }, { id: 2, text: "`<script>`" }, { id: 3, text: "`<js>`" }],
                 goodAnswer: 2
             },
             {
                 id: 17,
                 title: "W CSS selektor `#identyfikator` odnosi się do elementu o określonym:",
-                answers: [{ id: 0, text: "Atrybucie class" }, { id: 1, text: "Znaczniku" }, { id: 2, text: "Atrybucie id" }, { id: 3, text: "Atrybucie name" }],
+                answers: [{ id: 0, text: "Atrybucie `class`" }, { id: 1, text: "Znaczniku" }, { id: 2, text: "Atrybucie `id`" }, { id: 3, text: "Atrybucie `name`" }],
                 goodAnswer: 2
             },
             {
                 id: 18,
                 title: "Który typ danych w SQL służy do przechowywania krótkich ciągów znaków o zmiennej długości?",
-                answers: [{ id: 0, text: "INT" }, { id: 1, text: "VARCHAR" }, { id: 2, text: "TEXT" }, { id: 3, text: "CHAR" }],
+                answers: [{ id: 0, text: "`INT`" }, { id: 1, text: "`VARCHAR`" }, { id: 2, text: "`TEXT`" }, { id: 3, text: "`CHAR`" }],
                 goodAnswer: 1
             },
             {
@@ -126,13 +126,13 @@ const data = [
             {
                 id: 20,
                 title: "W dokumencie HTML5 znacznik `<header>` reprezentuje:",
-                answers: [{ id: 0, text: "Nagłówek najwyższego stopnia (h1)" }, { id: 1, text: "Sekcję wprowadzającą lub zestaw linków nawigacyjnych" }, { id: 2, text: "Główną treść strony" }, { id: 3, text: "Stopkę strony" }],
+                answers: [{ id: 0, text: "Nagłówek najwyższego stopnia (`h1`)" }, { id: 1, text: "Sekcję wprowadzającą lub zestaw linków nawigacyjnych" }, { id: 2, text: "Główną treść strony" }, { id: 3, text: "Stopkę strony" }],
                 goodAnswer: 1
             },
             {
                 id: 21,
                 title: "Która jednostka CSS jest relatywna względem rozmiaru czcionki elementu nadrzędnego?",
-                answers: [{ id: 0, text: "px" }, { id: 1, text: "cm" }, { id: 2, text: "em" }, { id: 3, text: "pt" }],
+                answers: [{ id: 0, text: "`px`" }, { id: 1, text: "`cm`" }, { id: 2, text: "`em`" }, { id: 3, text: "`pt`" }],
                 goodAnswer: 2
             },
             {
@@ -144,7 +144,7 @@ const data = [
             {
                 id: 23,
                 title: "Jakie zdarzenie w JavaScript zostanie wywołane po kliknięciu myszką na element?",
-                answers: [{ id: 0, text: "onmouseover" }, { id: 1, text: "onchange" }, { id: 2, text: "onclick" }, { id: 3, text: "onsubmit" }],
+                answers: [{ id: 0, text: "`onmouseover`" }, { id: 1, text: "`onchange`" }, { id: 2, text: "`onclick`" }, { id: 3, text: "`onsubmit`" }],
                 goodAnswer: 2
             },
             {
@@ -162,7 +162,7 @@ const data = [
             {
                 id: 26,
                 title: "W CSS właściwość `float` może przyjąć wartość:",
-                answers: [{ id: 0, text: "middle" }, { id: 1, text: "center" }, { id: 2, text: "left" }, { id: 3, text: "top" }],
+                answers: [{ id: 0, text: "`middle`" }, { id: 1, text: "`center`" }, { id: 2, text: "`left`" }, { id: 3, text: "`top`" }],
                 goodAnswer: 2
             },
             {
@@ -186,7 +186,7 @@ const data = [
             {
                 id: 30,
                 title: "Znacznik `<title>` w dokumencie HTML powinien znajdować się wewnątrz sekcji:",
-                answers: [{ id: 0, text: "<body>" }, { id: 1, text: "<footer>" }, { id: 2, text: "<head>" }, { id: 3, text: "<nav>" }],
+                answers: [{ id: 0, text: "`<body>`" }, { id: 1, text: "`<footer>`" }, { id: 2, text: "`<head>`" }, { id: 3, text: "`<nav>`" }],
                 goodAnswer: 2
             },
             {
@@ -204,13 +204,13 @@ const data = [
             {
                 id: 33,
                 title: "Który z operatorów PHP służy do konkatenacji (łączenia) ciągów znaków?",
-                answers: [{ id: 0, text: "+" }, { id: 1, text: "&" }, { id: 2, text: "." }, { id: 3, text: "&&" }],
+                answers: [{ id: 0, text: "`+`" }, { id: 1, text: "`&`" }, { id: 2, text: "`.`" }, { id: 3, text: "`&&`" }],
                 goodAnswer: 2
             },
             {
                 id: 34,
                 title: "W JavaScript metodą służącą do wypisania tekstu w oknie dialogowym jest:",
-                answers: [{ id: 0, text: "console.log()" }, { id: 1, text: "document.write()" }, { id: 2, text: "alert()" }, { id: 3, text: "print()" }],
+                answers: [{ id: 0, text: "`console.log()`" }, { id: 1, text: "`document.write()`" }, { id: 2, text: "`alert()`" }, { id: 3, text: "`print()`" }],
                 goodAnswer: 2
             },
             {
@@ -234,13 +234,13 @@ const data = [
             {
                 id: 38,
                 title: "W języku SQL, aby usunąć całą tabelę wraz ze strukturą, należy użyć:",
-                answers: [{ id: 0, text: "DELETE TABLE" }, { id: 1, text: "DROP TABLE" }, { id: 2, text: "REMOVE TABLE" }, { id: 3, text: "ERASE TABLE" }],
+                answers: [{ id: 0, text: "`DELETE TABLE`" }, { id: 1, text: "`DROP TABLE`" }, { id: 2, text: "`REMOVE TABLE`" }, { id: 3, text: "`ERASE TABLE`" }],
                 goodAnswer: 1
             },
             {
                 id: 39,
                 title: "Która pętla w PHP wykona się przynajmniej raz, nawet jeśli warunek jest fałszywy?",
-                answers: [{ id: 0, text: "for" }, { id: 1, text: "while" }, { id: 2, text: "do...while" }, { id: 3, text: "foreach" }],
+                answers: [{ id: 0, text: "`for`" }, { id: 1, text: "`while`" }, { id: 2, text: "`do...while`" }, { id: 3, text: "`foreach`" }],
                 goodAnswer: 2
             },
             {
@@ -258,7 +258,7 @@ const data = [
             {
                 id: 42,
                 title: "W HTML znacznik `<table>` zawiera wiersze definiowane przez:",
-                answers: [{ id: 0, text: "<td>" }, { id: 1, text: "<th>" }, { id: 2, text: "<tr>" }, { id: 3, text: "<tf>" }],
+                answers: [{ id: 0, text: "`<td>`" }, { id: 1, text: "`<th>`" }, { id: 2, text: "`<tr>`" }, { id: 3, text: "`<tf>`" }],
                 goodAnswer: 2
             },
             {
@@ -282,7 +282,7 @@ const data = [
             {
                 id: 46,
                 title: "Która funkcja JavaScript służy do przekształcenia tekstu na liczbę całkowitą?",
-                answers: [{ id: 0, text: "toString()" }, { id: 1, text: "Math.round()" }, { id: 2, text: "parseInt()" }, { id: 3, text: "toNumber()" }],
+                answers: [{ id: 0, text: "`toString()`" }, { id: 1, text: "`Math.round()`" }, { id: 2, text: "`parseInt()`" }, { id: 3, text: "`toNumber()`" }],
                 goodAnswer: 2
             },
             {
@@ -306,13 +306,13 @@ const data = [
             {
                 id: 50,
                 title: "W języku PHP, aby rozpocząć sesję, należy użyć funkcji:",
-                answers: [{ id: 0, text: "session_begin()" }, { id: 1, text: "session_start()" }, { id: 2, text: "start_session()" }, { id: 3, text: "header('Session')" }],
+                answers: [{ id: 0, text: "`session_begin()`" }, { id: 1, text: "`session_start()`" }, { id: 2, text: "`start_session()`" }, { id: 3, text: "`header('Session')`" }],
                 goodAnswer: 1
             },
             {
                 id: 51,
                 title: "Która właściwość CSS określa pozycjonowanie elementu względem okna przeglądarki?",
-                answers: [{ id: 0, text: "absolute" }, { id: 1, text: "relative" }, { id: 2, text: "fixed" }, { id: 3, text: "static" }],
+                answers: [{ id: 0, text: "`absolute`" }, { id: 1, text: "`relative`" }, { id: 2, text: "`fixed`" }, { id: 3, text: "`static`" }],
                 goodAnswer: 2
             },
             {
@@ -324,13 +324,13 @@ const data = [
             {
                 id: 53,
                 title: "W JavaScript, aby sprawdzić długość ciągu znaków używamy:",
-                answers: [{ id: 0, text: "size()" }, { id: 1, text: "count" }, { id: 2, text: "length" }, { id: 3, text: "len()" }],
+                answers: [{ id: 0, text: "`size()`" }, { id: 1, text: "`count`" }, { id: 2, text: "`length`" }, { id: 3, text: "`len()`" }],
                 goodAnswer: 2
             },
             {
                 id: 54,
                 title: "Która metoda przesyłania danych w formularzu jest widoczna w pasku adresu?",
-                answers: [{ id: 0, text: "POST" }, { id: 1, text: "PUT" }, { id: 2, text: "GET" }, { id: 3, text: "SEND" }],
+                answers: [{ id: 0, text: "`POST`" }, { id: 1, text: "`PUT`" }, { id: 2, text: "`GET`" }, { id: 3, text: "`SEND`" }],
                 goodAnswer: 2
             },
             {
@@ -342,19 +342,19 @@ const data = [
             {
                 id: 56,
                 title: "W SQL, aby złączyć tabele dopasowując rekordy w obu, używamy:",
-                answers: [{ id: 0, text: "LEFT JOIN" }, { id: 1, text: "OUTER JOIN" }, { id: 2, text: "INNER JOIN" }, { id: 3, text: "CROSS JOIN" }],
+                answers: [{ id: 0, text: "`LEFT JOIN`" }, { id: 1, text: "`OUTER JOIN`" }, { id: 2, text: "`INNER JOIN`" }, { id: 3, text: "`CROSS JOIN`" }],
                 goodAnswer: 2
             },
             {
                 id: 57,
                 title: "Który znacznik HTML5 służy do wyświetlania artykułu?",
-                answers: [{ id: 0, text: "<section>" }, { id: 1, text: "<article>" }, { id: 2, text: "<aside>" }, { id: 3, text: "<div>" }],
+                answers: [{ id: 0, text: "`<section>`" }, { id: 1, text: "`<article>`" }, { id: 2, text: "`<aside>`" }, { id: 3, text: "`<div>`" }],
                 goodAnswer: 1
             },
             {
                 id: 58,
                 title: "W PHP tablica przechowująca dane z metody `POST` to:",
-                answers: [{ id: 0, text: "$GET_POST" }, { id: 1, text: "$_POST" }, { id: 2, text: "$_SEND" }, { id: 3, text: "$HTTP_POST" }],
+                answers: [{ id: 0, text: "`$GET_POST`" }, { id: 1, text: "`$_POST`" }, { id: 2, text: "`$_SEND`" }, { id: 3, text: "`$HTTP_POST`" }],
                 goodAnswer: 1
             },
             {
@@ -372,7 +372,7 @@ const data = [
             {
                 id: 61,
                 title: "W CSS, aby usunąć podkreślenie linku:",
-                answers: [{ id: 0, text: "text-style: none" }, { id: 1, text: "font-decoration: none" }, { id: 2, text: "text-decoration: none" }, { id: 3, text: "link-style: none" }],
+                answers: [{ id: 0, text: "`text-style: none`" }, { id: 1, text: "`font-decoration: none`" }, { id: 2, text: "`text-decoration: none`" }, { id: 3, text: "`link-style: none`" }],
                 goodAnswer: 2
             },
             {
@@ -384,7 +384,7 @@ const data = [
             {
                 id: 63,
                 title: "Komentarz w CSS to:",
-                answers: [{ id: 0, text: "//" }, { id: 1, text: "/* */" }, { id: 2, text: "<!-- -->" }, { id: 3, text: "#" }],
+                answers: [{ id: 0, text: "`//`" }, { id: 1, text: "`/* */`" }, { id: 2, text: "`<!-- -->`" }, { id: 3, text: "`#`" }],
                 goodAnswer: 1
             },
             {
@@ -414,7 +414,7 @@ const data = [
             {
                 id: 68,
                 title: "Atrybut `method` w `<form>` to:",
-                answers: [{ id: 0, text: "GET/POST" }, { id: 1, text: "SEND/RECEIVE" }, { id: 2, text: "IN/OUT" }, { id: 3, text: "SET/READ" }],
+                answers: [{ id: 0, text: "`GET/POST`" }, { id: 1, text: "`SEND/RECEIVE`" }, { id: 2, text: "`IN/OUT`" }, { id: 3, text: "`SET/READ`" }],
                 goodAnswer: 0
             },
             {
@@ -426,13 +426,13 @@ const data = [
             {
                 id: 70,
                 title: "W SQL `DISTINCT` powoduje:",
-                answers: [{ id: 0, text: "Sortowanie" }, { id: 1, text: "Pominięcie duplikatów" }, { id: 2, text: "Zliczanie" }, { id: 3, text: "Filtrowanie NULL" }],
+                answers: [{ id: 0, text: "Sortowanie" }, { id: 1, text: "Pominięcie duplikatów" }, { id: 2, text: "Zliczanie" }, { id: 3, text: "Filtrowanie `NULL`" }],
                 goodAnswer: 1
             },
             {
                 id: 71,
                 title: "W PHP do sprawdzenia czy zmienna istnieje używamy:",
-                answers: [{ id: 0, text: "is_set()" }, { id: 1, text: "empty()" }, { id: 2, text: "isset()" }, { id: 3, text: "defined()" }],
+                answers: [{ id: 0, text: "`is_set()`" }, { id: 1, text: "`empty()`" }, { id: 2, text: "`isset()`" }, { id: 3, text: "`defined()`" }],
                 goodAnswer: 2
             },
             {
@@ -480,7 +480,7 @@ const data = [
             {
                 id: 79,
                 title: "W HTML pole wymagane to:",
-                answers: [{ id: 0, text: "validate" }, { id: 1, text: "needed" }, { id: 2, text: "required" }, { id: 3, text: "important" }],
+                answers: [{ id: 0, text: "`validate`" }, { id: 1, text: "`needed`" }, { id: 2, text: "`required`" }, { id: 3, text: "`important`" }],
                 goodAnswer: 2
             },
             {
@@ -534,7 +534,7 @@ const data = [
             {
                 id: 88,
                 title: "W JS zasięg blokowy to:",
-                answers: [{ id: 0, text: "var" }, { id: 1, text: "let" }, { id: 2, text: "block" }, { id: 3, text: "dim" }],
+                answers: [{ id: 0, text: "`var`" }, { id: 1, text: "`let`" }, { id: 2, text: "`block`" }, { id: 3, text: "`dim`" }],
                 goodAnswer: 1
             },
             {
@@ -552,7 +552,7 @@ const data = [
             {
                 id: 91,
                 title: "W SQL dodanie rekordu to:",
-                answers: [{ id: 0, text: "ADD" }, { id: 1, text: "INSERT INTO" }, { id: 2, text: "UPDATE" }, { id: 3, text: "CREATE" }],
+                answers: [{ id: 0, text: "`ADD`" }, { id: 1, text: "`INSERT INTO`" }, { id: 2, text: "`UPDATE`" }, { id: 3, text: "`CREATE`" }],
                 goodAnswer: 1
             },
             {
@@ -564,7 +564,7 @@ const data = [
             {
                 id: 93,
                 title: "W JS `!=` to:",
-                answers: [{ id: 0, text: "Równe" }, { id: 1, text: "Różne" }, { id: 2, text: "NOT" }, { id: 3, text: "Mniejsze" }],
+                answers: [{ id: 0, text: "Równe" }, { id: 1, text: "Różne" }, { id: 2, text: "`NOT`" }, { id: 3, text: "Mniejsze" }],
                 goodAnswer: 1
             },
             {
@@ -612,7 +612,7 @@ const data = [
             {
                 id: 101,
                 title: "Który atrybut HTML pozwala na unikalne zidentyfikowanie elementu na stronie?",
-                answers: [{ id: 0, text: "class" }, { id: 1, text: "id" }, { id: 2, text: "name" }, { id: 3, text: "type" }],
+                answers: [{ id: 0, text: "`class`" }, { id: 1, text: "`id`" }, { id: 2, text: "`name`" }, { id: 3, text: "`type`" }],
                 goodAnswer: 1
             },
             {
@@ -672,7 +672,7 @@ const data = [
             {
                 id: 111,
                 title: "Która z metod HTTP jest uważana za bezpieczną (nie zmienia stanu serwera)?",
-                answers: [{ id: 0, text: "POST" }, { id: 1, text: "GET" }, { id: 2, text: "DELETE" }, { id: 3, text: "PUT" }],
+                answers: [{ id: 0, text: "`POST`" }, { id: 1, text: "`GET`" }, { id: 2, text: "`DELETE`" }, { id: 3, text: "`PUT`" }],
                 goodAnswer: 1
             },
             {
@@ -870,7 +870,7 @@ const data = [
             {
                 id: 144,
                 title: "W JS `typeof []` (tablicy) zwróci:",
-                answers: [{ id: 0, text: "array" }, { id: 1, text: "object" }, { id: 2, text: "list" }, { id: 3, text: "null" }],
+                answers: [{ id: 0, text: "`array`" }, { id: 1, text: "`object`" }, { id: 2, text: "`list`" }, { id: 3, text: "`null`" }],
                 goodAnswer: 1
             },
             {
@@ -936,7 +936,7 @@ const data = [
             {
                 id: 155,
                 title: "Znacznik `<option>` występuje wewnątrz:",
-                answers: [{ id: 0, text: "<ul>" }, { id: 1, text: "<select>" }, { id: 2, text: "<table>" }, { id: 3, text: "<div>" }],
+                answers: [{ id: 0, text: "`<ul>`" }, { id: 1, text: "`<select>`" }, { id: 2, text: "`<table>`" }, { id: 3, text: "`<div>`" }],
                 goodAnswer: 1
             },
             {
@@ -990,7 +990,7 @@ const data = [
             {
                 id: 164,
                 title: "W PHP `setcookie()` musi być wywołane:",
-                answers: [{ id: 0, text: "Na końcu" }, { id: 1, text: "Przed wysłaniem nagłówków" }, { id: 2, text: "Wewnątrz <body>" }, { id: 3, text: "Tylko w JS" }],
+                answers: [{ id: 0, text: "Na końcu" }, { id: 1, text: "Przed wysłaniem nagłówków" }, { id: 2, text: "Wewnątrz `<body>`" }, { id: 3, text: "Tylko w JS" }],
                 goodAnswer: 1
             },
             {
@@ -1014,7 +1014,7 @@ const data = [
             {
                 id: 168,
                 title: "W JS `NaN === NaN` zwróci:",
-                answers: [{ id: 0, text: "true" }, { id: 1, text: "false" }, { id: 2, text: "undefined" }, { id: 3, text: "null" }],
+                answers: [{ id: 0, text: "`true`" }, { id: 1, text: "`false`" }, { id: 2, text: "`undefined`" }, { id: 3, text: "`null`" }],
                 goodAnswer: 1
             },
             {
@@ -1074,7 +1074,7 @@ const data = [
             {
                 id: 178,
                 title: "W JS `!!true` zwróci:",
-                answers: [{ id: 0, text: "false" }, { id: 1, text: "true" }, { id: 2, text: "0" }, { id: 3, text: "1" }],
+                answers: [{ id: 0, text: "`false`" }, { id: 1, text: "`true`" }, { id: 2, text: "0" }, { id: 3, text: "1" }],
                 goodAnswer: 1
             },
             {
@@ -1170,13 +1170,13 @@ const data = [
             {
                 id: 194,
                 title: "W PHP `$_REQUEST` zawiera dane z:",
-                answers: [{ id: 0, text: "Tylko GET" }, { id: 1, text: "GET, POST i COOKIE" }, { id: 2, text: "Tylko SESSION" }, { id: 3, text: "Bazy danych" }],
+                answers: [{ id: 0, text: "Tylko `GET`" }, { id: 1, text: "`GET`, `POST` i `COOKIE`" }, { id: 2, text: "Tylko `SESSION`" }, { id: 3, text: "Bazy danych" }],
                 goodAnswer: 1
             },
             {
                 id: 195,
                 title: "Który znacznik HTML definiuje najważniejszy nagłówek?",
-                answers: [{ id: 0, text: "<h6>" }, { id: 1, text: "<h1>" }, { id: 2, text: "<head>" }, { id: 3, text: "<header>" }],
+                answers: [{ id: 0, text: "`<h6>`" }, { id: 1, text: "`<h1>`" }, { id: 2, text: "`<head>`" }, { id: 3, text: "`<header>`" }],
                 goodAnswer: 1
             },
             {
@@ -1212,13 +1212,13 @@ const data = [
             {
                 id: 201,
                 title: "Która właściwość CSS odpowiada za wyrównanie elementów w osi głównej kontenera Flex?",
-                answers: [{ id: 0, text: "align-items" }, { id: 1, text: "justify-content" }, { id: 2, text: "align-content" }, { id: 3, text: "flex-direction" }],
+                answers: [{ id: 0, text: "`align-items`" }, { id: 1, text: "`justify-content`" }, { id: 2, text: "`align-content`" }, { id: 3, text: "`flex-direction`" }],
                 goodAnswer: 1
             },
             {
                 id: 202,
                 title: "W języku SQL, aby połączyć ciągi znaków, w MySQL należy użyć funkcji:",
-                answers: [{ id: 0, text: "CONCAT()" }, { id: 1, text: "JOIN()" }, { id: 2, text: "MERGE()" }, { id: 3, text: "COMBINE()" }],
+                answers: [{ id: 0, text: "`CONCAT()`" }, { id: 1, text: "`JOIN()`" }, { id: 2, text: "`MERGE()`" }, { id: 3, text: "`COMBINE()`" }],
                 goodAnswer: 0
             },
             {
@@ -1236,7 +1236,7 @@ const data = [
             {
                 id: 205,
                 title: "Który selektor CSS wybiera wszystkie elementy `<p>`, które są bezpośrednimi dziećmi `<div>`?",
-                answers: [{ id: 0, text: "div p" }, { id: 1, text: "div > p" }, { id: 2, text: "div + p" }, { id: 3, text: "div ~ p" }],
+                answers: [{ id: 0, text: "`div p`" }, { id: 1, text: "`div > p`" }, { id: 2, text: "`div + p`" }, { id: 3, text: "`div ~ p`" }],
                 goodAnswer: 1
             },
             {
@@ -1254,7 +1254,7 @@ const data = [
             {
                 id: 208,
                 title: "Który znacznik HTML służy do zgrupowania powiązanych elementów w formularzu?",
-                answers: [{ id: 0, text: "<group>" }, { id: 1, text: "<fieldset>" }, { id: 2, text: "<section>" }, { id: 3, text: "<label>" }],
+                answers: [{ id: 0, text: "`<group>`" }, { id: 1, text: "`<fieldset>`" }, { id: 2, text: "`<section>`" }, { id: 3, text: "`<label>`" }],
                 goodAnswer: 1
             },
             {
@@ -1272,13 +1272,13 @@ const data = [
             {
                 id: 211,
                 title: "Jak w JS pobrać pierwszy element o klasie `test`?",
-                answers: [{ id: 0, text: "getElementByClass('test')" }, { id: 1, text: "querySelector('.test')" }, { id: 2, text: "querySelectorAll('.test')" }, { id: 3, text: "getElementById('.test')" }],
+                answers: [{ id: 0, text: "`getElementByClass('test')`" }, { id: 1, text: "`querySelector('.test')`" }, { id: 2, text: "`querySelectorAll('.test')`" }, { id: 3, text: "`getElementById('.test')`" }],
                 goodAnswer: 1
             },
             {
                 id: 212,
                 title: "W modelu barw RGB, kolor biały zapisany szesnastkowo to:",
-                answers: [{ id: 0, text: "#000000" }, { id: 1, text: "#FFFFFF" }, { id: 2, text: "#FF0000" }, { id: 3, text: "#111111" }],
+                answers: [{ id: 0, text: "`#000000`" }, { id: 1, text: "`#FFFFFF`" }, { id: 2, text: "`#FF0000`" }, { id: 3, text: "`#111111`" }],
                 goodAnswer: 1
             },
             {
@@ -1290,7 +1290,7 @@ const data = [
             {
                 id: 214,
                 title: "W HTML5 znacznik `<label>` łączy się z polem input za pomocą atrybutu:",
-                answers: [{ id: 0, text: "name" }, { id: 1, text: "for" }, { id: 2, text: "id" }, { id: 3, text: "connect" }],
+                answers: [{ id: 0, text: "`name`" }, { id: 1, text: "`for`" }, { id: 2, text: "`id`" }, { id: 3, text: "`connect`" }],
                 goodAnswer: 1
             },
             {
@@ -1320,7 +1320,7 @@ const data = [
             {
                 id: 219,
                 title: "Który atrybut w HTML pozwala na otwarcie linku w nowym oknie?",
-                answers: [{ id: 0, text: "target='_new'" }, { id: 1, text: "target='_blank'" }, { id: 2, text: "target='_parent'" }, { id: 3, text: "target='_top'" }],
+                answers: [{ id: 0, text: "`target='_new'`" }, { id: 1, text: "`target='_blank'`" }, { id: 2, text: "`target='_parent'`" }, { id: 3, text: "`target='_top'`" }],
                 goodAnswer: 1
             },
             {
@@ -1350,7 +1350,7 @@ const data = [
             {
                 id: 224,
                 title: "Atrybut `rows` i `cols` są charakterystyczne dla znacznika:",
-                answers: [{ id: 0, text: "<input>" }, { id: 1, text: "<textarea>" }, { id: 2, text: "<table>" }, { id: 3, text: "<form>" }],
+                answers: [{ id: 0, text: "`<input>`" }, { id: 1, text: "`<textarea>`" }, { id: 2, text: "`<table>`" }, { id: 3, text: "`<form>`" }],
                 goodAnswer: 1
             },
             {
@@ -1380,7 +1380,7 @@ const data = [
             {
                 id: 229,
                 title: "Znacznik `<iframe>` w HTML wymaga atrybutu:",
-                answers: [{ id: 0, text: "href" }, { id: 1, text: "src" }, { id: 2, text: "link" }, { id: 3, text: "source" }],
+                answers: [{ id: 0, text: "`href`" }, { id: 1, text: "`src`" }, { id: 2, text: "`link`" }, { id: 3, text: "`source`" }],
                 goodAnswer: 1
             },
             {
@@ -1470,7 +1470,7 @@ const data = [
             {
                 id: 244,
                 title: "Który z poniższych kolorów w CSS to kolor czarny?",
-                answers: [{ id: 0, text: "rgb(255,255,255)" }, { id: 1, text: "rgb(0,0,0)" }, { id: 2, text: "#FFF" }, { id: 3, text: "black-color" }],
+                answers: [{ id: 0, text: "`rgb(255,255,255)`" }, { id: 1, text: "`rgb(0,0,0)`" }, { id: 2, text: "`#FFF`" }, { id: 3, text: "`black-color`" }],
                 goodAnswer: 1
             },
             {
@@ -1488,7 +1488,7 @@ const data = [
             {
                 id: 247,
                 title: "W JS `'1' == 1` zwróci:",
-                answers: [{ id: 0, text: "false" }, { id: 1, text: "true" }, { id: 2, text: "null" }, { id: 3, text: "undefined" }],
+                answers: [{ id: 0, text: "`false`" }, { id: 1, text: "`true`" }, { id: 2, text: "`null`" }, { id: 3, text: "`undefined`" }],
                 goodAnswer: 1
             },
             {
@@ -1518,7 +1518,7 @@ const data = [
             {
                 id: 252,
                 title: "W JavaScript `Array.isArray([1,2])` zwróci:",
-                answers: [{ id: 0, text: "false" }, { id: 1, text: "true" }, { id: 2, text: "undefined" }, { id: 3, text: "object" }],
+                answers: [{ id: 0, text: "`false`" }, { id: 1, text: "`true`" }, { id: 2, text: "`undefined`" }, { id: 3, text: "`object`" }],
                 goodAnswer: 1
             },
             {
@@ -1560,7 +1560,7 @@ const data = [
             {
                 id: 259,
                 title: "Który z atrybutów `<form>` określa sposób kodowania danych przy wysyłaniu pliku?",
-                answers: [{ id: 0, text: "method" }, { id: 1, text: "enctype" }, { id: 2, text: "action" }, { id: 3, text: "type" }],
+                answers: [{ id: 0, text: "`method`" }, { id: 1, text: "`enctype`" }, { id: 2, text: "`action`" }, { id: 3, text: "`type`" }],
                 goodAnswer: 1
             },
             {
@@ -1584,7 +1584,7 @@ const data = [
             {
                 id: 263,
                 title: "W SQL polecenie `INSERT INTO` wymaga słowa kluczowego:",
-                answers: [{ id: 0, text: "SET" }, { id: 1, text: "VALUES" }, { id: 2, text: "WHERE" }, { id: 3, text: "FROM" }],
+                answers: [{ id: 0, text: "`SET`" }, { id: 1, text: "`VALUES`" }, { id: 2, text: "`WHERE`" }, { id: 3, text: "`FROM`" }],
                 goodAnswer: 1
             },
             {
@@ -1698,7 +1698,7 @@ const data = [
             {
                 id: 282,
                 title: "W JS `Array.from('abc')` stworzy tablicę:",
-                answers: [{ id: 0, text: "['abc']" }, { id: 1, text: "['a', 'b', 'c']" }, { id: 2, text: "[97, 98, 99]" }, { id: 3, text: "[]" }],
+                answers: [{ id: 0, text: "`['abc']`" }, { id: 1, text: "`['a', 'b', 'c']`" }, { id: 2, text: "`[97, 98, 99]`" }, { id: 3, text: "`[]`" }],
                 goodAnswer: 1
             },
             {
@@ -1788,7 +1788,7 @@ const data = [
             {
                 id: 297,
                 title: "W JavaScript `null` jest typu:",
-                answers: [{ id: 0, text: "undefined" }, { id: 1, text: "object" }, { id: 2, text: "null" }, { id: 3, text: "boolean" }],
+                answers: [{ id: 0, text: "`undefined`" }, { id: 1, text: "`object`" }, { id: 2, text: "`null`" }, { id: 3, text: "`boolean`" }],
                 goodAnswer: 1
             },
             {
@@ -1800,7 +1800,7 @@ const data = [
             {
                 id: 299,
                 title: "Który znacznik HTML służy do wstawiania obrazka?",
-                answers: [{ id: 0, text: "<picture>" }, { id: 1, text: "<img>" }, { id: 2, text: "<image>" }, { id: 3, text: "<src>" }],
+                answers: [{ id: 0, text: "`<picture>`" }, { id: 1, text: "`<img>`" }, { id: 2, text: "`<image>`" }, { id: 3, text: "`<src>`" }],
                 goodAnswer: 1
             },
             {
@@ -1836,7 +1836,7 @@ const data = [
             {
                 id: 305,
                 title: "W CSS właściwość `resize` w Firefox domyślnie działa na:",
-                answers: [{ id: 0, text: "<div>" }, { id: 1, text: "<textarea>" }, { id: 2, text: "<img>" }, { id: 3, text: "<p>" }],
+                answers: [{ id: 0, text: "`<div>`" }, { id: 1, text: "`<textarea>`" }, { id: 2, text: "`<img>`" }, { id: 3, text: "`<p>`" }],
                 goodAnswer: 1
             },
             {
@@ -1968,13 +1968,13 @@ const data = [
             {
                 id: 327,
                 title: "W JS zdarzenie `onchange` jest najczęściej używane z:",
-                answers: [{ id: 0, text: "<a>" }, { id: 1, text: "<select>, <input>, <textarea>" }, { id: 2, text: "<body>" }, { id: 3, text: "<div>" }],
+                answers: [{ id: 0, text: "`<a>`" }, { id: 1, text: "`<select>`, `<input>`, `<textarea>`" }, { id: 2, text: "`<body>`" }, { id: 3, text: "`<div>`" }],
                 goodAnswer: 1
             },
             {
                 id: 328,
                 title: "W SQL `PRIMARY KEY` automatycznie nakłada ograniczenie:",
-                answers: [{ id: 0, text: "NULL" }, { id: 1, text: "UNIQUE i NOT NULL" }, { id: 2, text: "FOREIGN KEY" }, { id: 3, text: "CHECK" }],
+                answers: [{ id: 0, text: "`NULL`" }, { id: 1, text: "`UNIQUE` i `NOT NULL`" }, { id: 2, text: "`FOREIGN KEY`" }, { id: 3, text: "`CHECK`" }],
                 goodAnswer: 1
             },
             {
@@ -2088,7 +2088,7 @@ const data = [
             {
                 id: 347,
                 title: "W JS `isNaN('hello')` zwróci:",
-                answers: [{ id: 0, text: "false" }, { id: 1, text: "true" }, { id: 2, text: "undefined" }, { id: 3, text: "error" }],
+                answers: [{ id: 0, text: "`false`" }, { id: 1, text: "`true`" }, { id: 2, text: "`undefined`" }, { id: 3, text: "`error`" }],
                 goodAnswer: 1
             },
             {
@@ -2100,13 +2100,13 @@ const data = [
             {
                 id: 349,
                 title: "Który znacznik HTML służy do wstawienia rozwijanej listy?",
-                answers: [{ id: 0, text: "<input type='list'>" }, { id: 1, text: "<select>" }, { id: 2, text: "<dropdown>" }, { id: 3, text: "<optgroup>" }],
+                answers: [{ id: 0, text: "`<input type='list'>`" }, { id: 1, text: "`<select>`" }, { id: 2, text: "`<dropdown>`" }, { id: 3, text: "`<optgroup>`" }],
                 goodAnswer: 1
             },
             {
                 id: 350,
                 title: "W CSS `vertical-align: middle` działa głównie wewnątrz:",
-                answers: [{ id: 0, text: "<div>" }, { id: 1, text: "Komórek tabeli (<td>)" }, { id: 2, text: "Akapitów <p>" }, { id: 3, text: "Sekcji <section>" }],
+                answers: [{ id: 0, text: "`<div>`" }, { id: 1, text: "Komórek tabeli (`<td>`)" }, { id: 2, text: "Akapitów `<p>`" }, { id: 3, text: "Sekcji `<section>`" }],
                 goodAnswer: 1
             },
             {
@@ -2118,7 +2118,7 @@ const data = [
             {
                 id: 352,
                 title: "W JS `window.alert()` to skrócona forma:",
-                answers: [{ id: 0, text: "alert()" }, { id: 1, text: "msg()" }, { id: 2, text: "console.log()" }, { id: 3, text: "print()" }],
+                answers: [{ id: 0, text: "`alert()`" }, { id: 1, text: "`msg()`" }, { id: 2, text: "`console.log()`" }, { id: 3, text: "`print()`" }],
                 goodAnswer: 0
             },
             {
@@ -2160,7 +2160,7 @@ const data = [
             {
                 id: 359,
                 title: "Atrybut `alt` w HTML jest wymagany dla:",
-                answers: [{ id: 0, text: "<a>" }, { id: 1, text: "<img>" }, { id: 2, text: "<div>" }, { id: 3, text: "<script>" }],
+                answers: [{ id: 0, text: "`<a>`" }, { id: 1, text: "`<img>`" }, { id: 2, text: "`<div>`" }, { id: 3, text: "`<script>`" }],
                 goodAnswer: 1
             },
             {
@@ -2178,7 +2178,7 @@ const data = [
             {
                 id: 362,
                 title: "W JS `document.getElementsByTagName('p')` zwraca:",
-                answers: [{ id: 0, text: "Jeden element" }, { id: 1, text: "Kolekcję (tablicę) wszystkich elementów <p>" }, { id: 2, text: "Tylko pierwszy <p>" }, { id: 3, text: "Tekst wewnątrz <p>" }],
+                answers: [{ id: 0, text: "Jeden element" }, { id: 1, text: "Kolekcję (tablicę) wszystkich elementów `<p>`" }, { id: 2, text: "Tylko pierwszy `<p>`" }, { id: 3, text: "Tekst wewnątrz `<p>`" }],
                 goodAnswer: 1
             },
             {
@@ -2208,13 +2208,13 @@ const data = [
             {
                 id: 367,
                 title: "W JS `typeof undefined` zwróci:",
-                answers: [{ id: 0, text: "null" }, { id: 1, text: "undefined" }, { id: 2, text: "object" }, { id: 3, text: "string" }],
+                answers: [{ id: 0, text: "`null`" }, { id: 1, text: "`undefined`" }, { id: 2, text: "`object`" }, { id: 3, text: "`string`" }],
                 goodAnswer: 1
             },
             {
                 id: 368,
                 title: "W SQL `INNER JOIN` to samo co:",
-                answers: [{ id: 0, text: "LEFT JOIN" }, { id: 1, text: "JOIN" }, { id: 2, text: "RIGHT JOIN" }, { id: 3, text: "UNION" }],
+                answers: [{ id: 0, text: "`LEFT JOIN`" }, { id: 1, text: "`JOIN`" }, { id: 2, text: "`RIGHT JOIN`" }, { id: 3, text: "`UNION`" }],
                 goodAnswer: 1
             },
             {
@@ -2226,7 +2226,7 @@ const data = [
             {
                 id: 370,
                 title: "W CSS właściwość `float` nie działa na elementach z:",
-                answers: [{ id: 0, text: "position: absolute" }, { id: 1, text: "position: static" }, { id: 2, text: "display: block" }, { id: 3, text: "color: red" }],
+                answers: [{ id: 0, text: "`position: absolute`" }, { id: 1, text: "`position: static`" }, { id: 2, text: "`display: block`" }, { id: 3, text: "`color: red`" }],
                 goodAnswer: 0
             },
             {
@@ -2244,13 +2244,13 @@ const data = [
             {
                 id: 373,
                 title: "W SQL operator `IN` jest skrótem dla wielu:",
-                answers: [{ id: 0, text: "AND" }, { id: 1, text: "OR" }, { id: 2, text: "NOT" }, { id: 3, text: "JOIN" }],
+                answers: [{ id: 0, text: "`AND`" }, { id: 1, text: "`OR`" }, { id: 2, text: "`NOT`" }, { id: 3, text: "`JOIN`" }],
                 goodAnswer: 1
             },
             {
                 id: 374,
                 title: "W HTML znacznik `<legend>` występuje tylko wewnątrz:",
-                answers: [{ id: 0, text: "<table>" }, { id: 1, text: "<fieldset>" }, { id: 2, text: "<form>" }, { id: 3, text: "<ul>" }],
+                answers: [{ id: 0, text: "`<table>`" }, { id: 1, text: "`<fieldset>`" }, { id: 2, text: "`<form>`" }, { id: 3, text: "`<ul>`" }],
                 goodAnswer: 1
             },
             {
@@ -2280,7 +2280,7 @@ const data = [
             {
                 id: 379,
                 title: "Który znacznik HTML służy do wstawiania kodu źródłowego?",
-                answers: [{ id: 0, text: "<source>" }, { id: 1, text: "<code>" }, { id: 2, text: "<script>" }, { id: 3, text: "<pre>" }],
+                answers: [{ id: 0, text: "`<source>`" }, { id: 1, text: "`<code>`" }, { id: 2, text: "`<script>`" }, { id: 3, text: "`<pre>`" }],
                 goodAnswer: 1
             },
             {
@@ -2346,7 +2346,7 @@ const data = [
             {
                 id: 390,
                 title: "W CSS właściwość `resize` wymaga również ustawienia:",
-                answers: [{ id: 0, text: "color" }, { id: 1, text: "overflow (innego niż visible)" }, { id: 2, text: "margin" }, { id: 3, text: "z-index" }],
+                answers: [{ id: 0, text: "`color`" }, { id: 1, text: "`overflow` (innego niż `visible`)" }, { id: 2, text: "`margin`" }, { id: 3, text: "`z-index`" }],
                 goodAnswer: 1
             },
             {
@@ -2358,7 +2358,7 @@ const data = [
             {
                 id: 392,
                 title: "W JS `Math.min(5, 10, 2)` zwróci:",
-                answers: [{ id: 0, text: "5" }, { id: 1, text: "2" }, { id: 2, text: "10" }, { id: 3, text: "NaN" }],
+                answers: [{ id: 0, text: "5" }, { id: 1, text: "2" }, { id: 2, text: "10" }, { id: 3, text: "`NaN`" }],
                 goodAnswer: 1
             },
             {
@@ -2455,7 +2455,7 @@ const data = [
             {
                 id: 6,
                 title: "Jak poprawnie zadeklarować destruktor klasy `Punkt` w języku C++?",
-                answers: [{ id: 0, text: "~Punkt();" }, { id: 1, text: "Punkt();" }, { id: 2, text: "delete Punkt();" }, { id: 3, text: "void destroy Punkt();" }],
+                answers: [{ id: 0, text: "```\n~Punkt();\n```" }, { id: 1, text: "```\nPunkt();\n```" }, { id: 2, text: "```\ndelete Punkt();\n```" }, { id: 3, text: "```\nvoid destroy Punkt();\n```" }],
                 goodAnswer: 0
             },
             {
@@ -2473,7 +2473,7 @@ const data = [
             {
                 id: 9,
                 title: "Klasa bazowa `Klient` ma pola: `Name` (`public`), `Id` (`protected`) i `Age` (`private`). Klasa `GoldCustomer` dziedziczy publicznie po `Klient` i ma własne pole prywatne `GoldPoints`. Do których pól można się bezpośrednio odwołać w metodach klasy `GoldCustomer`?",
-                answers: [{ id: 0, text: "GoldPoints, Name" }, { id: 1, text: "GoldPoints" }, { id: 2, text: "GoldPoints, Name, Id, Age" }, { id: 3, text: "GoldPoints, Name, Id" }],
+                answers: [{ id: 0, text: "`GoldPoints`, `Name`" }, { id: 1, text: "`GoldPoints`" }, { id: 2, text: "`GoldPoints`, `Name`, `Id`, `Age`" }, { id: 3, text: "`GoldPoints`, `Name`, `Id`" }],
                 goodAnswer: 3
             },
             {
@@ -2503,13 +2503,13 @@ const data = [
             {
                 id: 14,
                 title: "Które słowo kluczowe w języku C++ pozwala na dynamiczne (późne) wiązanie metod, czyli polimorfizm w czasie wykonania?",
-                answers: [{ id: 0, text: "static" }, { id: 1, text: "const" }, { id: 2, text: "virtual" }, { id: 3, text: "friend" }],
+                answers: [{ id: 0, text: "`static`" }, { id: 1, text: "`const`" }, { id: 2, text: "`virtual`" }, { id: 3, text: "`friend`" }],
                 goodAnswer: 2
             },
             {
                 id: 15,
                 title: "Która deklaracja w języku C++ definiuje metodę czysto wirtualną?",
-                answers: [{ id: 0, text: "virtual void rysuj() {}" }, { id: 1, text: "virtual void rysuj() = 0;" }, { id: 2, text: "void rysuj() const;" }, { id: 3, text: "static void rysuj();" }],
+                answers: [{ id: 0, text: "```\nvirtual void rysuj() {}\n```" }, { id: 1, text: "```\nvirtual void rysuj() = 0;\n```" }, { id: 2, text: "```\nvoid rysuj() const;\n```" }, { id: 3, text: "```\nstatic void rysuj();\n```" }],
                 goodAnswer: 1
             },
             {
@@ -2527,7 +2527,7 @@ const data = [
             {
                 id: 18,
                 title: "Które słowo kluczowe w języku Java służy do wywołania konstruktora lub metody klasy bazowej?",
-                answers: [{ id: 0, text: "base" }, { id: 1, text: "super" }, { id: 2, text: "parent" }, { id: 3, text: "inherited" }],
+                answers: [{ id: 0, text: "`base`" }, { id: 1, text: "`super`" }, { id: 2, text: "`parent`" }, { id: 3, text: "`inherited`" }],
                 goodAnswer: 1
             },
             {
@@ -2557,13 +2557,13 @@ const data = [
             {
                 id: 23,
                 title: "Które słowo kluczowe w języku Java uniemożliwia dziedziczenie po klasie?",
-                answers: [{ id: 0, text: "static" }, { id: 1, text: "final" }, { id: 2, text: "abstract" }, { id: 3, text: "protected" }],
+                answers: [{ id: 0, text: "`static`" }, { id: 1, text: "`final`" }, { id: 2, text: "`abstract`" }, { id: 3, text: "`protected`" }],
                 goodAnswer: 1
             },
             {
                 id: 24,
                 title: "Która deklaracja poprawnie przeciąża operator dodawania w klasie `Wektor` w języku C++?",
-                answers: [{ id: 0, text: "Wektor +operator(Wektor w);" }, { id: 1, text: "operator Wektor+(Wektor w);" }, { id: 2, text: "Wektor operator+(const Wektor &w);" }, { id: 3, text: "Wektor overload+(const Wektor &w);" }],
+                answers: [{ id: 0, text: "```\nWektor +operator(Wektor w);\n```" }, { id: 1, text: "```\noperator Wektor+(Wektor w);\n```" }, { id: 2, text: "```\nWektor operator+(const Wektor &w);\n```" }, { id: 3, text: "```\nWektor overload+(const Wektor &w);\n```" }],
                 goodAnswer: 2
             },
             {
@@ -2617,19 +2617,19 @@ const data = [
             {
                 id: 33,
                 title: "Jaki wyjątek zostanie zgłoszony po wykonaniu kodu w języku Java?\n\n```\nint[] t = new int[5];\nt[5] = 1;\n```",
-                answers: [{ id: 0, text: "NullPointerException" }, { id: 1, text: "ArithmeticException" }, { id: 2, text: "ClassCastException" }, { id: 3, text: "ArrayIndexOutOfBoundsException" }],
+                answers: [{ id: 0, text: "`NullPointerException`" }, { id: 1, text: "`ArithmeticException`" }, { id: 2, text: "`ClassCastException`" }, { id: 3, text: "`ArrayIndexOutOfBoundsException`" }],
                 goodAnswer: 3
             },
             {
                 id: 34,
                 title: "Jaki wyjątek zostanie zgłoszony po wykonaniu kodu w języku Java?\n\n```\nint a = 10, b = 0;\nint x = a / b;\n```",
-                answers: [{ id: 0, text: "NumberFormatException" }, { id: 1, text: "ArrayIndexOutOfBoundsException" }, { id: 2, text: "ArithmeticException" }, { id: 3, text: "NullPointerException" }],
+                answers: [{ id: 0, text: "`NumberFormatException`" }, { id: 1, text: "`ArrayIndexOutOfBoundsException`" }, { id: 2, text: "`ArithmeticException`" }, { id: 3, text: "`NullPointerException`" }],
                 goodAnswer: 2
             },
             {
                 id: 35,
                 title: "Jaki wyjątek zostanie zgłoszony po wykonaniu kodu w języku Java?\n\n```\nString s = null;\nint n = s.length();\n```",
-                answers: [{ id: 0, text: "NullPointerException" }, { id: 1, text: "ArithmeticException" }, { id: 2, text: "IllegalStateException" }, { id: 3, text: "ClassNotFoundException" }],
+                answers: [{ id: 0, text: "`NullPointerException`" }, { id: 1, text: "`ArithmeticException`" }, { id: 2, text: "`IllegalStateException`" }, { id: 3, text: "`ClassNotFoundException`" }],
                 goodAnswer: 0
             },
             {
@@ -2647,25 +2647,25 @@ const data = [
             {
                 id: 38,
                 title: "Co zostanie wyświetlone po wykonaniu kodu w języku Python?\n\n```\nlista = [1, 2, 3, 4, 5]\nprint(lista[1:3])\n```",
-                answers: [{ id: 0, text: "[1, 2, 3]" }, { id: 1, text: "[2, 3, 4]" }, { id: 2, text: "[2, 3]" }, { id: 3, text: "[1, 2]" }],
+                answers: [{ id: 0, text: "`[1, 2, 3]`" }, { id: 1, text: "`[2, 3, 4]`" }, { id: 2, text: "`[2, 3]`" }, { id: 3, text: "`[1, 2]`" }],
                 goodAnswer: 2
             },
             {
                 id: 39,
                 title: "Który typ danych w języku C++ służy do przechowywania wartości logicznych?",
-                answers: [{ id: 0, text: "boolean" }, { id: 1, text: "logical" }, { id: 2, text: "bool" }, { id: 3, text: "bit" }],
+                answers: [{ id: 0, text: "`boolean`" }, { id: 1, text: "`logical`" }, { id: 2, text: "`bool`" }, { id: 3, text: "`bit`" }],
                 goodAnswer: 2
             },
             {
                 id: 40,
                 title: "Która deklaracja tablicy 10 liczb całkowitych jest poprawna w języku C++?",
-                answers: [{ id: 0, text: "int tab(10);" }, { id: 1, text: "int tab[10];" }, { id: 2, text: "tab int[10];" }, { id: 3, text: "int[10] tab;" }],
+                answers: [{ id: 0, text: "```\nint tab(10);\n```" }, { id: 1, text: "```\nint tab[10];\n```" }, { id: 2, text: "```\ntab int[10];\n```" }, { id: 3, text: "```\nint[10] tab;\n```" }],
                 goodAnswer: 1
             },
             {
                 id: 41,
                 title: "Jak poprawnie zwolnić pamięć tablicy przydzielonej w C++ poniższą instrukcją?\n\n```\nint *t = new int[10];\n```",
-                answers: [{ id: 0, text: "delete t[];" }, { id: 1, text: "free t;" }, { id: 2, text: "remove(t);" }, { id: 3, text: "delete[] t;" }],
+                answers: [{ id: 0, text: "```\ndelete t[];\n```" }, { id: 1, text: "```\nfree t;\n```" }, { id: 2, text: "```\nremove(t);\n```" }, { id: 3, text: "```\ndelete[] t;\n```" }],
                 goodAnswer: 3
             },
             {
@@ -2677,13 +2677,13 @@ const data = [
             {
                 id: 43,
                 title: "Jakie wartości będą miały zmienne `a` i `b` po wykonaniu kodu w języku C++?\n\n```\nint a = 5;\nint b = a++;\n```",
-                answers: [{ id: 0, text: "a = 6, b = 6" }, { id: 1, text: "a = 5, b = 6" }, { id: 2, text: "a = 6, b = 5" }, { id: 3, text: "a = 5, b = 5" }],
+                answers: [{ id: 0, text: "`a = 6, b = 6`" }, { id: 1, text: "`a = 5, b = 6`" }, { id: 2, text: "`a = 6, b = 5`" }, { id: 3, text: "`a = 5, b = 5`" }],
                 goodAnswer: 2
             },
             {
                 id: 44,
                 title: "Które wyrażenie jest prawdziwe, gdy zmienna `x` jest mniejsza od 0 albo należy do przedziału otwartego (10, 100)?",
-                answers: [{ id: 0, text: "x > 10 || x < 100 || x < 0" }, { id: 1, text: "(x > 10 || x < 100) && x < 0" }, { id: 2, text: "x > 10 && x < 100 && x < 0" }, { id: 3, text: "(x > 10 && x < 100) || x < 0" }],
+                answers: [{ id: 0, text: "`x > 10 || x < 100 || x < 0`" }, { id: 1, text: "`(x > 10 || x < 100) && x < 0`" }, { id: 2, text: "`x > 10 && x < 100 && x < 0`" }, { id: 3, text: "`(x > 10 && x < 100) || x < 0`" }],
                 goodAnswer: 3
             },
             {
@@ -2719,25 +2719,25 @@ const data = [
             {
                 id: 50,
                 title: "Który kontener biblioteki STL w języku C++ jest dynamiczną tablicą automatycznie zmieniającą rozmiar?",
-                answers: [{ id: 0, text: "vector" }, { id: 1, text: "map" }, { id: 2, text: "set" }, { id: 3, text: "stack" }],
+                answers: [{ id: 0, text: "`vector`" }, { id: 1, text: "`map`" }, { id: 2, text: "`set`" }, { id: 3, text: "`stack`" }],
                 goodAnswer: 0
             },
             {
                 id: 51,
                 title: "Który kontener biblioteki STL przechowuje pary klucz–wartość uporządkowane według klucza?",
-                answers: [{ id: 0, text: "map" }, { id: 1, text: "vector" }, { id: 2, text: "queue" }, { id: 3, text: "array" }],
+                answers: [{ id: 0, text: "`map`" }, { id: 1, text: "`vector`" }, { id: 2, text: "`queue`" }, { id: 3, text: "`array`" }],
                 goodAnswer: 0
             },
             {
                 id: 52,
                 title: "Który plik nagłówkowy należy dołączyć w języku C++, aby korzystać ze strumieni `cin` i `cout`?",
-                answers: [{ id: 0, text: "<iostream>" }, { id: 1, text: "<cmath>" }, { id: 2, text: "<string>" }, { id: 3, text: "<vector>" }],
+                answers: [{ id: 0, text: "`<iostream>`" }, { id: 1, text: "`<cmath>`" }, { id: 2, text: "`<string>`" }, { id: 3, text: "`<vector>`" }],
                 goodAnswer: 0
             },
             {
                 id: 53,
                 title: "Która konstrukcja służy do obsługi wyjątków w językach C++, Java i C#?",
-                answers: [{ id: 0, text: "if...else" }, { id: 1, text: "switch...case" }, { id: 2, text: "do...while" }, { id: 3, text: "try...catch" }],
+                answers: [{ id: 0, text: "`if...else`" }, { id: 1, text: "`switch...case`" }, { id: 2, text: "`do...while`" }, { id: 3, text: "`try...catch`" }],
                 goodAnswer: 3
             },
             {
@@ -2755,43 +2755,43 @@ const data = [
             {
                 id: 56,
                 title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nconsole.log(typeof null);\n```",
-                answers: [{ id: 0, text: "null" }, { id: 1, text: "undefined" }, { id: 2, text: "object" }, { id: 3, text: "number" }],
+                answers: [{ id: 0, text: "`null`" }, { id: 1, text: "`undefined`" }, { id: 2, text: "`object`" }, { id: 3, text: "`number`" }],
                 goodAnswer: 2
             },
             {
                 id: 57,
                 title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nconsole.log(2 + \"2\");\n```",
-                answers: [{ id: 0, text: "4" }, { id: 1, text: "22" }, { id: 2, text: "NaN" }, { id: 3, text: "błąd typu" }],
+                answers: [{ id: 0, text: "4" }, { id: 1, text: "22" }, { id: 2, text: "`NaN`" }, { id: 3, text: "błąd typu" }],
                 goodAnswer: 1
             },
             {
                 id: 58,
                 title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nconsole.log(\"5\" - 2);\n```",
-                answers: [{ id: 0, text: "52" }, { id: 1, text: "3" }, { id: 2, text: "NaN" }, { id: 3, text: "\"5-2\"" }],
+                answers: [{ id: 0, text: "52" }, { id: 1, text: "3" }, { id: 2, text: "`NaN`" }, { id: 3, text: "\"5-2\"" }],
                 goodAnswer: 1
             },
             {
                 id: 59,
                 title: "Czym różni się operator `===` od operatora `==` w JavaScript?",
-                answers: [{ id: 0, text: "=== porównuje wartość i typ bez konwersji typów, a == może konwertować typy przed porównaniem" }, { id: 1, text: "=== jest operatorem przypisania, a == porównania" }, { id: 2, text: "== porównuje wartość i typ, a === tylko wartość" }, { id: 3, text: "Nie ma różnicy, oba operatory działają identycznie" }],
+                answers: [{ id: 0, text: "`===` porównuje wartość i typ bez konwersji typów, a `==` może konwertować typy przed porównaniem" }, { id: 1, text: "`===` jest operatorem przypisania, a `==` porównania" }, { id: 2, text: "`==` porównuje wartość i typ, a `===` tylko wartość" }, { id: 3, text: "Nie ma różnicy, oba operatory działają identycznie" }],
                 goodAnswer: 0
             },
             {
                 id: 60,
                 title: "Czym różni się deklaracja zmiennej za pomocą `let` od `var` w JavaScript?",
-                answers: [{ id: 0, text: "Zmienna var ma zasięg blokowy, a let – zasięg funkcyjny" }, { id: 1, text: "Zmiennej let nie można zmienić po przypisaniu" }, { id: 2, text: "Nie ma żadnej różnicy" }, { id: 3, text: "Zmienna let ma zasięg blokowy, a var – zasięg funkcyjny" }],
+                answers: [{ id: 0, text: "Zmienna `var` ma zasięg blokowy, a `let` – zasięg funkcyjny" }, { id: 1, text: "Zmiennej `let` nie można zmienić po przypisaniu" }, { id: 2, text: "Nie ma żadnej różnicy" }, { id: 3, text: "Zmienna `let` ma zasięg blokowy, a `var` – zasięg funkcyjny" }],
                 goodAnswer: 3
             },
             {
                 id: 61,
                 title: "Co oznacza zadeklarowanie zmiennej słowem `const` w JavaScript?",
-                answers: [{ id: 0, text: "Zawartości obiektu przypisanego do zmiennej nie można modyfikować" }, { id: 1, text: "Zmiennej nie można ponownie przypisać innej wartości" }, { id: 2, text: "Zmienna ma zasięg funkcyjny, tak jak var" }, { id: 3, text: "Zmienna może przechowywać wyłącznie liczby" }],
+                answers: [{ id: 0, text: "Zawartości obiektu przypisanego do zmiennej nie można modyfikować" }, { id: 1, text: "Zmiennej nie można ponownie przypisać innej wartości" }, { id: 2, text: "Zmienna ma zasięg funkcyjny, tak jak `var`" }, { id: 3, text: "Zmienna może przechowywać wyłącznie liczby" }],
                 goodAnswer: 1
             },
             {
                 id: 62,
                 title: "Co zostanie wyświetlone w konsoli po wywołaniu funkcji `f()` w JavaScript?\n\n```\nfunction f() {\n    console.log(a);\n    var a = 1;\n    console.log(a);\n}\nf();\n```",
-                answers: [{ id: 0, text: "1, 1" }, { id: 1, text: "ReferenceError, 1" }, { id: 2, text: "undefined, undefined" }, { id: 3, text: "undefined, 1" }],
+                answers: [{ id: 0, text: "`1, 1`" }, { id: 1, text: "`ReferenceError, 1`" }, { id: 2, text: "`undefined, undefined`" }, { id: 3, text: "`undefined, 1`" }],
                 goodAnswer: 3
             },
             {
@@ -2803,25 +2803,25 @@ const data = [
             {
                 id: 64,
                 title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nconsole.log([1, 2, 3].map(x => x * 2));\n```",
-                answers: [{ id: 0, text: "[ 1, 2, 3 ]" }, { id: 1, text: "[ 2, 4, 6 ]" }, { id: 2, text: "12" }, { id: 3, text: "[ 1, 4, 9 ]" }],
+                answers: [{ id: 0, text: "`[ 1, 2, 3 ]`" }, { id: 1, text: "`[ 2, 4, 6 ]`" }, { id: 2, text: "12" }, { id: 3, text: "`[ 1, 4, 9 ]`" }],
                 goodAnswer: 1
             },
             {
                 id: 65,
                 title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nconsole.log([1, 2, 3, 4, 5].filter(x => x % 2 === 0));\n```",
-                answers: [{ id: 0, text: "[ 1, 3, 5 ]" }, { id: 1, text: "[ true, false ]" }, { id: 2, text: "[ 2, 4 ]" }, { id: 3, text: "2" }],
+                answers: [{ id: 0, text: "`[ 1, 3, 5 ]`" }, { id: 1, text: "`[ true, false ]`" }, { id: 2, text: "`[ 2, 4 ]`" }, { id: 3, text: "2" }],
                 goodAnswer: 2
             },
             {
                 id: 66,
                 title: "Która metoda w JavaScript zamienia obiekt na tekst w formacie JSON?",
-                answers: [{ id: 0, text: "JSON.parse()" }, { id: 1, text: "JSON.toObject()" }, { id: 2, text: "JSON.encode()" }, { id: 3, text: "JSON.stringify()" }],
+                answers: [{ id: 0, text: "`JSON.parse()`" }, { id: 1, text: "`JSON.toObject()`" }, { id: 2, text: "`JSON.encode()`" }, { id: 3, text: "`JSON.stringify()`" }],
                 goodAnswer: 3
             },
             {
                 id: 67,
                 title: "Który zapis jest poprawnym dokumentem JSON?",
-                answers: [{ id: 0, text: "{'imie': 'Anna', 'wiek': 17}" }, { id: 1, text: "{imie: \"Anna\", wiek: 17}" }, { id: 2, text: "{\"imie\": \"Anna\", \"wiek\": 17}" }, { id: 3, text: "{\"imie\" = \"Anna\"; \"wiek\" = 17}" }],
+                answers: [{ id: 0, text: "```\n{'imie': 'Anna', 'wiek': 17}\n```" }, { id: 1, text: "```\n{imie: \"Anna\", wiek: 17}\n```" }, { id: 2, text: "```\n{\"imie\": \"Anna\", \"wiek\": 17}\n```" }, { id: 3, text: "```\n{\"imie\" = \"Anna\"; \"wiek\" = 17}\n```" }],
                 goodAnswer: 2
             },
             {
@@ -2839,7 +2839,7 @@ const data = [
             {
                 id: 70,
                 title: "Który zapis poprawnie przypisuje funkcję `f` do obsługi kliknięcia przycisku o id `\"btn\"` w JavaScript?",
-                answers: [{ id: 0, text: "document.getElementById(\"btn\").addEventListener(\"click\", f);" }, { id: 1, text: "document.getElementById(\"btn\").addEventListener(\"onclick\", f);" }, { id: 2, text: "document.getElementById(\"btn\").listen(\"click\", f);" }, { id: 3, text: "document.getElementById(\"btn\").click = addEventListener(f);" }],
+                answers: [{ id: 0, text: "```\ndocument.getElementById(\"btn\").addEventListener(\"click\", f);\n```" }, { id: 1, text: "```\ndocument.getElementById(\"btn\").addEventListener(\"onclick\", f);\n```" }, { id: 2, text: "```\ndocument.getElementById(\"btn\").listen(\"click\", f);\n```" }, { id: 3, text: "```\ndocument.getElementById(\"btn\").click = addEventListener(f);\n```" }],
                 goodAnswer: 0
             },
             {
@@ -2875,13 +2875,13 @@ const data = [
             {
                 id: 76,
                 title: "Który element HTML5 służy do rysowania grafiki za pomocą JavaScript?",
-                answers: [{ id: 0, text: "<graphic>" }, { id: 1, text: "<draw>" }, { id: 2, text: "<canvas>" }, { id: 3, text: "<paint>" }],
+                answers: [{ id: 0, text: "`<graphic>`" }, { id: 1, text: "`<draw>`" }, { id: 2, text: "`<canvas>`" }, { id: 3, text: "`<paint>`" }],
                 goodAnswer: 2
             },
             {
                 id: 77,
                 title: "Która metoda cyklu życia komponentu klasowego w React jest wywoływana bezpośrednio po zamontowaniu komponentu w DOM?",
-                answers: [{ id: 0, text: "componentWillUnmount()" }, { id: 1, text: "componentDidMount()" }, { id: 2, text: "componentDidUpdate()" }, { id: 3, text: "render()" }],
+                answers: [{ id: 0, text: "`componentWillUnmount()`" }, { id: 1, text: "`componentDidMount()`" }, { id: 2, text: "`componentDidUpdate()`" }, { id: 3, text: "`render()`" }],
                 goodAnswer: 1
             },
             {
@@ -2899,7 +2899,7 @@ const data = [
             {
                 id: 80,
                 title: "Która dyrektywa we frameworku Angular służy do wyświetlenia elementu wielokrotnie, dla każdego elementu tablicy?",
-                answers: [{ id: 0, text: "*ngFor" }, { id: 1, text: "*ngIf" }, { id: 2, text: "v-for" }, { id: 3, text: "ng-click" }],
+                answers: [{ id: 0, text: "`*ngFor`" }, { id: 1, text: "`*ngIf`" }, { id: 2, text: "`v-for`" }, { id: 3, text: "`ng-click`" }],
                 goodAnswer: 0
             },
             {
@@ -2917,7 +2917,7 @@ const data = [
             {
                 id: 83,
                 title: "Który symbol w wyrażeniu regularnym oznacza dopasowanie do końca łańcucha?",
-                answers: [{ id: 0, text: "$" }, { id: 1, text: "^" }, { id: 2, text: "|" }, { id: 3, text: "*" }],
+                answers: [{ id: 0, text: "`$`" }, { id: 1, text: "`^`" }, { id: 2, text: "`|`" }, { id: 3, text: "`*`" }],
                 goodAnswer: 0
             },
             {
@@ -2929,7 +2929,7 @@ const data = [
             {
                 id: 85,
                 title: "Która metoda HTTP w architekturze REST służy do usunięcia zasobu?",
-                answers: [{ id: 0, text: "GET" }, { id: 1, text: "POST" }, { id: 2, text: "DELETE" }, { id: 3, text: "HEAD" }],
+                answers: [{ id: 0, text: "`GET`" }, { id: 1, text: "`POST`" }, { id: 2, text: "`DELETE`" }, { id: 3, text: "`HEAD`" }],
                 goodAnswer: 2
             },
             {
@@ -2941,7 +2941,7 @@ const data = [
             {
                 id: 87,
                 title: "Co zostanie wyświetlone po wykonaniu kodu w języku PHP?\n\n```\n$x = 5;\n$y = '5';\nvar_dump($x == $y);\nvar_dump($x === $y);\n```",
-                answers: [{ id: 0, text: "bool(true) bool(true)" }, { id: 1, text: "bool(false) bool(false)" }, { id: 2, text: "bool(true) bool(false)" }, { id: 3, text: "bool(false) bool(true)" }],
+                answers: [{ id: 0, text: "`bool(true) bool(true)`" }, { id: 1, text: "`bool(false) bool(false)`" }, { id: 2, text: "`bool(true) bool(false)`" }, { id: 3, text: "`bool(false) bool(true)`" }],
                 goodAnswer: 2
             },
             {
@@ -3049,7 +3049,7 @@ const data = [
             {
                 id: 105,
                 title: "Programowanie dynamiczne polega na:",
-                answers: [{ id: 0, text: "dynamicznym przydzielaniu pamięci operatorem new" }, { id: 1, text: "zmienianiu typu zmiennych w trakcie działania programu" }, { id: 2, text: "pisaniu programów bez użycia pętli" }, { id: 3, text: "zapamiętywaniu wyników rozwiązanych podproblemów, aby nie obliczać ich ponownie" }],
+                answers: [{ id: 0, text: "dynamicznym przydzielaniu pamięci operatorem `new`" }, { id: 1, text: "zmienianiu typu zmiennych w trakcie działania programu" }, { id: 2, text: "pisaniu programów bez użycia pętli" }, { id: 3, text: "zapamiętywaniu wyników rozwiązanych podproblemów, aby nie obliczać ich ponownie" }],
                 goodAnswer: 3
             },
             {
@@ -3079,7 +3079,7 @@ const data = [
             {
                 id: 110,
                 title: "Czego musi zawierać każda poprawna funkcja rekurencyjna, aby nie doprowadzić do przepełnienia stosu?",
-                answers: [{ id: 0, text: "Warunku zakończenia (przypadku bazowego)" }, { id: 1, text: "Pętli for" }, { id: 2, text: "Zmiennych globalnych" }, { id: 3, text: "Co najmniej dwóch parametrów" }],
+                answers: [{ id: 0, text: "Warunku zakończenia (przypadku bazowego)" }, { id: 1, text: "Pętli `for`" }, { id: 2, text: "Zmiennych globalnych" }, { id: 3, text: "Co najmniej dwóch parametrów" }],
                 goodAnswer: 0
             },
             {
@@ -3253,7 +3253,7 @@ const data = [
             {
                 id: 139,
                 title: "Co oznacza znak `-` przed nazwą atrybutu na diagramie klas UML?",
-                answers: [{ id: 0, text: "Atrybut publiczny (public)" }, { id: 1, text: "Atrybut chroniony (protected)" }, { id: 2, text: "Atrybut statyczny" }, { id: 3, text: "Atrybut prywatny (private)" }],
+                answers: [{ id: 0, text: "Atrybut publiczny (`public`)" }, { id: 1, text: "Atrybut chroniony (`protected`)" }, { id: 2, text: "Atrybut statyczny" }, { id: 3, text: "Atrybut prywatny (`private`)" }],
                 goodAnswer: 3
             },
             {
@@ -3349,7 +3349,7 @@ const data = [
             {
                 id: 155,
                 title: "Które polecenie tworzy nową gałąź o nazwie `nowa` i od razu się na nią przełącza?",
-                answers: [{ id: 0, text: "git branch -d nowa" }, { id: 1, text: "git merge nowa" }, { id: 2, text: "git checkout -b nowa" }, { id: 3, text: "git push nowa" }],
+                answers: [{ id: 0, text: "```\ngit branch -d nowa\n```" }, { id: 1, text: "```\ngit merge nowa\n```" }, { id: 2, text: "```\ngit checkout -b nowa\n```" }, { id: 3, text: "```\ngit push nowa\n```" }],
                 goodAnswer: 2
             },
             {
@@ -3409,25 +3409,25 @@ const data = [
             {
                 id: 165,
                 title: "Które zdarzenie zachodzi, gdy element interfejsu traci fokus?",
-                answers: [{ id: 0, text: "focus" }, { id: 1, text: "blur" }, { id: 2, text: "keyup" }, { id: 3, text: "click" }],
+                answers: [{ id: 0, text: "`focus`" }, { id: 1, text: "`blur`" }, { id: 2, text: "`keyup`" }, { id: 3, text: "`click`" }],
                 goodAnswer: 1
             },
             {
                 id: 166,
                 title: "Które zdarzenie kontrolki `ComboBox` w WPF jest wywoływane po wybraniu innej pozycji z listy?",
-                answers: [{ id: 0, text: "LostFocus" }, { id: 1, text: "SelectionChanged" }, { id: 2, text: "DragEnter" }, { id: 3, text: "KeyDown" }],
+                answers: [{ id: 0, text: "`LostFocus`" }, { id: 1, text: "`SelectionChanged`" }, { id: 2, text: "`DragEnter`" }, { id: 3, text: "`KeyDown`" }],
                 goodAnswer: 1
             },
             {
                 id: 167,
                 title: "Która kontrolka pozwala wybrać dokładnie jedną opcję z grupy wzajemnie wykluczających się opcji?",
-                answers: [{ id: 0, text: "CheckBox" }, { id: 1, text: "Slider" }, { id: 2, text: "RadioButton" }, { id: 3, text: "ProgressBar" }],
+                answers: [{ id: 0, text: "`CheckBox`" }, { id: 1, text: "`Slider`" }, { id: 2, text: "`RadioButton`" }, { id: 3, text: "`ProgressBar`" }],
                 goodAnswer: 2
             },
             {
                 id: 168,
                 title: "Czym różni się kompilacja od interpretacji?",
-                answers: [{ id: 0, text: "Kompilacja jest stosowana wyłącznie w programowaniu obiektowym" }, { id: 1, text: "Kompilacja wymaga użycia debuggera" }, { id: 2, text: "Kompilacja tłumaczy cały kod źródłowy przed uruchomieniem, a interpretacja tłumaczy i wykonuje kod na bieżąco" }, { id: 3, text: "Interpretacja tworzy plik wykonywalny .exe" }],
+                answers: [{ id: 0, text: "Kompilacja jest stosowana wyłącznie w programowaniu obiektowym" }, { id: 1, text: "Kompilacja wymaga użycia debuggera" }, { id: 2, text: "Kompilacja tłumaczy cały kod źródłowy przed uruchomieniem, a interpretacja tłumaczy i wykonuje kod na bieżąco" }, { id: 3, text: "Interpretacja tworzy plik wykonywalny `.exe`" }],
                 goodAnswer: 2
             },
             {
