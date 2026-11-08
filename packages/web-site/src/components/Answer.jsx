@@ -1,4 +1,5 @@
 import React from 'react'
+import FormattedText from './FormattedText'
 
 function Answer({ text, checkAnswer, afterClicked }) {
     return (
@@ -6,7 +7,7 @@ function Answer({ text, checkAnswer, afterClicked }) {
         `}
             onClick={checkAnswer}
         >
-            {text}
+            <FormattedText text={text} />
         </button>
     )
 }

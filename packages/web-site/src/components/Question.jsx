@@ -1,5 +1,6 @@
 import React from 'react'
 import Answer from './Answer'
+import FormattedText from './FormattedText'
 import { Sparkle } from 'lucide-react'
 
 
@@ -15,7 +16,7 @@ function Question({ questionId, number, title, answers, goodAnswer, checkAnswer,
                 <div className='flex justify-center items-center left-0 self-start rounded-2xl p-2 bg-black/30'>
                     <Sparkle size={30} className='text-white' />
                 </div>
-                <h3 className='text-white text-xl font-semibold w-9/10'>{number}. {title}</h3>
+                <h3 className='text-white text-xl font-semibold w-9/10'>{number}. <FormattedText text={title} /></h3>
             </div>
 
             {/* Answers */}
