@@ -1,7 +1,7 @@
-// Run from packages/web-site: node src/scripts/check-code-marks.js
+// Run from packages/web-site: node scripts/check-code-marks.js
 import assert from 'node:assert/strict'
-import data from '../data/data.js'
-import { splitCode } from './splitCode.js'
+import data from '../src/data/data.js'
+import { splitCode } from '../src/scripts/splitCode.js'
 
 assert.deepEqual(splitCode('bez kodu'), ['bez kodu'])
 assert.deepEqual(splitCode('a `b` c `d`'), ['a ', '`b`', ' c ', '`d`', ''])

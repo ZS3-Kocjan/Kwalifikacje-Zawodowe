@@ -18,7 +18,7 @@ npm run dev                        # open http://localhost:5173/Kwalifikacje-Zaw
 npm run build                      # writes dist/ (gitignored)
 npm run preview                    # serves the production build
 npm run lint
-node src/scripts/check-code-marks.js # parser asserts plus an unbalanced-backtick check over every question
+node scripts/check-code-marks.js   # parser asserts plus an unbalanced-backtick check over every question
 ```
 
 There is no test runner. `check-code-marks.js` is the only automated check, so run it after editing question data.
@@ -37,12 +37,12 @@ packages/web-site/               The only package
   vite.config.js                 React and Tailwind plugins; `base: "/Kwalifikacje-Zawodowe"`
   eslint.config.js               Flat config; unused vars starting with a capital or _ are allowed
   public/cursor*.png             Custom cursor images used by index.css
+  scripts/check-code-marks.js    Assert-based check of the parser and all question text
   src/
     main.jsx                     React root, without StrictMode
     App.jsx                      Page shell and dark background: Header, Main, Footer
     index.css                    Tailwind import, :root styles, .pointer, .disabled, .text-shadow, .clip-text
     data/data.js                 The entire question bank
-    scripts/check-code-marks.js  Assert-based check of the parser and all question text
     scripts/splitCode.js         Splits a string into plain text and code parts
     components/
       Main.jsx                   All quiz state, and the switch between menu and quiz views
