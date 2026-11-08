@@ -2418,17 +2418,1206 @@ const data = [
         questions: [
             {
                 id: 0,
-                title: "Ile psów?",
-                answers: {
-                    0: "1",
-                    1: "3",
-                    2: "2",
-                    3: "5",
-                },
+                title: "Która cecha programowania obiektowego polega na ukrywaniu szczegółów implementacji i udostępnianiu danych obiektu wyłącznie przez jego metody?",
+                answers: [{ id: 0, text: "Dziedziczenie" }, { id: 1, text: "Hermetyzacja" }, { id: 2, text: "Polimorfizm" }, { id: 3, text: "Rekurencja" }],
+                goodAnswer: 1
+            },
+            {
+                id: 1,
+                title: "Zapis w języku Java: public class Jablko extends Owoc { } jest przykładem:",
+                answers: [{ id: 0, text: "hermetyzacji" }, { id: 1, text: "polimorfizmu" }, { id: 2, text: "dziedziczenia" }, { id: 3, text: "przeciążania metod" }],
+                goodAnswer: 2
+            },
+            {
+                id: 2,
+                title: "Czym jest polimorfizm w programowaniu obiektowym?",
+                answers: [{ id: 0, text: "Obiekty różnych klas mogą w różny sposób reagować na wywołanie tej samej metody" }, { id: 1, text: "Ukrywaniem szczegółów implementacji klasy" }, { id: 2, text: "Tworzeniem nowej klasy na podstawie już istniejącej" }, { id: 3, text: "Możliwością posiadania przez klasę wielu konstruktorów" }],
                 goodAnswer: 0
+            },
+            {
+                id: 3,
+                title: "Klasa abstrakcyjna to klasa, która:",
+                answers: [{ id: 0, text: "nie może zawierać żadnych metod" }, { id: 1, text: "nie może zawierać metod wirtualnych" }, { id: 2, text: "zawsze dziedziczy po innej klasie bazowej" }, { id: 3, text: "może być dziedziczona, ale nie można utworzyć jej instancji" }],
+                goodAnswer: 3
+            },
+            {
+                id: 4,
+                title: "Konstruktor klasy to metoda, która:",
+                answers: [{ id: 0, text: "jest wywoływana automatycznie podczas usuwania obiektu" }, { id: 1, text: "musi zwracać wartość typu int" }, { id: 2, text: "może być wywołana tylko jawnie po utworzeniu obiektu" }, { id: 3, text: "jest wywoływana automatycznie podczas tworzenia obiektu" }],
+                goodAnswer: 3
+            },
+            {
+                id: 5,
+                title: "Destruktor w języku C++:",
+                answers: [{ id: 0, text: "służy do tworzenia kopii obiektu" }, { id: 1, text: "jest wywoływany automatycznie podczas usuwania obiektu i służy do zwalniania zasobów" }, { id: 2, text: "może przyjmować dowolną liczbę parametrów" }, { id: 3, text: "zawsze zwraca wartość typu bool" }],
+                goodAnswer: 1
+            },
+            {
+                id: 6,
+                title: "Jak poprawnie zadeklarować destruktor klasy Punkt w języku C++?",
+                answers: [{ id: 0, text: "~Punkt();" }, { id: 1, text: "Punkt();" }, { id: 2, text: "delete Punkt();" }, { id: 3, text: "void destroy Punkt();" }],
+                goodAnswer: 0
+            },
+            {
+                id: 7,
+                title: "Składowa klasy oznaczona modyfikatorem private jest dostępna:",
+                answers: [{ id: 0, text: "wyłącznie wewnątrz klasy, w której została zadeklarowana" }, { id: 1, text: "w klasie i we wszystkich klasach pochodnych" }, { id: 2, text: "z dowolnego miejsca programu" }, { id: 3, text: "w każdej klasie zdefiniowanej w tym samym pliku" }],
+                goodAnswer: 0
+            },
+            {
+                id: 8,
+                title: "Składowa klasy oznaczona modyfikatorem protected jest dostępna:",
+                answers: [{ id: 0, text: "w tej klasie oraz w klasach z niej dziedziczących" }, { id: 1, text: "wyłącznie w tej klasie" }, { id: 2, text: "z dowolnego miejsca programu" }, { id: 3, text: "wyłącznie w metodach statycznych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 9,
+                title: "Klasa bazowa Klient ma pola: Name (public), Id (protected) i Age (private). Klasa GoldCustomer dziedziczy publicznie po Klient i ma własne pole prywatne GoldPoints. Do których pól można się bezpośrednio odwołać w metodach klasy GoldCustomer?",
+                answers: [{ id: 0, text: "GoldPoints, Name" }, { id: 1, text: "GoldPoints" }, { id: 2, text: "GoldPoints, Name, Id, Age" }, { id: 3, text: "GoldPoints, Name, Id" }],
+                goodAnswer: 3
+            },
+            {
+                id: 10,
+                title: "Pole statyczne klasy:",
+                answers: [{ id: 0, text: "każdy obiekt posiada jego własną, niezależną kopię" }, { id: 1, text: "jest dostępne wyłącznie w obiektach tworzonych dynamicznie" }, { id: 2, text: "jest wspólne dla wszystkich obiektów tej klasy" }, { id: 3, text: "jest usuwane po zakończeniu każdej metody klasy" }],
+                goodAnswer: 2
+            },
+            {
+                id: 11,
+                title: "Przeciążanie metod (overloading) polega na:",
+                answers: [{ id: 0, text: "zdefiniowaniu w klasie kilku metod o tej samej nazwie, różniących się listą parametrów" }, { id: 1, text: "zdefiniowaniu w klasie pochodnej metody o tej samej sygnaturze co w klasie bazowej" }, { id: 2, text: "wywołaniu metody klasy bazowej z klasy pochodnej" }, { id: 3, text: "ukryciu metody przed innymi klasami" }],
+                goodAnswer: 0
+            },
+            {
+                id: 12,
+                title: "Przesłanianie metod (overriding) polega na:",
+                answers: [{ id: 0, text: "zdefiniowaniu kilku metod o tej samej nazwie i różnych parametrach w jednej klasie" }, { id: 1, text: "zdefiniowaniu w klasie pochodnej metody o tej samej sygnaturze co metoda klasy bazowej" }, { id: 2, text: "zmianie nazwy metody w klasie pochodnej" }, { id: 3, text: "oznaczeniu metody jako statycznej" }],
+                goodAnswer: 1
+            },
+            {
+                id: 13,
+                title: "Interfejs w językach Java i C# to:",
+                answers: [{ id: 0, text: "klasa zawierająca wyłącznie pola prywatne" }, { id: 1, text: "graficzny element aplikacji służący do komunikacji z użytkownikiem" }, { id: 2, text: "zbiór deklaracji metod, które musi zdefiniować klasa go implementująca" }, { id: 3, text: "typ przechowujący wyłącznie zmienne globalne" }],
+                goodAnswer: 2
+            },
+            {
+                id: 14,
+                title: "Które słowo kluczowe w języku C++ pozwala na dynamiczne (późne) wiązanie metod, czyli polimorfizm w czasie wykonania?",
+                answers: [{ id: 0, text: "static" }, { id: 1, text: "const" }, { id: 2, text: "virtual" }, { id: 3, text: "friend" }],
+                goodAnswer: 2
+            },
+            {
+                id: 15,
+                title: "Która deklaracja w języku C++ definiuje metodę czysto wirtualną?",
+                answers: [{ id: 0, text: "virtual void rysuj() {}" }, { id: 1, text: "virtual void rysuj() = 0;" }, { id: 2, text: "void rysuj() const;" }, { id: 3, text: "static void rysuj();" }],
+                goodAnswer: 1
+            },
+            {
+                id: 16,
+                title: "Funkcja zaprzyjaźniona (friend) z klasą w języku C++:",
+                answers: [{ id: 0, text: "ma dostęp do prywatnych i chronionych składowych klasy, choć nie jest jej metodą" }, { id: 1, text: "jest metodą statyczną tej klasy" }, { id: 2, text: "dziedziczy wszystkie pola tej klasy" }, { id: 3, text: "jest wywoływana automatycznie podczas tworzenia obiektu" }],
+                goodAnswer: 0
+            },
+            {
+                id: 17,
+                title: "Słowo kluczowe this użyte wewnątrz metody klasy odnosi się do:",
+                answers: [{ id: 0, text: "klasy bazowej" }, { id: 1, text: "następnego obiektu tej samej klasy" }, { id: 2, text: "bieżącego obiektu, na rzecz którego wywołano metodę" }, { id: 3, text: "nowo tworzonego obiektu innej klasy" }],
+                goodAnswer: 2
+            },
+            {
+                id: 18,
+                title: "Które słowo kluczowe w języku Java służy do wywołania konstruktora lub metody klasy bazowej?",
+                answers: [{ id: 0, text: "base" }, { id: 1, text: "super" }, { id: 2, text: "parent" }, { id: 3, text: "inherited" }],
+                goodAnswer: 1
+            },
+            {
+                id: 19,
+                title: "Obiekt w programowaniu obiektowym to:",
+                answers: [{ id: 0, text: "instancja (egzemplarz) klasy" }, { id: 1, text: "definicja nowego typu danych" }, { id: 2, text: "zbiór funkcji globalnych" }, { id: 3, text: "plik nagłówkowy z deklaracjami" }],
+                goodAnswer: 0
+            },
+            {
+                id: 20,
+                title: "Jaką funkcję pełnią atrybuty (pola) klasy?",
+                answers: [{ id: 0, text: "Definiują stałe globalne programu" }, { id: 1, text: "Przechowują zmienne lokalne funkcji" }, { id: 2, text: "Przechowują informacje opisujące stan obiektu" }, { id: 3, text: "Określają operacje, które można wykonać na obiekcie" }],
+                goodAnswer: 2
+            },
+            {
+                id: 21,
+                title: "Metody typu getter i setter służą do:",
+                answers: [{ id: 0, text: "tworzenia i usuwania obiektów" }, { id: 1, text: "sortowania kolekcji obiektów" }, { id: 2, text: "kontrolowanego odczytu i modyfikacji prywatnych pól obiektu" }, { id: 3, text: "obsługi wyjątków" }],
+                goodAnswer: 2
+            },
+            {
+                id: 22,
+                title: "Czym różni się kompozycja od agregacji?",
+                answers: [{ id: 0, text: "W agregacji część nie może istnieć niezależnie od całości, a w kompozycji może" }, { id: 1, text: "W kompozycji część nie może istnieć niezależnie od całości, a w agregacji może" }, { id: 2, text: "Są to dwie nazwy tej samej relacji" }, { id: 3, text: "Kompozycja dotyczy wyłącznie interfejsów" }],
+                goodAnswer: 1
+            },
+            {
+                id: 23,
+                title: "Które słowo kluczowe w języku Java uniemożliwia dziedziczenie po klasie?",
+                answers: [{ id: 0, text: "static" }, { id: 1, text: "final" }, { id: 2, text: "abstract" }, { id: 3, text: "protected" }],
+                goodAnswer: 1
+            },
+            {
+                id: 24,
+                title: "Która deklaracja poprawnie przeciąża operator dodawania w klasie Wektor w języku C++?",
+                answers: [{ id: 0, text: "Wektor +operator(Wektor w);" }, { id: 1, text: "operator Wektor+(Wektor w);" }, { id: 2, text: "Wektor operator+(const Wektor &w);" }, { id: 3, text: "Wektor overload+(const Wektor &w);" }],
+                goodAnswer: 2
+            },
+            {
+                id: 25,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku C++?\n\nint a = 1;\nwhile (a++ < 6)\n    cout << a << \" \";",
+                answers: [{ id: 0, text: "1 2 3 4 5 6" }, { id: 1, text: "1 2 3 4 5" }, { id: 2, text: "2 3 4 5 6" }, { id: 3, text: "2 3 4 5 6 7" }],
+                goodAnswer: 2
+            },
+            {
+                id: 26,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku C++?\n\nint x = 7, y = 2;\ncout << x / y;",
+                answers: [{ id: 0, text: "3.5" }, { id: 1, text: "4" }, { id: 2, text: "3" }, { id: 3, text: "1" }],
+                goodAnswer: 2
+            },
+            {
+                id: 27,
+                title: "Jaka wartość zostanie wyświetlona po wykonaniu kodu w języku C++?\n\nint i;\nfor (i = 0; i < 10; i += 3);\ncout << i;",
+                answers: [{ id: 0, text: "12" }, { id: 1, text: "9" }, { id: 2, text: "10" }, { id: 3, text: "13" }],
+                goodAnswer: 0
+            },
+            {
+                id: 28,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku C++?\n\nint tab[5] = {4, 7, 1, 9, 3};\nint m = tab[0];\nfor (int i = 1; i < 5; i++)\n    if (tab[i] > m) m = tab[i];\ncout << m;",
+                answers: [{ id: 0, text: "4" }, { id: 1, text: "3" }, { id: 2, text: "9" }, { id: 3, text: "1" }],
+                goodAnswer: 2
+            },
+            {
+                id: 29,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku C++?\n\nint a = 5;\nint *p = &a;\n*p = 10;\ncout << a;",
+                answers: [{ id: 0, text: "5" }, { id: 1, text: "adres zmiennej a" }, { id: 2, text: "błąd kompilacji" }, { id: 3, text: "10" }],
+                goodAnswer: 3
+            },
+            {
+                id: 30,
+                title: "Funkcja zmien przyjmuje argument przez referencję. Co zostanie wyświetlone?\n\nvoid zmien(int &x) { x = x * 2; }\n\nint main() {\n    int a = 4;\n    zmien(a);\n    cout << a;\n}",
+                answers: [{ id: 0, text: "4" }, { id: 1, text: "8" }, { id: 2, text: "2" }, { id: 3, text: "16" }],
+                goodAnswer: 1
+            },
+            {
+                id: 31,
+                title: "Jaka wartość zmiennej x zostanie wyświetlona po wykonaniu kodu w języku C++?\n\nint x = 0;\nfor (int i = 1; i <= 10; i++) {\n    if (i % 2 == 0) continue;\n    x += i;\n}\ncout << x;",
+                answers: [{ id: 0, text: "30" }, { id: 1, text: "25" }, { id: 2, text: "20" }, { id: 3, text: "45" }],
+                goodAnswer: 1
+            },
+            {
+                id: 32,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku C++?\n\nstring s = \"Programista\";\ncout << s.length();",
+                answers: [{ id: 0, text: "10" }, { id: 1, text: "11" }, { id: 2, text: "12" }, { id: 3, text: "9" }],
+                goodAnswer: 1
+            },
+            {
+                id: 33,
+                title: "Jaki wyjątek zostanie zgłoszony po wykonaniu kodu w języku Java?\n\nint[] t = new int[5];\nt[5] = 1;",
+                answers: [{ id: 0, text: "NullPointerException" }, { id: 1, text: "ArithmeticException" }, { id: 2, text: "ClassCastException" }, { id: 3, text: "ArrayIndexOutOfBoundsException" }],
+                goodAnswer: 3
+            },
+            {
+                id: 34,
+                title: "Jaki wyjątek zostanie zgłoszony po wykonaniu kodu w języku Java?\n\nint a = 10, b = 0;\nint x = a / b;",
+                answers: [{ id: 0, text: "NumberFormatException" }, { id: 1, text: "ArrayIndexOutOfBoundsException" }, { id: 2, text: "ArithmeticException" }, { id: 3, text: "NullPointerException" }],
+                goodAnswer: 2
+            },
+            {
+                id: 35,
+                title: "Jaki wyjątek zostanie zgłoszony po wykonaniu kodu w języku Java?\n\nString s = null;\nint n = s.length();",
+                answers: [{ id: 0, text: "NullPointerException" }, { id: 1, text: "ArithmeticException" }, { id: 2, text: "IllegalStateException" }, { id: 3, text: "ClassNotFoundException" }],
+                goodAnswer: 0
+            },
+            {
+                id: 36,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku Java?\n\nSystem.out.println(\"5\" + 3 + 2);",
+                answers: [{ id: 0, text: "10" }, { id: 1, text: "55" }, { id: 2, text: "532" }, { id: 3, text: "5 3 2" }],
+                goodAnswer: 2
+            },
+            {
+                id: 37,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku Python?\n\nprint(len([1, [2, 3], 4]))",
+                answers: [{ id: 0, text: "3" }, { id: 1, text: "4" }, { id: 2, text: "5" }, { id: 3, text: "2" }],
+                goodAnswer: 0
+            },
+            {
+                id: 38,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku Python?\n\nlista = [1, 2, 3, 4, 5]\nprint(lista[1:3])",
+                answers: [{ id: 0, text: "[1, 2, 3]" }, { id: 1, text: "[2, 3, 4]" }, { id: 2, text: "[2, 3]" }, { id: 3, text: "[1, 2]" }],
+                goodAnswer: 2
+            },
+            {
+                id: 39,
+                title: "Który typ danych w języku C++ służy do przechowywania wartości logicznych?",
+                answers: [{ id: 0, text: "boolean" }, { id: 1, text: "logical" }, { id: 2, text: "bool" }, { id: 3, text: "bit" }],
+                goodAnswer: 2
+            },
+            {
+                id: 40,
+                title: "Która deklaracja tablicy 10 liczb całkowitych jest poprawna w języku C++?",
+                answers: [{ id: 0, text: "int tab(10);" }, { id: 1, text: "int tab[10];" }, { id: 2, text: "tab int[10];" }, { id: 3, text: "int[10] tab;" }],
+                goodAnswer: 1
+            },
+            {
+                id: 41,
+                title: "Jak poprawnie zwolnić pamięć tablicy przydzielonej w C++ instrukcją int *t = new int[10]; ?",
+                answers: [{ id: 0, text: "delete t[];" }, { id: 1, text: "free t;" }, { id: 2, text: "remove(t);" }, { id: 3, text: "delete[] t;" }],
+                goodAnswer: 3
+            },
+            {
+                id: 42,
+                title: "Wyciek pamięci (memory leak) to sytuacja, w której:",
+                answers: [{ id: 0, text: "zmienna lokalna zostaje nadpisana nową wartością" }, { id: 1, text: "program kończy działanie z powodu błędu składni" }, { id: 2, text: "kompilator usuwa nieużywane zmienne" }, { id: 3, text: "pamięć przydzielona dynamicznie nie zostaje zwolniona, mimo że nie jest już używana" }],
+                goodAnswer: 3
+            },
+            {
+                id: 43,
+                title: "Jakie wartości będą miały zmienne a i b po wykonaniu kodu w języku C++?\n\nint a = 5;\nint b = a++;",
+                answers: [{ id: 0, text: "a = 6, b = 6" }, { id: 1, text: "a = 5, b = 6" }, { id: 2, text: "a = 6, b = 5" }, { id: 3, text: "a = 5, b = 5" }],
+                goodAnswer: 2
+            },
+            {
+                id: 44,
+                title: "Które wyrażenie jest prawdziwe, gdy zmienna x jest mniejsza od 0 albo należy do przedziału otwartego (10, 100)?",
+                answers: [{ id: 0, text: "x > 10 || x < 100 || x < 0" }, { id: 1, text: "(x > 10 || x < 100) && x < 0" }, { id: 2, text: "x > 10 && x < 100 && x < 0" }, { id: 3, text: "(x > 10 && x < 100) || x < 0" }],
+                goodAnswer: 3
+            },
+            {
+                id: 45,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku C++?\n\nint n = 2;\nswitch (n) {\n    case 1: cout << \"A\";\n    case 2: cout << \"B\";\n    case 3: cout << \"C\"; break;\n    default: cout << \"D\";\n}",
+                answers: [{ id: 0, text: "B" }, { id: 1, text: "BCD" }, { id: 2, text: "ABC" }, { id: 3, text: "BC" }],
+                goodAnswer: 3
+            },
+            {
+                id: 46,
+                title: "Pętla do...while:",
+                answers: [{ id: 0, text: "może nie wykonać się ani razu" }, { id: 1, text: "zawsze wykona się co najmniej raz" }, { id: 2, text: "jest zawsze pętlą nieskończoną" }, { id: 3, text: "wymaga podania liczby powtórzeń przed jej rozpoczęciem" }],
+                goodAnswer: 1
+            },
+            {
+                id: 47,
+                title: "Jaki wynik zwróci wywołanie f(5) funkcji rekurencyjnej w języku C++?\n\nint f(int n) {\n    if (n <= 1) return 1;\n    return n * f(n - 1);\n}\n\nint main() {\n    cout << f(5);\n}",
+                answers: [{ id: 0, text: "25" }, { id: 1, text: "120" }, { id: 2, text: "15" }, { id: 3, text: "24" }],
+                goodAnswer: 1
+            },
+            {
+                id: 48,
+                title: "Jaki wynik zwróci wywołanie fib(6) funkcji w języku C++?\n\nint fib(int n) {\n    if (n < 2) return n;\n    return fib(n - 1) + fib(n - 2);\n}\n\nint main() {\n    cout << fib(6);\n}",
+                answers: [{ id: 0, text: "5" }, { id: 1, text: "13" }, { id: 2, text: "8" }, { id: 3, text: "6" }],
+                goodAnswer: 2
+            },
+            {
+                id: 49,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku C++?\n\nprintf(\"%.2f\", 3.14159);",
+                answers: [{ id: 0, text: "3.141590" }, { id: 1, text: "3.1" }, { id: 2, text: "3.14" }, { id: 3, text: "3.15" }],
+                goodAnswer: 2
+            },
+            {
+                id: 50,
+                title: "Który kontener biblioteki STL w języku C++ jest dynamiczną tablicą automatycznie zmieniającą rozmiar?",
+                answers: [{ id: 0, text: "vector" }, { id: 1, text: "map" }, { id: 2, text: "set" }, { id: 3, text: "stack" }],
+                goodAnswer: 0
+            },
+            {
+                id: 51,
+                title: "Który kontener biblioteki STL przechowuje pary klucz–wartość uporządkowane według klucza?",
+                answers: [{ id: 0, text: "map" }, { id: 1, text: "vector" }, { id: 2, text: "queue" }, { id: 3, text: "array" }],
+                goodAnswer: 0
+            },
+            {
+                id: 52,
+                title: "Który plik nagłówkowy należy dołączyć w języku C++, aby korzystać ze strumieni cin i cout?",
+                answers: [{ id: 0, text: "<iostream>" }, { id: 1, text: "<cmath>" }, { id: 2, text: "<string>" }, { id: 3, text: "<vector>" }],
+                goodAnswer: 0
+            },
+            {
+                id: 53,
+                title: "Która konstrukcja służy do obsługi wyjątków w językach C++, Java i C#?",
+                answers: [{ id: 0, text: "if...else" }, { id: 1, text: "switch...case" }, { id: 2, text: "do...while" }, { id: 3, text: "try...catch" }],
+                goodAnswer: 3
+            },
+            {
+                id: 54,
+                title: "Blok finally w obsłudze wyjątków (Java, C#) wykonuje się:",
+                answers: [{ id: 0, text: "tylko wtedy, gdy wystąpił wyjątek" }, { id: 1, text: "tylko wtedy, gdy wyjątek nie wystąpił" }, { id: 2, text: "zawsze, niezależnie od tego, czy wystąpił wyjątek" }, { id: 3, text: "tylko po zakończeniu całego programu" }],
+                goodAnswer: 2
+            },
+            {
+                id: 55,
+                title: "Ile razy zostanie wyświetlony napis \"X\" po wykonaniu kodu w języku C++?\n\nfor (int i = 0; i < 3; i++)\n    for (int j = 0; j < 2; j++)\n        cout << \"X\";",
+                answers: [{ id: 0, text: "5" }, { id: 1, text: "9" }, { id: 2, text: "3" }, { id: 3, text: "6" }],
+                goodAnswer: 3
+            },
+            {
+                id: 56,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\nconsole.log(typeof null);",
+                answers: [{ id: 0, text: "null" }, { id: 1, text: "undefined" }, { id: 2, text: "object" }, { id: 3, text: "number" }],
+                goodAnswer: 2
+            },
+            {
+                id: 57,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\nconsole.log(2 + \"2\");",
+                answers: [{ id: 0, text: "4" }, { id: 1, text: "22" }, { id: 2, text: "NaN" }, { id: 3, text: "błąd typu" }],
+                goodAnswer: 1
+            },
+            {
+                id: 58,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\nconsole.log(\"5\" - 2);",
+                answers: [{ id: 0, text: "52" }, { id: 1, text: "3" }, { id: 2, text: "NaN" }, { id: 3, text: "\"5-2\"" }],
+                goodAnswer: 1
+            },
+            {
+                id: 59,
+                title: "Czym różni się operator === od operatora == w JavaScript?",
+                answers: [{ id: 0, text: "=== porównuje wartość i typ bez konwersji typów, a == może konwertować typy przed porównaniem" }, { id: 1, text: "=== jest operatorem przypisania, a == porównania" }, { id: 2, text: "== porównuje wartość i typ, a === tylko wartość" }, { id: 3, text: "Nie ma różnicy, oba operatory działają identycznie" }],
+                goodAnswer: 0
+            },
+            {
+                id: 60,
+                title: "Czym różni się deklaracja zmiennej za pomocą let od var w JavaScript?",
+                answers: [{ id: 0, text: "Zmienna var ma zasięg blokowy, a let – zasięg funkcyjny" }, { id: 1, text: "Zmiennej let nie można zmienić po przypisaniu" }, { id: 2, text: "Nie ma żadnej różnicy" }, { id: 3, text: "Zmienna let ma zasięg blokowy, a var – zasięg funkcyjny" }],
+                goodAnswer: 3
+            },
+            {
+                id: 61,
+                title: "Co oznacza zadeklarowanie zmiennej słowem const w JavaScript?",
+                answers: [{ id: 0, text: "Zawartości obiektu przypisanego do zmiennej nie można modyfikować" }, { id: 1, text: "Zmiennej nie można ponownie przypisać innej wartości" }, { id: 2, text: "Zmienna ma zasięg funkcyjny, tak jak var" }, { id: 3, text: "Zmienna może przechowywać wyłącznie liczby" }],
+                goodAnswer: 1
+            },
+            {
+                id: 62,
+                title: "Co zostanie wyświetlone w konsoli po wywołaniu funkcji f() w JavaScript?\n\nfunction f() {\n    console.log(a);\n    var a = 1;\n    console.log(a);\n}\nf();",
+                answers: [{ id: 0, text: "1, 1" }, { id: 1, text: "ReferenceError, 1" }, { id: 2, text: "undefined, undefined" }, { id: 3, text: "undefined, 1" }],
+                goodAnswer: 3
+            },
+            {
+                id: 63,
+                title: "Do czego służy operator rozproszenia (spread) ... w JavaScript?",
+                answers: [{ id: 0, text: "Łączy dwa różne typy danych w jeden" }, { id: 1, text: "Konwertuje liczbę na tekst" }, { id: 2, text: "Rozwija tablicę lub obiekt na pojedyncze elementy" }, { id: 3, text: "Sprawdza typ zmiennej" }],
+                goodAnswer: 2
+            },
+            {
+                id: 64,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\nconsole.log([1, 2, 3].map(x => x * 2));",
+                answers: [{ id: 0, text: "[ 1, 2, 3 ]" }, { id: 1, text: "[ 2, 4, 6 ]" }, { id: 2, text: "12" }, { id: 3, text: "[ 1, 4, 9 ]" }],
+                goodAnswer: 1
+            },
+            {
+                id: 65,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\nconsole.log([1, 2, 3, 4, 5].filter(x => x % 2 === 0));",
+                answers: [{ id: 0, text: "[ 1, 3, 5 ]" }, { id: 1, text: "[ true, false ]" }, { id: 2, text: "[ 2, 4 ]" }, { id: 3, text: "2" }],
+                goodAnswer: 2
+            },
+            {
+                id: 66,
+                title: "Która metoda w JavaScript zamienia obiekt na tekst w formacie JSON?",
+                answers: [{ id: 0, text: "JSON.parse()" }, { id: 1, text: "JSON.toObject()" }, { id: 2, text: "JSON.encode()" }, { id: 3, text: "JSON.stringify()" }],
+                goodAnswer: 3
+            },
+            {
+                id: 67,
+                title: "Który zapis jest poprawnym dokumentem JSON?",
+                answers: [{ id: 0, text: "{'imie': 'Anna', 'wiek': 17}" }, { id: 1, text: "{imie: \"Anna\", wiek: 17}" }, { id: 2, text: "{\"imie\": \"Anna\", \"wiek\": 17}" }, { id: 3, text: "{\"imie\" = \"Anna\"; \"wiek\" = 17}" }],
+                goodAnswer: 2
+            },
+            {
+                id: 68,
+                title: "Czym jest propagacja zdarzeń w górę (event bubbling) w JavaScript?",
+                answers: [{ id: 0, text: "Zarządzaniem kolejką zdarzeń w aplikacjach asynchronicznych" }, { id: 1, text: "Zdarzenie jest obsługiwane najpierw przez najbardziej zagnieżdżony element, a następnie przekazywane w górę drzewa DOM" }, { id: 2, text: "Systemem wyświetlania błędów w konsoli" }, { id: 3, text: "Techniką optymalizacji wydajności zdarzeń" }],
+                goodAnswer: 1
+            },
+            {
+                id: 69,
+                title: "Czym jest debouncing w JavaScript?",
+                answers: [{ id: 0, text: "Usuwaniem zduplikowanych zdarzeń z kodu" }, { id: 1, text: "Optymalizacją kodu podczas kompilacji" }, { id: 2, text: "Ograniczaniem częstotliwości wywoływania funkcji przez opóźnienie jej wykonania do chwili ustania zdarzeń" }, { id: 3, text: "Zarządzaniem pamięcią zmiennych globalnych" }],
+                goodAnswer: 2
+            },
+            {
+                id: 70,
+                title: "Który zapis poprawnie przypisuje funkcję f do obsługi kliknięcia przycisku o id \"btn\" w JavaScript?",
+                answers: [{ id: 0, text: "document.getElementById(\"btn\").addEventListener(\"click\", f);" }, { id: 1, text: "document.getElementById(\"btn\").addEventListener(\"onclick\", f);" }, { id: 2, text: "document.getElementById(\"btn\").listen(\"click\", f);" }, { id: 3, text: "document.getElementById(\"btn\").click = addEventListener(f);" }],
+                goodAnswer: 0
+            },
+            {
+                id: 71,
+                title: "Do czego służy słowo kluczowe await w JavaScript?",
+                answers: [{ id: 0, text: "Wstrzymuje wykonanie funkcji async do momentu rozstrzygnięcia obietnicy (Promise)" }, { id: 1, text: "Tworzy nowy wątek systemowy" }, { id: 2, text: "Anuluje działanie obietnicy" }, { id: 3, text: "Deklaruje zmienną o zasięgu globalnym" }],
+                goodAnswer: 0
+            },
+            {
+                id: 72,
+                title: "Czym jest CORS?",
+                answers: [{ id: 0, text: "Protokołem komunikacji między bazami danych" }, { id: 1, text: "Mechanizmem bezpieczeństwa określającym, które domeny mogą korzystać z zasobów serwera" }, { id: 2, text: "Techniką optymalizacji ładowania zasobów" }, { id: 3, text: "Metodą udostępniania API aplikacjom mobilnym" }],
+                goodAnswer: 1
+            },
+            {
+                id: 73,
+                title: "Co oznacza skrót CSRF?",
+                answers: [{ id: 0, text: "Client-Side Rendering Framework" }, { id: 1, text: "Cross-Site Response Filter" }, { id: 2, text: "Cross-Site Request Forgery" }, { id: 3, text: "Cascading Style Rendering Form" }],
+                goodAnswer: 2
+            },
+            {
+                id: 74,
+                title: "Atak XSS (Cross-Site Scripting) polega na:",
+                answers: [{ id: 0, text: "przeciążeniu serwera ogromną liczbą żądań" }, { id: 1, text: "wstrzyknięciu złośliwego skryptu do strony, który wykona się w przeglądarkach innych użytkowników" }, { id: 2, text: "przechwyceniu haseł z pamięci RAM serwera" }, { id: 3, text: "fizycznym uszkodzeniu dysku serwera" }],
+                goodAnswer: 1
+            },
+            {
+                id: 75,
+                title: "Która technika najskuteczniej chroni aplikację przed atakiem SQL Injection?",
+                answers: [{ id: 0, text: "Stosowanie zapytań parametryzowanych (prepared statements)" }, { id: 1, text: "Ukrywanie adresu serwera bazy danych" }, { id: 2, text: "Zwiększenie pamięci RAM serwera" }, { id: 3, text: "Stosowanie krótszych nazw tabel" }],
+                goodAnswer: 0
+            },
+            {
+                id: 76,
+                title: "Który element HTML5 służy do rysowania grafiki za pomocą JavaScript?",
+                answers: [{ id: 0, text: "<graphic>" }, { id: 1, text: "<draw>" }, { id: 2, text: "<canvas>" }, { id: 3, text: "<paint>" }],
+                goodAnswer: 2
+            },
+            {
+                id: 77,
+                title: "Która metoda cyklu życia komponentu klasowego w React jest wywoływana bezpośrednio po zamontowaniu komponentu w DOM?",
+                answers: [{ id: 0, text: "componentWillUnmount()" }, { id: 1, text: "componentDidMount()" }, { id: 2, text: "componentDidUpdate()" }, { id: 3, text: "render()" }],
+                goodAnswer: 1
+            },
+            {
+                id: 78,
+                title: "Do czego służy hook useState w bibliotece React?",
+                answers: [{ id: 0, text: "Do wysyłania zapytań HTTP" }, { id: 1, text: "Do definiowania stylów CSS komponentu" }, { id: 2, text: "Do przechowywania i aktualizowania stanu w komponencie funkcyjnym" }, { id: 3, text: "Do tworzenia tras (routingu) aplikacji" }],
+                goodAnswer: 2
+            },
+            {
+                id: 79,
+                title: "Czym są props w bibliotece React?",
+                answers: [{ id: 0, text: "Wewnętrznym, modyfikowalnym stanem komponentu" }, { id: 1, text: "Arkuszami stylów komponentu" }, { id: 2, text: "Zdarzeniami przeglądarki" }, { id: 3, text: "Danymi przekazywanymi z komponentu nadrzędnego do komponentu potomnego" }],
+                goodAnswer: 3
+            },
+            {
+                id: 80,
+                title: "Która dyrektywa we frameworku Angular służy do wyświetlenia elementu wielokrotnie, dla każdego elementu tablicy?",
+                answers: [{ id: 0, text: "*ngFor" }, { id: 1, text: "*ngIf" }, { id: 2, text: "v-for" }, { id: 3, text: "ng-click" }],
+                goodAnswer: 0
+            },
+            {
+                id: 81,
+                title: "Które z wymienionych narzędzi NIE jest frameworkiem do testowania kodu JavaScript?",
+                answers: [{ id: 0, text: "Express" }, { id: 1, text: "Jest" }, { id: 2, text: "Jasmine" }, { id: 3, text: "Mocha" }],
+                goodAnswer: 0
+            },
+            {
+                id: 82,
+                title: "Jaka konwencja nazewnictwa zmiennych i funkcji jest najczęściej stosowana w JavaScript?",
+                answers: [{ id: 0, text: "snake_case" }, { id: 1, text: "kebab-case" }, { id: 2, text: "camelCase" }, { id: 3, text: "UPPER_CASE" }],
+                goodAnswer: 2
+            },
+            {
+                id: 83,
+                title: "Który symbol w wyrażeniu regularnym oznacza dopasowanie do końca łańcucha?",
+                answers: [{ id: 0, text: "$" }, { id: 1, text: "^" }, { id: 2, text: "|" }, { id: 3, text: "*" }],
+                goodAnswer: 0
+            },
+            {
+                id: 84,
+                title: "Czym jest DOM (Document Object Model)?",
+                answers: [{ id: 0, text: "Językiem zapytań do bazy danych" }, { id: 1, text: "Protokołem przesyłania stron WWW" }, { id: 2, text: "Drzewiastą, obiektową reprezentacją dokumentu HTML, którą można modyfikować za pomocą skryptów" }, { id: 3, text: "Formatem kompresji obrazów" }],
+                goodAnswer: 2
+            },
+            {
+                id: 85,
+                title: "Która metoda HTTP w architekturze REST służy do usunięcia zasobu?",
+                answers: [{ id: 0, text: "GET" }, { id: 1, text: "POST" }, { id: 2, text: "DELETE" }, { id: 3, text: "HEAD" }],
+                goodAnswer: 2
+            },
+            {
+                id: 86,
+                title: "Co oznacza kod odpowiedzi HTTP 404?",
+                answers: [{ id: 0, text: "Nie znaleziono żądanego zasobu" }, { id: 1, text: "Żądanie zakończyło się sukcesem" }, { id: 2, text: "Wewnętrzny błąd serwera" }, { id: 3, text: "Brak uprawnień do zasobu z powodu braku logowania" }],
+                goodAnswer: 0
+            },
+            {
+                id: 87,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku PHP?\n\n$x = 5;\n$y = '5';\nvar_dump($x == $y);\nvar_dump($x === $y);",
+                answers: [{ id: 0, text: "bool(true) bool(true)" }, { id: 1, text: "bool(false) bool(false)" }, { id: 2, text: "bool(true) bool(false)" }, { id: 3, text: "bool(false) bool(true)" }],
+                goodAnswer: 2
+            },
+            {
+                id: 88,
+                title: "Która technologia (język) służy do komunikacji aplikacji z relacyjnym systemem bazy danych?",
+                answers: [{ id: 0, text: "CSS" }, { id: 1, text: "HTTP" }, { id: 2, text: "SQL" }, { id: 3, text: "XAML" }],
+                goodAnswer: 2
+            },
+            {
+                id: 89,
+                title: "Która technologia pozwala tworzyć natywne aplikacje mobilne z użyciem JavaScript i biblioteki React?",
+                answers: [{ id: 0, text: "Spring Boot" }, { id: 1, text: "ASP.NET Core" }, { id: 2, text: "React Native" }, { id: 3, text: "Django" }],
+                goodAnswer: 2
+            },
+            {
+                id: 90,
+                title: "Jak nazywa się technika algorytmiczna polegająca na dzieleniu problemu na mniejsze podproblemy aż do uzyskania przypadków łatwych do rozwiązania?",
+                answers: [{ id: 0, text: "Metoda zachłanna" }, { id: 1, text: "Dziel i zwyciężaj" }, { id: 2, text: "Przeszukiwanie wyczerpujące" }, { id: 3, text: "Problem komiwojażera" }],
+                goodAnswer: 1
+            },
+            {
+                id: 91,
+                title: "Jaka jest pesymistyczna złożoność czasowa algorytmu sortowania szybkiego (quicksort)?",
+                answers: [{ id: 0, text: "O(n log n)" }, { id: 1, text: "O(n)" }, { id: 2, text: "O(log n)" }, { id: 3, text: "O(n²)" }],
+                goodAnswer: 3
+            },
+            {
+                id: 92,
+                title: "Jaka jest złożoność czasowa wyszukiwania binarnego w tablicy n elementów?",
+                answers: [{ id: 0, text: "O(log n)" }, { id: 1, text: "O(n)" }, { id: 2, text: "O(n²)" }, { id: 3, text: "O(1)" }],
+                goodAnswer: 0
+            },
+            {
+                id: 93,
+                title: "Jaki warunek musi spełniać tablica, aby można było zastosować wyszukiwanie binarne?",
+                answers: [{ id: 0, text: "Musi mieć parzystą liczbę elementów" }, { id: 1, text: "Musi zawierać wyłącznie liczby dodatnie" }, { id: 2, text: "Musi być posortowana" }, { id: 3, text: "Nie może zawierać powtórzeń" }],
+                goodAnswer: 2
+            },
+            {
+                id: 94,
+                title: "Jaka jest złożoność czasowa sortowania bąbelkowego w przypadku pesymistycznym?",
+                answers: [{ id: 0, text: "O(n log n)" }, { id: 1, text: "O(n²)" }, { id: 2, text: "O(n)" }, { id: 3, text: "O(log n)" }],
+                goodAnswer: 1
+            },
+            {
+                id: 95,
+                title: "Który algorytm sortowania ma złożoność O(n log n) również w przypadku pesymistycznym?",
+                answers: [{ id: 0, text: "Sortowanie bąbelkowe" }, { id: 1, text: "Sortowanie przez wstawianie" }, { id: 2, text: "Sortowanie szybkie" }, { id: 3, text: "Sortowanie przez scalanie" }],
+                goodAnswer: 3
+            },
+            {
+                id: 96,
+                title: "Która struktura danych działa według zasady FIFO (pierwszy wszedł, pierwszy wyszedł)?",
+                answers: [{ id: 0, text: "Stos" }, { id: 1, text: "Drzewo binarne" }, { id: 2, text: "Kolejka" }, { id: 3, text: "Tablica asocjacyjna" }],
+                goodAnswer: 2
+            },
+            {
+                id: 97,
+                title: "W liście jednokierunkowej każdy element przechowuje:",
+                answers: [{ id: 0, text: "dane oraz wskaźniki do elementu poprzedniego i następnego" }, { id: 1, text: "dane oraz wskaźnik (odwołanie) do następnego elementu" }, { id: 2, text: "wyłącznie indeks w tablicy" }, { id: 3, text: "wskaźnik do pierwszego elementu listy" }],
+                goodAnswer: 1
+            },
+            {
+                id: 98,
+                title: "W drzewie binarnym poszukiwań (BST) klucze w lewym poddrzewie dowolnego węzła są:",
+                answers: [{ id: 0, text: "większe od klucza tego węzła" }, { id: 1, text: "równe kluczowi tego węzła" }, { id: 2, text: "mniejsze od klucza tego węzła" }, { id: 3, text: "uporządkowane losowo" }],
+                goodAnswer: 2
+            },
+            {
+                id: 99,
+                title: "Która struktura danych jest wykorzystywana w algorytmie przeszukiwania grafu wszerz (BFS)?",
+                answers: [{ id: 0, text: "Stos" }, { id: 1, text: "Kopiec" }, { id: 2, text: "Tablica haszująca" }, { id: 3, text: "Kolejka" }],
+                goodAnswer: 3
+            },
+            {
+                id: 100,
+                title: "Do czego służy algorytm Dijkstry?",
+                answers: [{ id: 0, text: "Do sortowania tablicy liczb" }, { id: 1, text: "Do wyznaczania najkrótszych ścieżek w grafie o nieujemnych wagach krawędzi" }, { id: 2, text: "Do szyfrowania danych" }, { id: 3, text: "Do wyznaczania liczb pierwszych" }],
+                goodAnswer: 1
+            },
+            {
+                id: 101,
+                title: "Jaki wynik zwróci wywołanie nwd(48, 18) funkcji implementującej algorytm Euklidesa?\n\nint nwd(int a, int b) {\n    while (b != 0) {\n        int r = a % b;\n        a = b;\n        b = r;\n    }\n    return a;\n}\n\nint main() {\n    cout << nwd(48, 18);\n}",
+                answers: [{ id: 0, text: "3" }, { id: 1, text: "9" }, { id: 2, text: "6" }, { id: 3, text: "18" }],
+                goodAnswer: 2
+            },
+            {
+                id: 102,
+                title: "Do czego służy algorytm sita Eratostenesa?",
+                answers: [{ id: 0, text: "Do wyznaczania liczb pierwszych z zadanego przedziału" }, { id: 1, text: "Do obliczania największego wspólnego dzielnika" }, { id: 2, text: "Do sortowania liczb" }, { id: 3, text: "Do zamiany liczb na system binarny" }],
+                goodAnswer: 0
+            },
+            {
+                id: 103,
+                title: "Algorytm zachłanny:",
+                answers: [{ id: 0, text: "zawsze sprawdza wszystkie możliwe rozwiązania" }, { id: 1, text: "dzieli problem na dwa równe podproblemy" }, { id: 2, text: "w każdym kroku wybiera rozwiązanie, które lokalnie wydaje się najlepsze" }, { id: 3, text: "rozwiązuje problem wyłącznie rekurencyjnie" }],
+                goodAnswer: 2
+            },
+            {
+                id: 104,
+                title: "Jaka jest złożoność czasowa algorytmu zawierającego dwie zagnieżdżone pętle, z których każda wykonuje się n razy?",
+                answers: [{ id: 0, text: "O(n²)" }, { id: 1, text: "O(n)" }, { id: 2, text: "O(2n)" }, { id: 3, text: "O(log n)" }],
+                goodAnswer: 0
+            },
+            {
+                id: 105,
+                title: "Programowanie dynamiczne polega na:",
+                answers: [{ id: 0, text: "dynamicznym przydzielaniu pamięci operatorem new" }, { id: 1, text: "zmienianiu typu zmiennych w trakcie działania programu" }, { id: 2, text: "pisaniu programów bez użycia pętli" }, { id: 3, text: "zapamiętywaniu wyników rozwiązanych podproblemów, aby nie obliczać ich ponownie" }],
+                goodAnswer: 3
+            },
+            {
+                id: 106,
+                title: "Do czego służy schemat Hornera?",
+                answers: [{ id: 0, text: "Do sortowania tablicy" }, { id: 1, text: "Do efektywnego obliczania wartości wielomianu" }, { id: 2, text: "Do wyszukiwania elementu w drzewie" }, { id: 3, text: "Do szyfrowania tekstu" }],
+                goodAnswer: 1
+            },
+            {
+                id: 107,
+                title: "Sortowanie przez wybieranie (selection sort) polega na:",
+                answers: [{ id: 0, text: "porównywaniu i zamianie sąsiednich elementów aż do uporządkowania tablicy" }, { id: 1, text: "dzieleniu tablicy na połowy i scalaniu posortowanych części" }, { id: 2, text: "znajdowaniu w każdym kroku najmniejszego elementu nieposortowanej części i zamianie go z jej pierwszym elementem" }, { id: 3, text: "zliczaniu wystąpień każdej wartości" }],
+                goodAnswer: 2
+            },
+            {
+                id: 108,
+                title: "Jaki kształt w schemacie blokowym algorytmu oznacza blok decyzyjny (warunek)?",
+                answers: [{ id: 0, text: "Prostokąt" }, { id: 1, text: "Równoległobok" }, { id: 2, text: "Romb" }, { id: 3, text: "Owal" }],
+                goodAnswer: 2
+            },
+            {
+                id: 109,
+                title: "Jaki kształt w schemacie blokowym algorytmu oznacza operację wejścia lub wyjścia danych?",
+                answers: [{ id: 0, text: "Romb" }, { id: 1, text: "Prostokąt" }, { id: 2, text: "Równoległobok" }, { id: 3, text: "Koło" }],
+                goodAnswer: 2
+            },
+            {
+                id: 110,
+                title: "Czego musi zawierać każda poprawna funkcja rekurencyjna, aby nie doprowadzić do przepełnienia stosu?",
+                answers: [{ id: 0, text: "Warunku zakończenia (przypadku bazowego)" }, { id: 1, text: "Pętli for" }, { id: 2, text: "Zmiennych globalnych" }, { id: 3, text: "Co najmniej dwóch parametrów" }],
+                goodAnswer: 0
+            },
+            {
+                id: 111,
+                title: "Testy jednostkowe polegają na:",
+                answers: [{ id: 0, text: "sprawdzaniu współpracy wielu modułów aplikacji" }, { id: 1, text: "sprawdzaniu aplikacji przez klienta przed odbiorem" }, { id: 2, text: "badaniu działania aplikacji pod dużym obciążeniem" }, { id: 3, text: "sprawdzaniu poprawności działania pojedynczych funkcji lub metod w izolacji" }],
+                goodAnswer: 3
+            },
+            {
+                id: 112,
+                title: "Testy integracyjne sprawdzają:",
+                answers: [{ id: 0, text: "pojedyncze metody w izolacji" }, { id: 1, text: "poprawność współpracy połączonych modułów lub komponentów" }, { id: 2, text: "wyłącznie wygląd interfejsu" }, { id: 3, text: "szybkość kompilacji programu" }],
+                goodAnswer: 1
+            },
+            {
+                id: 113,
+                title: "Testy akceptacyjne mają na celu:",
+                answers: [{ id: 0, text: "sprawdzenie pojedynczej funkcji" }, { id: 1, text: "znalezienie wycieków pamięci" }, { id: 2, text: "sprawdzenie zgodności kodu z konwencją nazewnictwa" }, { id: 3, text: "potwierdzenie, że aplikacja spełnia wymagania i oczekiwania klienta" }],
+                goodAnswer: 3
+            },
+            {
+                id: 114,
+                title: "Testy obciążeniowe (wydajnościowe) sprawdzają:",
+                answers: [{ id: 0, text: "poprawność składni kodu" }, { id: 1, text: "zachowanie aplikacji przy dużej liczbie użytkowników lub dużej ilości danych" }, { id: 2, text: "zgodność dokumentacji z kodem" }, { id: 3, text: "czytelność interfejsu użytkownika" }],
+                goodAnswer: 1
+            },
+            {
+                id: 115,
+                title: "Testy regresyjne wykonuje się w celu:",
+                answers: [{ id: 0, text: "sprawdzenia, czy wprowadzone zmiany nie zepsuły wcześniej działających funkcji" }, { id: 1, text: "pierwszego uruchomienia nowej funkcji" }, { id: 2, text: "sprawdzenia aplikacji przez klienta" }, { id: 3, text: "zmierzenia zużycia energii" }],
+                goodAnswer: 0
+            },
+            {
+                id: 116,
+                title: "Testowanie metodą czarnej skrzynki polega na:",
+                answers: [{ id: 0, text: "sprawdzaniu działania programu na podstawie specyfikacji, bez znajomości kodu źródłowego" }, { id: 1, text: "analizie wszystkich ścieżek w kodzie źródłowym" }, { id: 2, text: "testowaniu wyłącznie bazy danych" }, { id: 3, text: "testowaniu sprzętu komputerowego" }],
+                goodAnswer: 0
+            },
+            {
+                id: 117,
+                title: "Testowanie metodą białej skrzynki polega na:",
+                answers: [{ id: 0, text: "projektowaniu testów na podstawie znajomości struktury kodu źródłowego" }, { id: 1, text: "testowaniu bez dostępu do kodu, tylko na podstawie specyfikacji" }, { id: 2, text: "testowaniu wyłącznie interfejsu graficznego" }, { id: 3, text: "testowaniu przez użytkowników końcowych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 118,
+                title: "Do czego służy asercja (assert) w testach jednostkowych?",
+                answers: [{ id: 0, text: "Sprawdza, czy spełniony jest oczekiwany warunek; jeśli nie, test kończy się niepowodzeniem" }, { id: 1, text: "Uruchamia aplikację w trybie produkcyjnym" }, { id: 2, text: "Tworzy kopię zapasową kodu" }, { id: 3, text: "Kompiluje kod źródłowy" }],
+                goodAnswer: 0
+            },
+            {
+                id: 119,
+                title: "Który framework służy do tworzenia testów jednostkowych w języku Java?",
+                answers: [{ id: 0, text: "Jest" }, { id: 1, text: "JUnit" }, { id: 2, text: "pytest" }, { id: 3, text: "PHPUnit" }],
+                goodAnswer: 1
+            },
+            {
+                id: 120,
+                title: "Do czego służy narzędzie Selenium?",
+                answers: [{ id: 0, text: "Do kompilacji kodu C++" }, { id: 1, text: "Do automatyzacji testów aplikacji internetowych w przeglądarce" }, { id: 2, text: "Do zarządzania bazą danych" }, { id: 3, text: "Do projektowania grafiki wektorowej" }],
+                goodAnswer: 1
+            },
+            {
+                id: 121,
+                title: "Punkt przerwania (breakpoint) w debuggerze służy do:",
+                answers: [{ id: 0, text: "zatrzymania wykonywania programu w wybranym miejscu kodu" }, { id: 1, text: "trwałego usunięcia linii kodu" }, { id: 2, text: "zakończenia działania programu z błędem" }, { id: 3, text: "kompilacji wybranego fragmentu kodu" }],
+                goodAnswer: 0
+            },
+            {
+                id: 122,
+                title: "Czym różni się polecenie Step Into od Step Over podczas debugowania?",
+                answers: [{ id: 0, text: "Step Over wchodzi do wnętrza funkcji, a Step Into ją pomija" }, { id: 1, text: "Step Into kończy debugowanie, a Step Over je rozpoczyna" }, { id: 2, text: "Oba polecenia działają identycznie" }, { id: 3, text: "Step Into wchodzi do wnętrza wywoływanej funkcji, a Step Over wykonuje ją w całości i przechodzi do następnej linii" }],
+                goodAnswer: 3
+            },
+            {
+                id: 123,
+                title: "Na czym polega podejście TDD (Test-Driven Development)?",
+                answers: [{ id: 0, text: "Testy pisze się dopiero po wdrożeniu aplikacji" }, { id: 1, text: "Najpierw pisze się test, a następnie kod, który sprawia, że test przechodzi" }, { id: 2, text: "Testy wykonuje wyłącznie klient" }, { id: 3, text: "Kod pisze się bez żadnych testów" }],
+                goodAnswer: 1
+            },
+            {
+                id: 124,
+                title: "Co powinna zawierać dokumentacja testów?",
+                answers: [{ id: 0, text: "Harmonogram wdrożenia i budżet projektu" }, { id: 1, text: "Specyfikację techniczną serwera" }, { id: 2, text: "Opis procedur testowych oraz wyniki przeprowadzonych testów" }, { id: 3, text: "Zalecenia dotyczące optymalizacji kodu" }],
+                goodAnswer: 2
+            },
+            {
+                id: 125,
+                title: "Obiekt typu mock w testach jednostkowych to:",
+                answers: [{ id: 0, text: "obiekt symulujący zachowanie rzeczywistej zależności (np. bazy danych) na potrzeby testu" }, { id: 1, text: "błąd wykryty podczas testów" }, { id: 2, text: "wersja produkcyjna aplikacji" }, { id: 3, text: "raport z wynikami testów" }],
+                goodAnswer: 0
+            },
+            {
+                id: 126,
+                title: "Co oznacza w języku polskim skrót RAD, odnoszący się do metodyki wytwarzania oprogramowania?",
+                answers: [{ id: 0, text: "Szybki rozwój aplikacji" }, { id: 1, text: "Zintegrowane środowisko deweloperskie" }, { id: 2, text: "Środowisko do tworzenia aplikacji" }, { id: 3, text: "Rozproszona analiza danych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 127,
+                title: "Która metoda zarządzania projektem jest najlepsza, gdy zakres projektu jest niejasny, a wymagania często się zmieniają?",
+                answers: [{ id: 0, text: "Model kaskadowy (Waterfall)" }, { id: 1, text: "Model V" }, { id: 2, text: "Agile" }, { id: 3, text: "PRINCE2" }],
+                goodAnswer: 2
+            },
+            {
+                id: 128,
+                title: "Czym jest sprint w metodyce Scrum?",
+                answers: [{ id: 0, text: "Spotkaniem podsumowującym cały projekt" }, { id: 1, text: "Dokumentem z listą wymagań" }, { id: 2, text: "Narzędziem do automatycznych testów" }, { id: 3, text: "Ograniczonym czasowo cyklem pracy (zwykle 1–4 tygodnie), w którym zespół wytwarza przyrost produktu" }],
+                goodAnswer: 3
+            },
+            {
+                id: 129,
+                title: "Która rola NIE występuje w metodyce Scrum?",
+                answers: [{ id: 0, text: "Product Owner" }, { id: 1, text: "Kierownik projektu (Project Manager)" }, { id: 2, text: "Scrum Master" }, { id: 3, text: "Developer (członek zespołu deweloperskiego)" }],
+                goodAnswer: 1
+            },
+            {
+                id: 130,
+                title: "Daily Scrum to:",
+                answers: [{ id: 0, text: "comiesięczne spotkanie z klientem" }, { id: 1, text: "dokument z listą błędów" }, { id: 2, text: "końcowa prezentacja produktu" }, { id: 3, text: "codzienne, krótkie (do 15 minut) spotkanie zespołu deweloperskiego" }],
+                goodAnswer: 3
+            },
+            {
+                id: 131,
+                title: "Product Backlog w metodyce Scrum to:",
+                answers: [{ id: 0, text: "lista błędów zgłoszonych przez testerów" }, { id: 1, text: "uporządkowana lista wymagań i zadań dotyczących produktu, zarządzana przez Product Ownera" }, { id: 2, text: "harmonogram urlopów zespołu" }, { id: 3, text: "archiwum ukończonych projektów" }],
+                goodAnswer: 1
+            },
+            {
+                id: 132,
+                title: "Model kaskadowy (Waterfall) charakteryzuje się tym, że:",
+                answers: [{ id: 0, text: "wszystkie etapy są realizowane równocześnie" }, { id: 1, text: "kolejne etapy są realizowane sekwencyjnie, a następny rozpoczyna się po zakończeniu poprzedniego" }, { id: 2, text: "wymagania mogą być dowolnie zmieniane w każdym momencie" }, { id: 3, text: "projekt jest realizowany w krótkich sprintach" }],
+                goodAnswer: 1
+            },
+            {
+                id: 133,
+                title: "Który model cyklu życia oprogramowania kładzie szczególny nacisk na analizę ryzyka w każdej iteracji?",
+                answers: [{ id: 0, text: "Model kaskadowy" }, { id: 1, text: "Model V" }, { id: 2, text: "Kanban" }, { id: 3, text: "Model spiralny" }],
+                goodAnswer: 3
+            },
+            {
+                id: 134,
+                title: "Na którym etapie cyklu życia oprogramowania tworzy się szczegółową specyfikację wymagań funkcjonalnych i niefunkcjonalnych?",
+                answers: [{ id: 0, text: "Wdrożenia" }, { id: 1, text: "Weryfikacji" }, { id: 2, text: "Konserwacji" }, { id: 3, text: "Analizy" }],
+                goodAnswer: 3
+            },
+            {
+                id: 135,
+                title: "Który zapis jest przykładem wymagania niefunkcjonalnego?",
+                answers: [{ id: 0, text: "Użytkownik może dodać produkt do koszyka" }, { id: 1, text: "Administrator może usunąć konto użytkownika" }, { id: 2, text: "System generuje fakturę po złożeniu zamówienia" }, { id: 3, text: "Aplikacja powinna uruchamiać się w czasie krótszym niż 2 sekundy" }],
+                goodAnswer: 3
+            },
+            {
+                id: 136,
+                title: "Diagram przypadków użycia UML przedstawia:",
+                answers: [{ id: 0, text: "aktorów oraz funkcje systemu widziane z perspektywy użytkownika" }, { id: 1, text: "strukturę klas wraz z polami i metodami" }, { id: 2, text: "kolejność przesyłania komunikatów między obiektami w czasie" }, { id: 3, text: "fizyczne rozmieszczenie serwerów" }],
+                goodAnswer: 0
+            },
+            {
+                id: 137,
+                title: "Diagram klas UML przedstawia:",
+                answers: [{ id: 0, text: "interakcje użytkownika z systemem" }, { id: 1, text: "klasy, ich atrybuty, metody oraz relacje między nimi" }, { id: 2, text: "harmonogram realizacji projektu" }, { id: 3, text: "przebieg algorytmu krok po kroku" }],
+                goodAnswer: 1
+            },
+            {
+                id: 138,
+                title: "Który diagram UML przedstawia wymianę komunikatów między obiektami w kolejności czasowej?",
+                answers: [{ id: 0, text: "Diagram klas" }, { id: 1, text: "Diagram przypadków użycia" }, { id: 2, text: "Diagram wdrożenia" }, { id: 3, text: "Diagram sekwencji" }],
+                goodAnswer: 3
+            },
+            {
+                id: 139,
+                title: "Co oznacza znak \"-\" przed nazwą atrybutu na diagramie klas UML?",
+                answers: [{ id: 0, text: "Atrybut publiczny (public)" }, { id: 1, text: "Atrybut chroniony (protected)" }, { id: 2, text: "Atrybut statyczny" }, { id: 3, text: "Atrybut prywatny (private)" }],
+                goodAnswer: 3
+            },
+            {
+                id: 140,
+                title: "Wzorzec projektowy Singleton:",
+                answers: [{ id: 0, text: "umożliwia tworzenie wielu kopii obiektu" }, { id: 1, text: "zapewnia, że klasa ma tylko jedną instancję i globalny punkt dostępu do niej" }, { id: 2, text: "dopasowuje interfejs jednej klasy do innej" }, { id: 3, text: "powiadamia obiekty o zmianie stanu" }],
+                goodAnswer: 1
+            },
+            {
+                id: 141,
+                title: "Jakie jest zadanie wzorca projektowego Obserwator (Observer)?",
+                answers: [{ id: 0, text: "Dostosowanie interfejsu do różnych grup użytkowników" }, { id: 1, text: "Monitorowanie interakcji użytkownika i wysyłanie wyjątków" }, { id: 2, text: "Zarządzanie funkcjami synchronicznymi" }, { id: 3, text: "Powiadamianie zależnych obiektów o zmianie stanu obiektu obserwowanego" }],
+                goodAnswer: 3
+            },
+            {
+                id: 142,
+                title: "Jaka jest główna idea wzorca projektowego Kompozyt (Composite)?",
+                answers: [{ id: 0, text: "Zapewnienie, że klasa ma tylko jedną instancję" }, { id: 1, text: "Umożliwienie traktowania pojedynczych obiektów i ich złożeń (drzew) w jednakowy sposób" }, { id: 2, text: "Dynamiczna zmiana zachowania obiektu w trakcie działania" }, { id: 3, text: "Definiowanie interfejsu komunikacji między serwerem a klientem" }],
+                goodAnswer: 1
+            },
+            {
+                id: 143,
+                title: "Wzorzec projektowy Dekorator służy do:",
+                answers: [{ id: 0, text: "tworzenia jedynej instancji klasy" }, { id: 1, text: "zapisywania obiektów do bazy danych" }, { id: 2, text: "usuwania nieużywanych obiektów" }, { id: 3, text: "dynamicznego dodawania obiektom nowych funkcjonalności bez modyfikowania ich klasy" }],
+                goodAnswer: 3
+            },
+            {
+                id: 144,
+                title: "Wzorzec projektowy Adapter służy do:",
+                answers: [{ id: 0, text: "zapewnienia jednej instancji klasy" }, { id: 1, text: "dopasowania interfejsu istniejącej klasy do interfejsu oczekiwanego przez klienta" }, { id: 2, text: "tworzenia obiektów bez wskazywania ich konkretnej klasy" }, { id: 3, text: "powiadamiania obiektów o zdarzeniach" }],
+                goodAnswer: 1
+            },
+            {
+                id: 145,
+                title: "Do której grupy wzorców projektowych należy wzorzec Metoda Wytwórcza (Factory Method)?",
+                answers: [{ id: 0, text: "Kreacyjnych" }, { id: 1, text: "Strukturalnych" }, { id: 2, text: "Behawioralnych (czynnościowych)" }, { id: 3, text: "Architektonicznych baz danych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 146,
+                title: "Z jakich elementów składa się wzorzec architektoniczny MVC?",
+                answers: [{ id: 0, text: "Model, Widok, Kontroler" }, { id: 1, text: "Moduł, Wartość, Klasa" }, { id: 2, text: "Metoda, Zmienna, Komponent" }, { id: 3, text: "Mapa, Wektor, Kolekcja" }],
+                goodAnswer: 0
+            },
+            {
+                id: 147,
+                title: "Pierwsza zasada SOLID (Single Responsibility Principle) mówi, że:",
+                answers: [{ id: 0, text: "klasa powinna być otwarta na modyfikacje" }, { id: 1, text: "każda klasa musi mieć jedną metodę" }, { id: 2, text: "klasa powinna mieć tylko jeden powód do zmiany (jedną odpowiedzialność)" }, { id: 3, text: "program powinien mieć tylko jedną klasę" }],
+                goodAnswer: 2
+            },
+            {
+                id: 148,
+                title: "Refaktoryzacja kodu to:",
+                answers: [{ id: 0, text: "dodawanie nowych funkcji do aplikacji" }, { id: 1, text: "usuwanie wszystkich komentarzy" }, { id: 2, text: "poprawa struktury i czytelności kodu bez zmiany jego zewnętrznego zachowania" }, { id: 3, text: "przepisanie programu na inny język" }],
+                goodAnswer: 2
+            },
+            {
+                id: 149,
+                title: "Czym jest ciągła integracja (Continuous Integration, CI)?",
+                answers: [{ id: 0, text: "Techniką przyrostowego tworzenia aplikacji mobilnych" }, { id: 1, text: "Częstym, automatycznym scalaniem zmian w kodzie ze wspólnym repozytorium połączonym z budowaniem i testami" }, { id: 2, text: "Ciągłym monitorowaniem wydajności aplikacji w produkcji" }, { id: 3, text: "Protokołem komunikacji między częściami aplikacji" }],
+                goodAnswer: 1
+            },
+            {
+                id: 150,
+                title: "Metoda Kanban polega przede wszystkim na:",
+                answers: [{ id: 0, text: "realizacji projektu w sztywnych, sekwencyjnych etapach" }, { id: 1, text: "wizualizacji przepływu pracy na tablicy z kolumnami i ograniczaniu liczby zadań w toku" }, { id: 2, text: "pisaniu testów przed kodem" }, { id: 3, text: "wyznaczaniu jednego kierownika do każdego zadania" }],
+                goodAnswer: 1
+            },
+            {
+                id: 151,
+                title: "Jaka jest główna funkcja narzędzi do zarządzania projektami (np. Jira, Trello)?",
+                answers: [{ id: 0, text: "Tworzenie animacji komputerowych" }, { id: 1, text: "Zarządzanie zadaniami i czasem realizacji projektu" }, { id: 2, text: "Zwiększanie wydajności kodu programu" }, { id: 3, text: "Projektowanie bazy danych projektu" }],
+                goodAnswer: 1
+            },
+            {
+                id: 152,
+                title: "Które narzędzie służy do kontroli wersji kodu źródłowego?",
+                answers: [{ id: 0, text: "Docker" }, { id: 1, text: "Jenkins" }, { id: 2, text: "Kubernetes" }, { id: 3, text: "Git" }],
+                goodAnswer: 3
+            },
+            {
+                id: 153,
+                title: "Do czego służy polecenie git commit?",
+                answers: [{ id: 0, text: "Wysyła zmiany do zdalnego repozytorium" }, { id: 1, text: "Pobiera repozytorium z serwera" }, { id: 2, text: "Zapisuje zmiany z poczekalni (staging area) w historii lokalnego repozytorium" }, { id: 3, text: "Usuwa gałąź" }],
+                goodAnswer: 2
+            },
+            {
+                id: 154,
+                title: "Do czego służy polecenie git push?",
+                answers: [{ id: 0, text: "Pobiera zmiany ze zdalnego repozytorium" }, { id: 1, text: "Wysyła lokalne commity do zdalnego repozytorium" }, { id: 2, text: "Tworzy nowe lokalne repozytorium" }, { id: 3, text: "Dodaje pliki do poczekalni" }],
+                goodAnswer: 1
+            },
+            {
+                id: 155,
+                title: "Które polecenie tworzy nową gałąź o nazwie nowa i od razu się na nią przełącza?",
+                answers: [{ id: 0, text: "git branch -d nowa" }, { id: 1, text: "git merge nowa" }, { id: 2, text: "git checkout -b nowa" }, { id: 3, text: "git push nowa" }],
+                goodAnswer: 2
+            },
+            {
+                id: 156,
+                title: "Do czego służy plik .gitignore?",
+                answers: [{ id: 0, text: "Określa pliki i katalogi, które Git ma pomijać" }, { id: 1, text: "Przechowuje hasło do repozytorium" }, { id: 2, text: "Zawiera historię wszystkich commitów" }, { id: 3, text: "Określa autora repozytorium" }],
+                goodAnswer: 0
+            },
+            {
+                id: 157,
+                title: "Które środowisko programistyczne jest najczęściej używane do tworzenia aplikacji na system Android?",
+                answers: [{ id: 0, text: "Xcode" }, { id: 1, text: "PyCharm" }, { id: 2, text: "Android Studio" }, { id: 3, text: "Adobe Dreamweaver" }],
+                goodAnswer: 2
+            },
+            {
+                id: 158,
+                title: "Do czego wykorzystuje się język Swift?",
+                answers: [{ id: 0, text: "Do tworzenia aplikacji na systemy iOS i macOS" }, { id: 1, text: "Do tworzenia aplikacji na Androida" }, { id: 2, text: "Do zarządzania bazami danych" }, { id: 3, text: "Do testowania aplikacji mobilnych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 159,
+                title: "Który język programowania jest najczęściej stosowany razem z interfejsem zapisanym w XAML (np. WPF, .NET MAUI)?",
+                answers: [{ id: 0, text: "Java" }, { id: 1, text: "C++" }, { id: 2, text: "Objective-C" }, { id: 3, text: "C#" }],
+                goodAnswer: 3
+            },
+            {
+                id: 160,
+                title: "Który framework umożliwia tworzenie wieloplatformowych aplikacji mobilnych i desktopowych w języku C#?",
+                answers: [{ id: 0, text: ".NET MAUI" }, { id: 1, text: "Django" }, { id: 2, text: "Laravel" }, { id: 3, text: "Spring" }],
+                goodAnswer: 0
+            },
+            {
+                id: 161,
+                title: "Do czego służy plik AndroidManifest.xml w projekcie aplikacji Android?",
+                answers: [{ id: 0, text: "Zawiera kod źródłowy głównej aktywności" }, { id: 1, text: "Przechowuje obrazy używane w aplikacji" }, { id: 2, text: "Zawiera wyniki testów jednostkowych" }, { id: 3, text: "Opisuje komponenty aplikacji (np. aktywności) i wymagane uprawnienia" }],
+                goodAnswer: 3
+            },
+            {
+                id: 162,
+                title: "Czym jest Activity (aktywność) w systemie Android?",
+                answers: [{ id: 0, text: "Usługą działającą w tle bez interfejsu" }, { id: 1, text: "Plikiem z danymi aplikacji" }, { id: 2, text: "Biblioteką graficzną" }, { id: 3, text: "Pojedynczym ekranem aplikacji z interfejsem użytkownika" }],
+                goodAnswer: 3
+            },
+            {
+                id: 163,
+                title: "Jak układa elementy kontener LinearLayout w systemie Android?",
+                answers: [{ id: 0, text: "Jeden za drugim, w jednym wierszu lub w jednej kolumnie" }, { id: 1, text: "W siatce o dowolnej liczbie wierszy i kolumn" }, { id: 2, text: "Jeden na drugim, nakładając je" }, { id: 3, text: "Losowo na ekranie" }],
+                goodAnswer: 0
+            },
+            {
+                id: 164,
+                title: "Czym różni się okno modalne od niemodalnego?",
+                answers: [{ id: 0, text: "Okno modalne umożliwia pracę z innymi oknami, a niemodalne nie" }, { id: 1, text: "Okno modalne działa wyłącznie w tle" }, { id: 2, text: "Okna modalne występują tylko w aplikacjach konsolowych" }, { id: 3, text: "Okno modalne trzeba zamknąć przed powrotem do okna głównego, a niemodalne nie blokuje innych okien" }],
+                goodAnswer: 3
+            },
+            {
+                id: 165,
+                title: "Które zdarzenie zachodzi, gdy element interfejsu traci fokus?",
+                answers: [{ id: 0, text: "focus" }, { id: 1, text: "blur" }, { id: 2, text: "keyup" }, { id: 3, text: "click" }],
+                goodAnswer: 1
+            },
+            {
+                id: 166,
+                title: "Które zdarzenie kontrolki ComboBox w WPF jest wywoływane po wybraniu innej pozycji z listy?",
+                answers: [{ id: 0, text: "LostFocus" }, { id: 1, text: "SelectionChanged" }, { id: 2, text: "DragEnter" }, { id: 3, text: "KeyDown" }],
+                goodAnswer: 1
+            },
+            {
+                id: 167,
+                title: "Która kontrolka pozwala wybrać dokładnie jedną opcję z grupy wzajemnie wykluczających się opcji?",
+                answers: [{ id: 0, text: "CheckBox" }, { id: 1, text: "Slider" }, { id: 2, text: "RadioButton" }, { id: 3, text: "ProgressBar" }],
+                goodAnswer: 2
+            },
+            {
+                id: 168,
+                title: "Czym różni się kompilacja od interpretacji?",
+                answers: [{ id: 0, text: "Kompilacja jest stosowana wyłącznie w programowaniu obiektowym" }, { id: 1, text: "Kompilacja wymaga użycia debuggera" }, { id: 2, text: "Kompilacja tłumaczy cały kod źródłowy przed uruchomieniem, a interpretacja tłumaczy i wykonuje kod na bieżąco" }, { id: 3, text: "Interpretacja tworzy plik wykonywalny .exe" }],
+                goodAnswer: 2
+            },
+            {
+                id: 169,
+                title: "Biblioteka statyczna:",
+                answers: [{ id: 0, text: "jest ładowana do pamięci dopiero w trakcie działania programu" }, { id: 1, text: "może być modyfikowana w trakcie działania programu" }, { id: 2, text: "nie wymaga istnienia pliku wykonywalnego" }, { id: 3, text: "jest dołączana do pliku wykonywalnego na etapie kompilacji (linkowania)" }],
+                goodAnswer: 3
+            },
+            {
+                id: 170,
+                title: "Kod źródłowy w języku Java jest kompilowany do kodu bajtowego, który jest wykonywany przez:",
+                answers: [{ id: 0, text: "przeglądarkę internetową" }, { id: 1, text: "interpreter Pythona" }, { id: 2, text: "maszynę wirtualną Javy (JVM)" }, { id: 3, text: "środowisko .NET CLR" }],
+                goodAnswer: 2
+            },
+            {
+                id: 171,
+                title: "Jaka jest reprezentacja liczby -5 w kodzie uzupełnień do dwóch (U2) na 8 bitach?",
+                answers: [{ id: 0, text: "00000101" }, { id: 1, text: "11111101" }, { id: 2, text: "10000101" }, { id: 3, text: "11111011" }],
+                goodAnswer: 3
+            },
+            {
+                id: 172,
+                title: "Liczba binarna 10101101 zapisana w systemie dziesiętnym to:",
+                answers: [{ id: 0, text: "171" }, { id: 1, text: "173" }, { id: 2, text: "181" }, { id: 3, text: "157" }],
+                goodAnswer: 1
+            },
+            {
+                id: 173,
+                title: "Liczba dziesiętna 255 zapisana w systemie szesnastkowym to:",
+                answers: [{ id: 0, text: "FE" }, { id: 1, text: "EF" }, { id: 2, text: "FF" }, { id: 3, text: "100" }],
+                goodAnswer: 2
+            },
+            {
+                id: 174,
+                title: "Liczba szesnastkowa 1F zapisana w systemie dziesiętnym to:",
+                answers: [{ id: 0, text: "15" }, { id: 1, text: "32" }, { id: 2, text: "31" }, { id: 3, text: "16" }],
+                goodAnswer: 2
+            },
+            {
+                id: 175,
+                title: "Który element procesora odpowiada za obliczenia na liczbach zmiennoprzecinkowych?",
+                answers: [{ id: 0, text: "ALU" }, { id: 1, text: "IU" }, { id: 2, text: "AGU" }, { id: 3, text: "FPU" }],
+                goodAnswer: 3
+            },
+            {
+                id: 176,
+                title: "Jaki jest pierwszy etap cyklu przetwarzania rozkazu przez procesor?",
+                answers: [{ id: 0, text: "Dekodowanie (Decode)" }, { id: 1, text: "Wykonanie (Execute)" }, { id: 2, text: "Zapis wyniku (Write Back)" }, { id: 3, text: "Pobranie rozkazu (Fetch)" }],
+                goodAnswer: 3
+            },
+            {
+                id: 177,
+                title: "Gdzie znajduje się pamięć przydzielona w języku C++ za pomocą operatora new?",
+                answers: [{ id: 0, text: "Na stercie (heap)" }, { id: 1, text: "Na stosie (stack)" }, { id: 2, text: "W rejestrze procesora" }, { id: 3, text: "W pamięci ROM" }],
+                goodAnswer: 0
+            },
+            {
+                id: 178,
+                title: "W jakiej sytuacji należy ułożyć poszkodowanego w pozycji bocznej bezpiecznej?",
+                answers: [{ id: 0, text: "Gdy jest przytomny i ma złamaną kończynę" }, { id: 1, text: "Gdy ma krwotok zewnętrzny" }, { id: 2, text: "Gdy jest nieprzytomny, ale oddycha" }, { id: 3, text: "Gdy nie oddycha" }],
+                goodAnswer: 2
+            },
+            {
+                id: 179,
+                title: "Jaki jest stosunek liczby uciśnięć klatki piersiowej do oddechów ratowniczych podczas resuscytacji osoby dorosłej?",
+                answers: [{ id: 0, text: "15:2" }, { id: 1, text: "30:2" }, { id: 2, text: "5:1" }, { id: 3, text: "30:5" }],
+                goodAnswer: 1
+            },
+            {
+                id: 180,
+                title: "Co należy zrobić w pierwszej kolejności, udzielając pomocy osobie porażonej prądem elektrycznym?",
+                answers: [{ id: 0, text: "Odłączyć źródło prądu, zachowując własne bezpieczeństwo" }, { id: 1, text: "Natychmiast dotknąć poszkodowanego, aby go odciągnąć" }, { id: 2, text: "Podać poszkodowanemu wodę do picia" }, { id: 3, text: "Ułożyć poszkodowanego na brzuchu" }],
+                goodAnswer: 0
+            },
+            {
+                id: 181,
+                title: "Jaka powinna być odległość oczu od ekranu monitora na stanowisku komputerowym zgodnie z przepisami BHP?",
+                answers: [{ id: 0, text: "10–20 cm" }, { id: 1, text: "20–30 cm" }, { id: 2, text: "100–150 cm" }, { id: 3, text: "40–75 cm" }],
+                goodAnswer: 3
+            },
+            {
+                id: 182,
+                title: "Ile co najmniej trwa przerwa przysługująca pracownikowi po każdej godzinie pracy przy monitorze ekranowym?",
+                answers: [{ id: 0, text: "1 minuta" }, { id: 1, text: "5 minut" }, { id: 2, text: "15 minut" }, { id: 3, text: "30 minut" }],
+                goodAnswer: 1
+            },
+            {
+                id: 183,
+                title: "Jakie są skutki długotrwałego narażenia na hałas w miejscu pracy?",
+                answers: [{ id: 0, text: "Pogorszenie ostrości wzroku" }, { id: 1, text: "Choroby skóry" }, { id: 2, text: "Uszkodzenie słuchu i zmęczenie" }, { id: 3, text: "Wzrost efektywności pracy" }],
+                goodAnswer: 2
+            },
+            {
+                id: 184,
+                title: "Które rozwiązanie pomaga zapobiegać zmęczeniu wzroku podczas pracy przy komputerze?",
+                answers: [{ id: 0, text: "Filtr antyrefleksyjny na ekranie i właściwe oświetlenie" }, { id: 1, text: "Słuchawki wygłuszające" }, { id: 2, text: "Ergonomiczna podkładka pod nadgarstek" }, { id: 3, text: "Stała temperatura w biurze" }],
+                goodAnswer: 0
+            },
+            {
+                id: 185,
+                title: "Które rozwiązanie najlepiej chroni kręgosłup podczas wielogodzinnej pracy biurowej?",
+                answers: [{ id: 0, text: "Słuchawki wygłuszające" }, { id: 1, text: "Regulowane krzesło i biurko dopasowane do pracownika" }, { id: 2, text: "Filtr prywatyzujący na monitorze" }, { id: 3, text: "Klawiatura bezprzewodowa" }],
+                goodAnswer: 1
+            },
+            {
+                id: 186,
+                title: "Licencja GNU GPL:",
+                answers: [{ id: 0, text: "zabrania jakiejkolwiek modyfikacji kodu" }, { id: 1, text: "pozwala na używanie programu tylko przez 30 dni" }, { id: 2, text: "pozwala zamknąć kod dzieła pochodnego i sprzedawać go bez udostępniania źródeł" }, { id: 3, text: "pozwala modyfikować i rozpowszechniać program, pod warunkiem udostępnienia kodu dzieł pochodnych na tej samej licencji" }],
+                goodAnswer: 3
+            },
+            {
+                id: 187,
+                title: "Oprogramowanie typu freeware:",
+                answers: [{ id: 0, text: "zawsze udostępnia kod źródłowy do modyfikacji" }, { id: 1, text: "można używać tylko przez okres próbny" }, { id: 2, text: "jest dostępne wyłącznie dla firm" }, { id: 3, text: "można używać bezpłatnie, ale zwykle bez prawa do modyfikacji kodu źródłowego" }],
+                goodAnswer: 3
+            },
+            {
+                id: 188,
+                title: "Licencja MIT:",
+                answers: [{ id: 0, text: "wymaga udostępnienia kodu dzieł pochodnych na tej samej licencji" }, { id: 1, text: "zabrania komercyjnego wykorzystania kodu" }, { id: 2, text: "pozwala używać programu tylko przez 30 dni" }, { id: 3, text: "jest licencją permisywną pozwalającą na dowolne użycie kodu pod warunkiem zachowania informacji o autorze i licencji" }],
+                goodAnswer: 3
+            },
+            {
+                id: 189,
+                title: "Które prawa twórcy programu są niezbywalne i nieograniczone w czasie?",
+                answers: [{ id: 0, text: "Autorskie prawa majątkowe" }, { id: 1, text: "Prawa licencyjne" }, { id: 2, text: "Prawa patentowe" }, { id: 3, text: "Autorskie prawa osobiste" }],
+                goodAnswer: 3
+            },
+            {
+                id: 190,
+                title: "Czego dotyczy rozporządzenie RODO?",
+                answers: [{ id: 0, text: "Ochrony praw autorskich do programów" }, { id: 1, text: "Ochrony danych osobowych" }, { id: 2, text: "Zasad BHP przy komputerze" }, { id: 3, text: "Podatków od sprzedaży oprogramowania" }],
+                goodAnswer: 1
+            },
+            {
+                id: 191,
+                title: "Jaki jest główny cel ataku typu phishing?",
+                answers: [{ id: 0, text: "Wyłudzenie danych (np. haseł) przez podszywanie się pod zaufane strony lub osoby" }, { id: 1, text: "Zakłócenie działania sieci nadmiarem żądań" }, { id: 2, text: "Kradzież haseł bezpośrednio z pamięci RAM" }, { id: 3, text: "Fizyczne zablokowanie dostępu do usług internetowych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 192,
+                title: "Atak DDoS polega na:",
+                answers: [{ id: 0, text: "podsłuchiwaniu transmisji w sieci Wi-Fi" }, { id: 1, text: "przeciążeniu serwera ogromną liczbą żądań wysyłanych z wielu źródeł" }, { id: 2, text: "wyłudzaniu haseł przez fałszywe e-maile" }, { id: 3, text: "wstrzykiwaniu kodu SQL do formularzy" }],
+                goodAnswer: 1
+            },
+            {
+                id: 193,
+                title: "Jak bezpiecznie przechowywać hasła użytkowników w bazie danych?",
+                answers: [{ id: 0, text: "Jako jawny tekst" }, { id: 1, text: "Jako skrót (hash) z solą, wyliczony algorytmem przeznaczonym do haseł, np. bcrypt" }, { id: 2, text: "Zakodowane w Base64" }, { id: 3, text: "Jako skrót MD5 bez soli" }],
+                goodAnswer: 1
+            },
+            {
+                id: 194,
+                title: "Która zasada należy do netykiety?",
+                answers: [{ id: 0, text: "Unikanie pisania wielkimi literami" }, { id: 1, text: "Ignorowanie wiadomości innych użytkowników" }, { id: 2, text: "Używanie nieformalnego języka w każdej rozmowie" }, { id: 3, text: "Udostępnianie cudzych treści bez zgody autora" }],
+                goodAnswer: 0
+            },
+            {
+                id: 195,
+                title: "Która cecha jest pożądana u dobrego negocjatora?",
+                answers: [{ id: 0, text: "Przechwalanie się" }, { id: 1, text: "Myślenie wyłącznie o sobie" }, { id: 2, text: "Spokój i opanowanie" }, { id: 3, text: "Brak pewności siebie" }],
+                goodAnswer: 2
+            },
+            {
+                id: 196,
+                title: "Jakie są cztery główne zasady dostępności treści internetowych WCAG 2.0?",
+                answers: [{ id: 0, text: "Postrzegalność, funkcjonalność, zrozumiałość, solidność" }, { id: 1, text: "Ewolucyjność, interaktywność, efektywność, szybkość" }, { id: 2, text: "Elastyczność, prostota, przejrzystość, trwałość" }, { id: 3, text: "Adaptacyjność, natychmiastowość, mobilność, kolorystyka" }],
+                goodAnswer: 0
+            },
+            {
+                id: 197,
+                title: "Do czego służy atrybut alt znacznika <img> w kontekście dostępności?",
+                answers: [{ id: 0, text: "Określa szerokość obrazu" }, { id: 1, text: "Wyświetla obraz w nowym oknie" }, { id: 2, text: "Dodaje animację do obrazu" }, { id: 3, text: "Zawiera tekst alternatywny opisujący obraz, odczytywany m.in. przez czytniki ekranu" }],
+                goodAnswer: 3
+            },
+            {
+                id: 198,
+                title: "Burza mózgów to technika, która polega na:",
+                answers: [{ id: 0, text: "wyborze jednego rozwiązania przez kierownika" }, { id: 1, text: "indywidualnym pisaniu raportu" }, { id: 2, text: "głosowaniu nad gotowymi propozycjami bez dyskusji" }, { id: 3, text: "swobodnym zgłaszaniu w grupie jak największej liczby pomysłów bez ich krytykowania" }],
+                goodAnswer: 3
+            },
+            {
+                id: 199,
+                title: "Postawa asertywna polega na:",
+                answers: [{ id: 0, text: "narzucaniu innym własnego zdania" }, { id: 1, text: "wyrażaniu własnych opinii i potrzeb z szacunkiem dla innych" }, { id: 2, text: "unikaniu wyrażania swojego zdania" }, { id: 3, text: "zgadzaniu się na wszystkie prośby" }],
+                goodAnswer: 1
             }
         ],
-        available: false
+        available: true
     }
 ]
 
