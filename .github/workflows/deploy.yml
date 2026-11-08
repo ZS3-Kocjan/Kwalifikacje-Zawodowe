@@ -1,8 +1,11 @@
-name: Deploy Vite App to GitHub Pages
+name: Deploy Vite to GitHub Pages
 
 on:
     push:
         branches: [main]
+        paths:
+            - "packages/web-site/**"
+            - ".github/workflows/deploy.yml"
     workflow_dispatch:
 
 permissions:
@@ -17,6 +20,9 @@ concurrency:
 jobs:
     build:
         runs-on: ubuntu-latest
+        defaults:
+            run:
+                working-directory: page/vite
         steps:
             - name: Checkout
               uses: actions/checkout@v5
@@ -26,6 +32,7 @@ jobs:
               with:
                   node-version: lts/*
                   cache: npm
+                  cache-dependency-path: packages/web-site/package-lock.json
 
             - name: Install dependencies
               run: npm ci
@@ -33,13 +40,13 @@ jobs:
             - name: Build
               run: npm run build
 
-            - name: Pages configuration
+            - name: Configure Pages
               uses: actions/configure-pages@v5
 
-            - name: Upload page
+            - name: Upload artifact
               uses: actions/upload-pages-artifact@v4
               with:
-                  path: ./dist
+                  path: ./packages/web-site/dist
 
     deploy:
         needs: build
