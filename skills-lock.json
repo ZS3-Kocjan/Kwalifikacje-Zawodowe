@@ -43,6 +43,12 @@
       "skillPath": "skills/ponytail-review/SKILL.md",
       "computedHash": "e090103216f0452e05672991a81078e27316a6b8d468b19e7107934606cfc122"
     },
+    "shieldcn-badges": {
+      "source": "jal-co/shieldcn",
+      "sourceType": "github",
+      "skillPath": "skills/shieldcn-badges/SKILL.md",
+      "computedHash": "fb7d0a39094e63a060c5c9271b1056eb1e630101cf62581d75f2d3690d84e75b"
+    },
     "vercel-react-best-practices": {
       "source": "vercel-labs/agent-skills",
       "sourceType": "github",
