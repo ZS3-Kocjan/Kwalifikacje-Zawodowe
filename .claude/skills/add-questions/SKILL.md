@@ -1,9 +1,9 @@
 ---
-name: exam-questions
+name: add-questions
 description: Write and repair the multiple-choice questions of the Kwalifikacje Zawodowe quiz, kept in packages/web-site/src/data/data.js. Use whenever questions are added to a qualification (INF.03, INF.04), a new qualification is added, or existing questions are reviewed, corrected, deduplicated or improved - wording, distractors, answer keys, code formatting. Use for requests such as "dodaj pytania", "dodaj 50 pytań do INF.04", "popraw pytania", "popraw jakość pytań", "sprawdź pytania", "dodaj kwalifikację", "add questions", "improve the questions", and before any edit of question text or answers in data.js.
 ---
 
-# Exam questions
+# Add questions
 
 Students use this bank to prepare for a real exam, so a wrong answer key or a question that can be guessed does harm. Prefer fewer, verified questions over many doubtful ones.
 
@@ -12,10 +12,10 @@ Students use this bank to prepare for a real exam, so a wrong answer key or a qu
 Run from the repository root:
 
 ```bash
-node .claude/skills/exam-questions/scripts/check-questions.mjs                  # errors and quality numbers for every qualification
-node .claude/skills/exam-questions/scripts/check-questions.mjs INF.04           # also lists the questions behind each number
-node .claude/skills/exam-questions/scripts/check-questions.mjs INF.04 200       # the same, for questions with id >= 200 only
-node .claude/skills/exam-questions/scripts/check-questions.mjs --titles INF.04  # id, title and correct answer of every question
+node .claude/skills/add-questions/scripts/check-questions.mjs                  # errors and quality numbers for every qualification
+node .claude/skills/add-questions/scripts/check-questions.mjs INF.04           # also lists the questions behind each number
+node .claude/skills/add-questions/scripts/check-questions.mjs INF.04 200       # the same, for questions with id >= 200 only
+node .claude/skills/add-questions/scripts/check-questions.mjs --titles INF.04  # id, title and correct answer of every question
 node packages/web-site/scripts/check-code-marks.js                              # unbalanced backticks
 ```
 
