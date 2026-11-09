@@ -9,7 +9,7 @@ Aplikacja webowa dla uczniów zdających w naszej szkole kwalifikacje zawodowe.
 
 <div align="center">
 
-[Kwalifikacje Zawodowe](https://zs3-kocjan.github.io/Kwalifikacje-Zawodowe) · [Autor](https://github.com/Collappo)
+[Stronka](https://zs3-kocjan.github.io/Kwalifikacje-Zawodowe) · [Autor](https://github.com/Collappo)
 
 </div>
 
