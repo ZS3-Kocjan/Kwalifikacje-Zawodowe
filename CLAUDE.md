@@ -21,7 +21,7 @@ npm run lint
 node scripts/check-code-marks.js   # parser asserts plus an unbalanced-backtick check over every question
 ```
 
-There is no test runner. `check-code-marks.js` is the only automated check, so run it after editing question data.
+There is no test runner. To add or rewrite questions, use the `exam-questions` skill. After editing question data, run `check-code-marks.js` and the skill's checker, from the repository root: `node .claude/skills/exam-questions/scripts/check-questions.mjs`.
 
 Deployment happens in CI: on pushes to `main` touching `packages/web-site/**` or the workflow itself, `.github/workflows/deploy.yml` runs `npm ci` and `npm run build`, then publishes `dist` to GitHub Pages. CI runs neither lint nor the check script. `npm run deploy` (`gh-pages -d dist`) also exists, but it pushes a `gh-pages` branch, which is not what the workflow publishes.
 
