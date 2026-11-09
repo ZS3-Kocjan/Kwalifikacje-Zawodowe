@@ -46,12 +46,14 @@ npm i
 ## Uruchomienie
 
 ```bash
+# w (ścieżce Kwalifikacje-Zawodowe/packages/web-site)
 npm run dev
 ```
 
 ## Budowanie
 
 ```bash
+# w (ścieżce Kwalifikacje-Zawodowe/packages/web-site)
 npm run build
 ```
 
