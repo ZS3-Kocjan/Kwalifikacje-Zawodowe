@@ -17,7 +17,11 @@ Students use this bank to prepare for a real exam, so a wrong answer key or a qu
 - `id` continues the qualification's own sequence, which starts at 0. Give exactly four answers with `id` 0 to 3 in order. `goodAnswer` is the index of the correct one.
 - Append new questions at the end of the qualification's `questions` array. Do not reorder or renumber existing questions. To drop a question, replace it in place with a new one, so ids stay sequential.
 - Change only the lines of the questions being worked on. For many questions, build the lines with a script (`JSON.stringify` for the strings) and insert them by exact string replacement. Never regenerate the file. Keep its line endings.
-- Mark code. Single backticks are for names, keywords, tags, operators and short expressions. A fence, written as in the title above, is for whole statements, CSS declarations and multi-line snippets, with `\n\n` between it and the prose. A title never starts with a fence. The full rules are in CLAUDE.md under "Code marks in question text".
+- Mark code with the two marks the app renders:
+    - Single backticks are for names, keywords, tags, attributes, selectors, operators, single calls and short expressions.
+    - A fence, written as in the title above, is for whole statements, CSS declarations and multi-line snippets, with `\n\n` between it and the prose. It can sit in the middle of a sentence: `` "W CSS właściwość\n\n```\ndisplay: none;\n```\n\npowoduje:" ``. A title never starts with a fence.
+    - No other Markdown works. Bold, lists and headings appear as literal characters.
+    - Terms that are not code stay plain, such as `'favicon'` or `'Ctrl+Z'`.
 
 ## What a good question looks like
 
