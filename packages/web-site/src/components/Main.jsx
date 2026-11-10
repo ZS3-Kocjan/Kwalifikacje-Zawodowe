@@ -29,18 +29,6 @@ function Main() {
                 each: 0.1,
             }
         }, 1);
-
-        const hideMenu = () => {
-            gsap.to(splitText.lines, {
-                autoAlpha: 0,
-                yPercent: 50,
-                duration: 1,
-                ease: "power3.out",
-                stagger: {
-                    each: 0.1,
-                }
-            }, 1);
-        }
     })
 
 
