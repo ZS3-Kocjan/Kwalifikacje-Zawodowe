@@ -1,7 +1,7 @@
 import React from 'react'
 import Answer from './Answer'
 import FormattedText from './FormattedText'
-import { Sparkle } from 'lucide-react'
+import { Check, Sparkle, X } from 'lucide-react'
 
 
 function Question({ number, title, answers, goodAnswer, userAnswer, checkAnswer }) {
@@ -25,19 +25,23 @@ function Question({ number, title, answers, goodAnswer, userAnswer, checkAnswer 
             >
                 {answers.map((e, i) => {
                     let afterClicked = `ring-1 ring-white/5 pointer bg-white/80 hover:bg-black/50 hover:text-white/80 ease-in-out duration-250`
+                    // An icon as well as the colour, so red-green colour-blind students can tell them apart.
+                    let icon = null
                     if (userAnswer != null) {
                         if (i === goodAnswer) {
                             afterClicked = `bg-emerald-400 ring ring-emerald-400 disabled ease-in-out duration-250`
+                            icon = Check
                         }
                         else if (i === userAnswer) {
                             afterClicked = `bg-red-400 ring ring-red-500/50 disabled ease-in-out duration-250`
+                            icon = X
                         }
 
                         else {
                             afterClicked = `ring-1 ring-white/5 disabled bg-white/30 ease-in-out duration-250`
                         }
                     }
-                    return <Answer key={i} text={e.text} checkAnswer={() => checkAnswer(i)} afterClicked={afterClicked} />
+                    return <Answer key={i} text={e.text} icon={icon} checkAnswer={() => checkAnswer(i)} afterClicked={afterClicked} />
                 })}
             </div>
         </div>
