@@ -37,11 +37,12 @@ packages/web-site/               The only package
   vite.config.js                 React and Tailwind plugins; `base: "/Kwalifikacje-Zawodowe"`
   eslint.config.js               Flat config; unused vars starting with a capital or _ are allowed
   public/cursor*.png             Custom cursor images used by index.css
+  public/Inter-*.ttf             Self-hosted Inter variable font (upright only), used by index.css
   scripts/check-code-marks.js    Assert-based check of the parser and all question text
   src/
     main.jsx                     React root, without StrictMode
     App.jsx                      Page shell and dark background: Header, Main, Footer
-    index.css                    Tailwind import, :root styles, .pointer, .disabled, .text-shadow, .clip-text
+    index.css                    Tailwind import, Inter @font-face, :root styles, .pointer, .disabled, .text-shadow, .clip-text
     data/data.js                 The entire question bank
     scripts/splitCode.js         Splits a string into plain text and code parts
     components/

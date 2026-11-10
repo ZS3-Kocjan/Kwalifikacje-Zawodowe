@@ -1,5 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
+
+/* Self-hosted, so visitors' IP addresses are not sent to Google. */
+@font-face {
+  font-family: "Inter";
+  src: url("/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --text: #ffffff;
