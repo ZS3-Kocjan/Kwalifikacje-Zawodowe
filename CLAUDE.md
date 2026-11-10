@@ -95,10 +95,6 @@ The file is about 3,600 lines, so search it instead of reading it whole. Each qu
 
 Formatting must not give the answer away. If only the correct option would carry code marks, or only it would lack them, leave all of that question's options unmarked.
 
-## Known issues
-
-- In `index.css`, `--primary` has no closing semicolon, so it swallows the `font:` declaration after it. The Inter font is imported, but those root font settings are not applied. `var(--bg)` is also never defined.
-
 ## Conventions
 
 UI text and questions are in Polish. Commit messages are in English: a short imperative with a capital first letter, for example ``Update `README.md` ``. Files in `components/` hold one default-exported function component, with 4-space indentation.
