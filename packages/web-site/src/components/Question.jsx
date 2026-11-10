@@ -1,4 +1,3 @@
-import React from 'react'
 import Answer from './Answer'
 import FormattedText from './FormattedText'
 import { Check, Sparkle, X } from 'lucide-react'

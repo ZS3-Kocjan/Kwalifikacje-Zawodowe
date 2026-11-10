@@ -1,4 +1,3 @@
-import React from 'react'
 import { splitCode } from '../scripts/splitCode'
 
 function FormattedText({ text }) {

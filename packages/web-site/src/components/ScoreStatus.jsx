@@ -1,5 +1,4 @@
-import { ClipboardPen, Percent } from 'lucide-react'
-import React from 'react'
+import { ClipboardPen } from 'lucide-react'
 
 function ScoreStatus({ doneQuestions, questionsAmount, points }) {
     return (

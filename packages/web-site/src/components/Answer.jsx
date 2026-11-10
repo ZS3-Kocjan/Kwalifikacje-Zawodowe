@@ -1,4 +1,3 @@
-import React from 'react'
 import FormattedText from './FormattedText'
 
 function Answer({ text, icon: Icon, checkAnswer, afterClicked }) {

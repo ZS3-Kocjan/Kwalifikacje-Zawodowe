@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { SplitText } from 'gsap/all'
 import { BookMarked, GraduationCap } from 'lucide-react'
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 
 function Header() {
     const titleRef = useRef(null)

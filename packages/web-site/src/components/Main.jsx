@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import data from '../data/data'
 import Card from './Card'
 import gsap from 'gsap'
