@@ -8,10 +8,8 @@ import Question from './Question'
 import ScoreStatus from './ScoreStatus'
 
 function Main() {
-    const [questions, setQuestions] = useState([])
-    const [shuffledQuestions, setShuffledQuestions] = useState([])
-    const [answers, setAnswers] = useState([])
-    const [points, setPoints] = useState(0)
+    // The 40 drawn questions, each with the student's answer (null until answered).
+    const [quiz, setQuiz] = useState([])
     const textRef = useRef()
 
     useGSAP(() => {
@@ -33,15 +31,7 @@ function Main() {
 
 
     function choiceQualification(questions) {
-        const shuffled = shuffle40Questions(questions)
-        setQuestions(questions)
-        setShuffledQuestions(shuffled)
-        setAnswers(shuffled.map(e => (
-            {
-                id: e.id,
-                userAnswer: null
-            }
-        )))
+        setQuiz(shuffle40Questions(questions).map(q => ({ ...q, userAnswer: null })))
     }
 
     function shuffle40Questions(questions) {
@@ -49,19 +39,16 @@ function Main() {
         return shuffled.slice(0, 40)
     }
 
-    function checkAnswer(id, answer, goodAnswer, savedAnswer) {
-        if (savedAnswer.userAnswer != null) return;
-        setAnswers(prev => (prev.map(e => (e.id === id ? { ...e, userAnswer: answer } : e))))
-        if (answer === goodAnswer) {
-            setPoints(prev => prev + 1)
-            return true;
-        }
-        return false
+    function checkAnswer(index, answer) {
+        setQuiz(prev => prev.map((q, i) => (i === index && q.userAnswer == null ? { ...q, userAnswer: answer } : q)))
     }
+
+    const answered = quiz.filter(q => q.userAnswer != null)
+    const points = answered.filter(q => q.userAnswer === q.goodAnswer).length
 
     return (
         <div className='mx-auto max-w-7xl md:w-full flex flex-col justify-start items-center p-8 mt-32 md:mt-24 gap-12 scroll-auto'>
-            {(questions.length === 0) ?
+            {(quiz.length === 0) ?
                 <>
                     <h3 ref={textRef} className='text-3xl font-semibold tracking-tight text-balance text-white py-0'>Wybierz kwalifikacje</h3>
                     <div className=
@@ -77,12 +64,11 @@ function Main() {
                 <>
                     <h3 className='text-3xl font-semibold tracking-tight text-balance text-white py-0'>Odpowiedz na 40 pytań:</h3>
                     <div className='flex flex-col justify-start items-center'>
-                        {shuffledQuestions.map((e, i) => {
-                            let savedAnswer = answers.filter(a => a.id === e.id)[0]
-                            return <Question key={e.id} questionId={e.id} number={i + 1} title={e.title} answers={e.answers} goodAnswer={e.goodAnswer} checkAnswer={checkAnswer} savedAnswer={savedAnswer} />
-                        })}
+                        {quiz.map((q, i) => (
+                            <Question key={q.id} number={i + 1} title={q.title} answers={q.answers} goodAnswer={q.goodAnswer} userAnswer={q.userAnswer} checkAnswer={answer => checkAnswer(i, answer)} />
+                        ))}
                     </div>
-                    <ScoreStatus doneQuestions={(answers.filter(e => e.userAnswer != null)).length.toString()} questionsAmount={shuffledQuestions.length.toString()} points={points} />
+                    <ScoreStatus doneQuestions={answered.length} questionsAmount={quiz.length} points={points} />
                 </>
             }
 

@@ -62,9 +62,9 @@ There is no Tailwind config file. Tailwind 4 is set up through the Vite plugin a
 
 All quiz state is in `Main.jsx`:
 
-- `questions` is the chosen qualification's full pool. While it is empty, the qualification menu shows. Nothing ever empties it again, so the only way back to the menu is a page reload.
-- Choosing a qualification fills `questions`. The same click handler draws 40 random questions into `shuffledQuestions` and builds `answers`, which holds one `{ id, userAnswer }` per drawn question.
-- `Question` and `Answer` only render and call back into `checkAnswer`, which ignores questions already answered and adds to `points`.
+- `quiz` is the only state: the 40 drawn questions, each copied with a `userAnswer` that is `null` until answered. While it is empty, the qualification menu shows. Nothing ever empties it again, so the only way back to the menu is a page reload.
+- Choosing a qualification draws 40 random questions in the click handler and fills `quiz`.
+- `Question` and `Answer` only render and call back into `checkAnswer`, which ignores questions already answered. The answered count and `points` are derived from `quiz` on every render, not stored.
 - The number 40 is hard-coded twice: in `shuffle40Questions` and in the "Odpowiedz na 40 pytań:" heading.
 - `ScoreStatus` shows the percentage of answered questions, not of all 40. It turns green at 50% or more.
 

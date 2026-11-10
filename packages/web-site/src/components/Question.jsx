@@ -4,7 +4,7 @@ import FormattedText from './FormattedText'
 import { Sparkle } from 'lucide-react'
 
 
-function Question({ questionId, number, title, answers, goodAnswer, checkAnswer, savedAnswer }) {
+function Question({ number, title, answers, goodAnswer, userAnswer, checkAnswer }) {
     return (
         <div
             className='p-6 flex flex-col justify-center items-center w-xs md:w-xl xl:w-2xl mb-24 bg-white/10 rounded-3xl ring ring-white/20 gap-6'
@@ -25,11 +25,11 @@ function Question({ questionId, number, title, answers, goodAnswer, checkAnswer,
             >
                 {answers.map((e, i) => {
                     let afterClicked = `ring-1 ring-white/5 pointer bg-white/80 hover:bg-black/50 hover:text-white/80 ease-in-out duration-250`
-                    if (savedAnswer.userAnswer != null) {
+                    if (userAnswer != null) {
                         if (i === goodAnswer) {
                             afterClicked = `bg-emerald-400 ring ring-emerald-400 disabled ease-in-out duration-250`
                         }
-                        else if (i != goodAnswer && i == savedAnswer.userAnswer) {
+                        else if (i === userAnswer) {
                             afterClicked = `bg-red-400 ring ring-red-500/50 disabled ease-in-out duration-250`
                         }
 
@@ -37,7 +37,7 @@ function Question({ questionId, number, title, answers, goodAnswer, checkAnswer,
                             afterClicked = `ring-1 ring-white/5 disabled bg-white/30 ease-in-out duration-250`
                         }
                     }
-                    return <Answer key={i} text={e.text} checkAnswer={() => checkAnswer(questionId, i, goodAnswer, savedAnswer)} afterClicked={afterClicked} />
+                    return <Answer key={i} text={e.text} checkAnswer={() => checkAnswer(i)} afterClicked={afterClicked} />
                 })}
             </div>
         </div>
