@@ -62,7 +62,7 @@ There is no Tailwind config file. Tailwind 4 is set up through the Vite plugin a
 All quiz state is in `Main.jsx`:
 
 - `questions` is the chosen qualification's full pool. While it is empty, the qualification menu shows. Nothing ever empties it again, so the only way back to the menu is a page reload.
-- Choosing a qualification fills `questions`. An effect then draws 40 random questions into `shuffledQuestions` and rebuilds `answers`, which holds one `{ id, userAnswer }` per drawn question.
+- Choosing a qualification fills `questions`. The same click handler draws 40 random questions into `shuffledQuestions` and builds `answers`, which holds one `{ id, userAnswer }` per drawn question.
 - `Question` and `Answer` only render and call back into `checkAnswer`, which ignores questions already answered and adds to `points`.
 - The number 40 is hard-coded twice: in `shuffle40Questions` and in the "Odpowiedz na 40 pytań:" heading.
 - `ScoreStatus` shows the percentage of answered questions, not of all 40. It turns green at 50% or more.
@@ -97,7 +97,6 @@ Formatting must not give the answer away. If only the correct option would carry
 
 ## Known issues
 
-- `npm run lint` reports 3 errors: an unused `useState` in `App.jsx`, and an unused `hideMenu` and a setState-in-effect in `Main.jsx`.
 - In `index.css`, `--primary` has no closing semicolon, so it swallows the `font:` declaration after it. The Inter font is imported, but those root font settings are not applied. `var(--bg)` is also never defined.
 
 ## Conventions
