@@ -23,7 +23,7 @@ node scripts/check-code-marks.js   # parser asserts plus an unbalanced-backtick 
 
 There is no test runner. To add questions, use the `add-questions` skill. To check or improve existing ones, use `verify-questions`. After editing question data, run `check-code-marks.js` and the checker, from the repository root: `node .claude/skills/verify-questions/scripts/check-questions.mjs`.
 
-Deployment happens in CI: on pushes to `main` touching `packages/web-site/**` or the workflow itself, `.github/workflows/deploy.yml` runs `npm ci` and `npm run build`, then publishes `dist` to GitHub Pages. CI runs neither lint nor the check script. `npm run deploy` (`gh-pages -d dist`) also exists, but it pushes a `gh-pages` branch, which is not what the workflow publishes.
+Deployment happens in CI: on pushes to `main` touching `packages/web-site/**` or the workflow itself, `.github/workflows/deploy.yml` runs `npm ci` and `npm run build`, then publishes `dist` to GitHub Pages. CI runs neither lint nor the check script.
 
 ## Repository layout
 
@@ -33,7 +33,7 @@ Deployment happens in CI: on pushes to `main` touching `packages/web-site/**` or
 README.md                        Polish project page, mostly badges
 packages/web-site/               The only package
   index.html                     Vite entry, contains #root
-  package.json                   Scripts and deps; `homepage` holds the Pages URL
+  package.json                   Scripts and deps
   vite.config.js                 React and Tailwind plugins; `base: "/Kwalifikacje-Zawodowe"`
   eslint.config.js               Flat config; unused vars starting with a capital or _ are allowed
   public/cursor*.png             Custom cursor images used by index.css
@@ -55,7 +55,7 @@ packages/web-site/               The only package
       Footer.jsx                 Credit links
 ```
 
-There is no Tailwind config file. Tailwind 4 is set up through the Vite plugin and the `@import` in `index.css`. If the repository is renamed, update both `base` in `vite.config.js` and `homepage` in `package.json`.
+There is no Tailwind config file. Tailwind 4 is set up through the Vite plugin and the `@import` in `index.css`. If the repository is renamed, update `base` in `vite.config.js`.
 
 ## Architecture
 
