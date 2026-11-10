@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import data from '../data/data'
 import Card from './Card'
 import gsap from 'gsap'
@@ -33,7 +33,15 @@ function Main() {
 
 
     function choiceQualification(questions) {
+        const shuffled = shuffle40Questions(questions)
         setQuestions(questions)
+        setShuffledQuestions(shuffled)
+        setAnswers(shuffled.map(e => (
+            {
+                id: e.id,
+                userAnswer: null
+            }
+        )))
     }
 
     function shuffle40Questions(questions) {
@@ -50,17 +58,6 @@ function Main() {
         }
         return false
     }
-
-    useEffect(() => {
-        const shuffled = shuffle40Questions(questions)
-        setAnswers(shuffled.map(e => (
-            {
-                id: e.id,
-                userAnswer: null
-            }
-        )))
-        setShuffledQuestions(shuffled)
-    }, [questions])
 
     return (
         <div className='mx-auto max-w-7xl md:w-full flex flex-col justify-start items-center p-8 mt-32 md:mt-24 gap-12 scroll-auto'>
