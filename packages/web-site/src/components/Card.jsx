@@ -4,10 +4,8 @@ import { SplitText } from 'gsap/all'
 import { Check, GraduationCap, X } from 'lucide-react'
 import { useRef, useState } from 'react'
 import { loadResults } from '../scripts/results'
+import { scoreColor } from '../scripts/scoreColor'
 gsap.registerPlugin(useGSAP, SplitText)
-
-// Takes the shown, rounded percent, so the colour always matches the number. Below 50% the exam is failed.
-const scoreColor = percent => (percent < 50 ? "text-red-400" : percent <= 65 ? "text-yellow-400" : "text-emerald-400")
 
 function Card({ name, fullName, available, handleClick }) {
     const fullNameRef = useRef()

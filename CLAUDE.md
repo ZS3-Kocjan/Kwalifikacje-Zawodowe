@@ -46,6 +46,7 @@ packages/web-site/               The only package
     data/data.js                 The entire question bank
     scripts/splitCode.js         Splits a string into plain text and code parts
     scripts/results.js           Saves and loads the last 4 finished results per qualification in localStorage
+    scripts/scoreColor.js        Text colour for a percent score, shared by Card and ScoreStatus
     components/
       Main.jsx                   All quiz state, and the switch between menu and quiz views
       Card.jsx                   Qualification card in the menu, with its saved results below; registers the GSAP plugins
@@ -67,9 +68,9 @@ All quiz state is in `Main.jsx`:
 - Choosing a qualification draws 40 random questions in the click handler and fills `quiz`.
 - `Question` and `Answer` only render and call back into `checkAnswer`, which ignores questions already answered. The answered count and `points` are derived from `quiz` on every render, not stored.
 - The number 40 is hard-coded twice: in `shuffle40Questions` and in the "Odpowiedz na 40 pytań:" heading.
-- `ScoreStatus` shows the percentage of answered questions, not of all 40. It turns green at 50% or more.
+- `ScoreStatus` shows the percentage of answered questions, not of all 40. Its colour comes from `scoreColor`: red below 50% (failed), yellow up to 65%, green above.
 - When the last question is answered, `checkAnswer` calls `saveResult`. The chosen qualification's name is kept in a ref, because it is never rendered.
-- `Card` reads its results once, on mount, and shows the average and the last 4 under the card: red below 50% (failed), yellow up to 65%, green above. On md the card list is a grid, and each `Card` is a two-row subgrid, so cards keep equal heights while results sit in the row below.
+- `Card` reads its results once, on mount, and shows the average and the last 4 under the card, coloured by `scoreColor` too. On md the card list is a grid, and each `Card` is a two-row subgrid, so cards keep equal heights while results sit in the row below.
 
 `Header`, `Card` and the menu heading in `Main` animate with GSAP and `SplitText`. Plugins are registered once, in `Card.jsx`. `Main.jsx` uses `SplitText` and `useGSAP` without registering them, so it depends on that import.
 
