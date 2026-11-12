@@ -33,6 +33,15 @@ Aplikacja webowa dla uczniów zdających w naszej szkole kwalifikacje zawodowe.
 
 ---
 
+## Twój wkład w projekt
+
+Jeśli chcesz wspomóc projekt lub po prostu zaproponować nowe rozwiązania,
+to skorzystaj z zakładki [Issues](https://github.com/ZS3-Kocjan/Kwalifikacje-Zawodowe/issues).
+
+W przyszłości, jak projekt będzie się cieszyć wiekszym zainteresowaniem dodam instrunkcje w pliku `CONTRIBUTING.md`.
+
+---
+
 ## Instalacja
 
 Projekt chodzi na Node.js v24.16.0
