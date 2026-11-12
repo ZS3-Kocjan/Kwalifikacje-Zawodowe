@@ -43,8 +43,8 @@ function Card({ name, fullName, available, handleClick }) {
         if (resultsRef.current) {
             gsap.matchMedia().add("(prefers-reduced-motion: no-preference)", () => {
                 gsap.timeline({ delay: 0.6, defaults: { ease: "power3.out" } })
-                    .from(resultsRef.current, { autoAlpha: 0, y: -40, duration: 0.8 })
-                    .from(".result-row", { autoAlpha: 0, x: -12, duration: 0.5, stagger: 0.08 }, "-=0.4")
+                    .from(resultsRef.current, { autoAlpha: 0, y: -50, duration: 0.5 }, 1.3)
+                    .from(".result-row", { autoAlpha: 0, duration: 0.5, stagger: 0.2 }, "-=0.4")
             }, resultsRef)
         }
 
