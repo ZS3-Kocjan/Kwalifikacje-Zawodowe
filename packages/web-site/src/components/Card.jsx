@@ -6,12 +6,15 @@ import { useRef, useState } from 'react'
 import { loadResults } from '../scripts/results'
 gsap.registerPlugin(useGSAP, SplitText)
 
+// Takes the shown, rounded percent, so the colour always matches the number. Below 50% the exam is failed.
+const scoreColor = percent => (percent < 50 ? "text-red-400" : percent <= 65 ? "text-yellow-400" : "text-emerald-400")
+
 function Card({ name, fullName, available, handleClick }) {
     const fullNameRef = useRef()
     const cardRef = useRef()
     // Read once: results only change during a quiz, and the menu comes back only after a reload.
     const [results] = useState(() => loadResults(name))
-    const average = results.reduce((sum, r) => sum + r.points / r.total, 0) / results.length
+    const average = Math.round(results.reduce((sum, r) => sum + r.points / r.total, 0) / results.length * 100)
 
     useGSAP(() => {
         const splitText = new SplitText(fullNameRef.current, { type: "chars,words,lines", linesClass: "clip-text" })
@@ -67,22 +70,22 @@ function Card({ name, fullName, available, handleClick }) {
                 <div className='-mt-6 pt-12 px-6 pb-6 flex flex-col gap-4 rounded-b-3xl bg-white/5 ring-1 ring-white/20 md:self-start'>
                     <div className='flex justify-between items-center'>
                         <p className='font-semibold text-white/70'>Średnia</p>
-                        <p className={`font-bold text-2xl text-shadow ${average >= 0.5 ? "text-emerald-400" : "text-yellow-400"}`}>
-                            {(average * 100).toFixed()}%
+                        <p className={`font-bold text-2xl text-shadow ${scoreColor(average)}`}>
+                            {average}%
                         </p>
                     </div>
                     <ul className='flex flex-col gap-2 pt-4 border-t border-white/10'>
                         {results.map(r => {
-                            const score = r.points / r.total
-                            const Icon = score >= 0.5 ? Check : X
-                            const color = score >= 0.5 ? "text-emerald-400" : "text-yellow-400"
+                            const percent = Math.round(r.points / r.total * 100)
+                            const Icon = percent >= 50 ? Check : X
+                            const color = scoreColor(percent)
                             return (
                                 <li key={r.date} className='flex items-center gap-3'>
                                     <Icon size={18} className={color} />
                                     <span className='text-sm text-white/70 tabular-nums'>
                                         {new Date(r.date).toLocaleString('pl-PL', { dateStyle: 'short', timeStyle: 'short' })}
                                     </span>
-                                    <span className={`ml-auto font-bold ${color}`}>{(score * 100).toFixed()}%</span>
+                                    <span className={`ml-auto font-bold ${color}`}>{percent}%</span>
                                 </li>
                             )
                         })}
