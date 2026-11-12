@@ -10,6 +10,7 @@ gsap.registerPlugin(useGSAP, SplitText)
 function Card({ name, fullName, available, handleClick }) {
     const fullNameRef = useRef()
     const cardRef = useRef()
+    const resultsRef = useRef()
     // Read once: results only change during a quiz, and the menu comes back only after a reload.
     const [results] = useState(() => loadResults(name))
     const average = Math.round(results.reduce((sum, r) => sum + r.points / r.total, 0) / results.length * 100)
@@ -38,6 +39,15 @@ function Card({ name, fullName, available, handleClick }) {
             duration: 1,
         }, 1.3)
 
+        // The results slide out from under the card, then their rows come in one by one. Only transforms and opacity, so no layout work.
+        if (resultsRef.current) {
+            gsap.matchMedia().add("(prefers-reduced-motion: no-preference)", () => {
+                gsap.timeline({ delay: 0.6, defaults: { ease: "power3.out" } })
+                    .from(resultsRef.current, { autoAlpha: 0, y: -40, duration: 0.8 })
+                    .from(".result-row", { autoAlpha: 0, x: -12, duration: 0.5, stagger: 0.08 }, "-=0.4")
+            }, resultsRef)
+        }
+
     }, [])
 
     return (
@@ -65,8 +75,8 @@ function Card({ name, fullName, available, handleClick }) {
             </div>
 
             {results.length > 0 ? (
-                <div className='-mt-6 pt-12 px-6 pb-6 flex flex-col gap-4 rounded-b-3xl bg-white/5 ring-1 ring-white/20 md:self-start'>
-                    <div className='flex justify-between items-center'>
+                <div ref={resultsRef} className='-mt-6 pt-12 px-6 pb-6 flex flex-col gap-4 rounded-b-3xl bg-white/5 ring-1 ring-white/20 md:self-start'>
+                    <div className='result-row flex justify-between items-center'>
                         <p className='font-semibold text-white/70'>Średnia</p>
                         <p className={`font-bold text-2xl text-shadow ${scoreColor(average)}`}>
                             {average}%
@@ -78,9 +88,9 @@ function Card({ name, fullName, available, handleClick }) {
                             const Icon = percent >= 50 ? Check : X
                             const color = scoreColor(percent)
                             return (
-                                <li key={r.date} className='flex items-center gap-3'>
+                                <li key={r.date} className='result-row flex items-center gap-2'>
                                     <Icon size={18} className={color} />
-                                    <span className='text-sm text-white/70 tabular-nums'>
+                                    <span className='text-sm text-white/70 tabular-nums whitespace-nowrap'>
                                         {new Date(r.date).toLocaleString('pl-PL', { dateStyle: 'short', timeStyle: 'short' })}
                                     </span>
                                     <span className={`ml-auto font-bold ${color}`}>{percent}%</span>
