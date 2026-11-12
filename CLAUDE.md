@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Kwalifikacje Zawodowe is a static quiz app for students preparing for the theory part of Polish vocational qualification exams (INF.03, INF.04). A student picks a qualification and answers 40 randomly drawn questions, with immediate right or wrong feedback and a running score. Live at https://zs3-kocjan.github.io/Kwalifikacje-Zawodowe.
 
-The stack is JavaScript (no TypeScript), React 19, Vite 8, Tailwind CSS 4, GSAP 3 and lucide-react. There is no backend, router or state library. Quiz progress lives only in React state, so a reload resets it.
+The stack is JavaScript (no TypeScript), React 19, Vite 8, Tailwind CSS 4, GSAP 3 and lucide-react. There is no backend, router or state library. Quiz progress lives only in React state, so a reload resets it. Only finished results are kept, in `localStorage`.
 
 ## Commands
 
@@ -45,9 +45,10 @@ packages/web-site/               The only package
     index.css                    Tailwind import, Inter @font-face, :root styles, .pointer, .disabled, .text-shadow, .clip-text
     data/data.js                 The entire question bank
     scripts/splitCode.js         Splits a string into plain text and code parts
+    scripts/results.js           Saves and loads the last 5 finished results per qualification in localStorage
     components/
       Main.jsx                   All quiz state, and the switch between menu and quiz views
-      Card.jsx                   Qualification card in the menu; registers the GSAP plugins
+      Card.jsx                   Qualification card in the menu, with its saved results below; registers the GSAP plugins
       Question.jsx               One question; picks each answer's colour classes
       Answer.jsx                 One answer button
       FormattedText.jsx          Renders code marks as <code> elements
@@ -67,6 +68,8 @@ All quiz state is in `Main.jsx`:
 - `Question` and `Answer` only render and call back into `checkAnswer`, which ignores questions already answered. The answered count and `points` are derived from `quiz` on every render, not stored.
 - The number 40 is hard-coded twice: in `shuffle40Questions` and in the "Odpowiedz na 40 pytań:" heading.
 - `ScoreStatus` shows the percentage of answered questions, not of all 40. It turns green at 50% or more.
+- When the last question is answered, `checkAnswer` calls `saveResult`. The chosen qualification's name is kept in a ref, because it is never rendered.
+- `Card` reads its results once, on mount, and shows the average and the last 5 under the card, with the same 50% colours. On md the card list is a grid, and each `Card` is a two-row subgrid, so cards keep equal heights while results sit in the row below.
 
 `Header`, `Card` and the menu heading in `Main` animate with GSAP and `SplitText`. Plugins are registered once, in `Card.jsx`. `Main.jsx` uses `SplitText` and `useGSAP` without registering them, so it depends on that import.
 
