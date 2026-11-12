@@ -6,10 +6,13 @@ import { useGSAP } from '@gsap/react'
 import { SplitText } from 'gsap/all'
 import Question from './Question'
 import ScoreStatus from './ScoreStatus'
+import { saveResult } from '../scripts/results'
 
 function Main() {
     // The 40 drawn questions, each with the student's answer (null until answered).
     const [quiz, setQuiz] = useState([])
+    // Only read when saving the result, so a ref instead of state.
+    const qualificationRef = useRef()
     const textRef = useRef()
 
     useGSAP(() => {
@@ -30,7 +33,8 @@ function Main() {
     })
 
 
-    function choiceQualification(questions) {
+    function choiceQualification(name, questions) {
+        qualificationRef.current = name
         setQuiz(shuffle40Questions(questions).map(q => ({ ...q, userAnswer: null })))
     }
 
@@ -40,7 +44,12 @@ function Main() {
     }
 
     function checkAnswer(index, answer) {
-        setQuiz(prev => prev.map((q, i) => (i === index && q.userAnswer == null ? { ...q, userAnswer: answer } : q)))
+        if (quiz[index].userAnswer != null) return
+        const next = quiz.map((q, i) => (i === index ? { ...q, userAnswer: answer } : q))
+        setQuiz(next)
+        if (next.every(q => q.userAnswer != null)) {
+            saveResult(qualificationRef.current, next.filter(q => q.userAnswer === q.goodAnswer).length, next.length)
+        }
     }
 
     const answered = quiz.filter(q => q.userAnswer != null)
@@ -55,7 +64,7 @@ function Main() {
                         'flex flex-col flex-wrap md:flex-row gap-6 px-6'
                     >
                         {data.map(e => (
-                            <Card key={e.name} id={e.name} name={e.name} fullName={e.fullName} available={e.available} handleClick={() => { choiceQualification(e.questions) }} />
+                            <Card key={e.name} id={e.name} name={e.name} fullName={e.fullName} available={e.available} handleClick={() => { choiceQualification(e.name, e.questions) }} />
                         ))}
                     </div>
                 </>
