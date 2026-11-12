@@ -33,15 +33,14 @@ Aplikacja webowa dla uczniów zdających w naszej szkole kwalifikacje zawodowe.
 
 ---
 
-## ![Support](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDlkZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1oYW5kLWZpc3QgcHJldmlldy1pY29uIj48cGF0aCBkPSJNMTIuMDM1IDE3LjAxMmEzIDMgMCAwIDAtMy0zbC0uMzExLS4wMDJhLjcyLjcyIDAgMCAxLS41MDUtMS4yMjlsMS4xOTUtMS4xOTVBMiAyIDAgMCAxIDEwLjgyOCAxMUgxMmEyIDIgMCAwIDAgMC00SDkuMjQzYTMgMyAwIDAgMC0yLjEyMi44NzlsLTIuNzA3IDIuNzA3QTQuODMgNC44MyAwIDAgMCAzIDE0YTggOCAwIDAgMCA4IDhoMmE4IDggMCAwIDAgOC04VjdhMiAyIDAgMSAwLTQgMHYyYTIgMiAwIDEgMCA0IDAiLz48cGF0aCBkPSJNMTMuODg4IDkuNjYyQTIgMiAwIDAgMCAxNyA4VjVBMiAyIDAgMSAwIDEzIDUiLz48cGF0aCBkPSJNOSA1QTIgMiAwIDEgMCA1IDVWMTAiLz48cGF0aCBkPSJNOSA3VjRBMiAyIDAgMSAxIDEzIDRWNy4yNjgiLz48L3N2Zz4=) Twój wkład w projekt
+## ![Support](.github/icons/hand-fist.svg) Twój wkład w projekt
 
 Jeśli chcesz wspomóc projekt lub po prostu zaproponować nowe rozwiązania,
 to skorzystaj z zakładki [Issues](https://github.com/ZS3-Kocjan/Kwalifikacje-Zawodowe/issues).
 
 W przyszłości, jak projekt będzie się cieszyć wiekszym zainteresowaniem dodam instrunkcje w pliku `CONTRIBUTING.md`.
 
-
-## ![Install](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDlkZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1oYXJkLWRyaXZlLWRvd25sb2FkIHByZXZpZXctaWNvbiI+PHBhdGggZD0iTTEyIDJ2OCIvPjxwYXRoIGQ9Im0xNiA2LTQgNC00LTQiLz48cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIi8+PHBhdGggZD0iTTYgMThoLjAxIi8+PHBhdGggZD0iTTEwIDE4aC4wMSIvPjwvc3ZnPg==) Instalacja
+## ![Install](.github/icons/hard-drive-download.svg) Instalacja
 
 Projekt chodzi na Node.js v24.16.0
 
@@ -51,14 +50,14 @@ cd Kwalifikacje-Zawodowe/packages/web-site
 npm i
 ```
 
-## ![Lunch](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDlkZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1yb2NrZXQgcHJldmlldy1pY29uIj48cGF0aCBkPSJNMTIgMTV2NXMzLjAzLS41NSA0LTJjMS4wOC0xLjYyIDAtNSAwLTUiLz48cGF0aCBkPSJNNC41IDE2LjVjLTEuNSAxLjI2LTIgNS0yIDVzMy43NC0uNSA1LTJjLjcxLS44NC43LTIuMTMtLjA5LTIuOTFhMi4xOCAyLjE4IDAgMCAwLTIuOTEtLjA5Ii8+PHBhdGggZD0iTTkgMTJhMjIgMjIgMCAwIDEgMi0zLjk1QTEyLjg4IDEyLjg4IDAgMCAxIDIyIDJjMCAyLjcyLS43OCA3LjUtNiAxMWEyMi40IDIyLjQgMCAwIDEtNCAyeiIvPjxwYXRoIGQ9Ik05IDEySDRzLjU1LTMuMDMgMi00YzEuNjItMS4wOCA1IC4wNSA1IC4wNSIvPjwvc3ZnPg==) Uruchomienie
+## ![Lunch](.github/icons/rocket.svg) Uruchomienie
 
 ```bash
 # w (ścieżce Kwalifikacje-Zawodowe/packages/web-site)
 npm run dev
 ```
 
-## ![Bulding](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiMwMDlkZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS13cmVuY2ggcHJldmlldy1pY29uIj48cGF0aCBkPSJNMTQuNyA2LjNhMSAxIDAgMCAwIDAgMS40bDEuNiAxLjZhMSAxIDAgMCAwIDEuNCAwbDMuMTA2LTMuMTA1Yy4zMi0uMzIyLjg2My0uMjIuOTgzLjIxOGE2IDYgMCAwIDEtOC4yNTkgNy4wNTdsLTcuOTEgNy45MWExIDEgMCAwIDEtMi45OTktM2w3LjkxLTcuOTFhNiA2IDAgMCAxIDcuMDU3LTguMjU5Yy40MzguMTIuNTQuNjYyLjIxOS45ODR6Ii8+PC9zdmc+) Budowanie
+## ![Bulding](.github/icons/wrench.svg) Budowanie
 
 ```bash
 # w (ścieżce Kwalifikacje-Zawodowe/packages/web-site)
@@ -72,8 +71,6 @@ npm run build
 </div>
 
 ---
-
-<br>
 
 <p align="center">
     <a href="https://lucide.dev/license">Ikonki w README.md</a>
