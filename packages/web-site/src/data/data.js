@@ -3615,6 +3615,1206 @@ const data = [
                 title: "Postawa asertywna polega na:",
                 answers: [{ id: 0, text: "narzucaniu innym własnego zdania" }, { id: 1, text: "wyrażaniu własnych opinii i potrzeb z szacunkiem dla innych" }, { id: 2, text: "unikaniu wyrażania swojego zdania" }, { id: 3, text: "zgadzaniu się na wszystkie prośby" }],
                 goodAnswer: 1
+            },
+            {
+                id: 200,
+                title: "Który środek najskuteczniej ogranicza hałas w pomieszczeniu biurowym?",
+                answers: [{ id: 0, text: "Panele akustyczne wygłuszające ściany i sufit" }, { id: 1, text: "Mata antypoślizgowa pod stanowiskiem pracy" }, { id: 2, text: "Filtr antyrefleksyjny założony na monitor" }, { id: 3, text: "Lampy biurowe o niższym natężeniu światła" }],
+                goodAnswer: 0
+            },
+            {
+                id: 201,
+                title: "Który środek ochrony NIE należy do środków ochrony zbiorowej?",
+                answers: [{ id: 0, text: "Ekran dźwiękochłonny" }, { id: 1, text: "Okulary ochronne" }, { id: 2, text: "Gaśnica" }, { id: 3, text: "Barierka zabezpieczająca przed upadkiem" }],
+                goodAnswer: 1
+            },
+            {
+                id: 202,
+                title: "Jak definiuje się wypadek przy pracy?",
+                answers: [{ id: 0, text: "Każda awaria urządzenia w zakładzie, która wymaga interwencji serwisu" }, { id: 1, text: "Każde zdarzenie opóźniające wykonanie obowiązków służbowych" }, { id: 2, text: "Każda choroba, która ujawniła się u pracownika w czasie pracy" }, { id: 3, text: "Nagłe zdarzenie związane z pracą, które spowodowało uraz lub śmierć" }],
+                goodAnswer: 3
+            },
+            {
+                id: 203,
+                title: "Co należy zrobić w pierwszej kolejności, podchodząc do osoby poszkodowanej?",
+                answers: [{ id: 0, text: "Rozpocząć uciskanie klatki piersiowej" }, { id: 1, text: "Sprawdzić, czy poszkodowany krwawi" }, { id: 2, text: "Zadbać o własne bezpieczeństwo" }, { id: 3, text: "Ułożyć poszkodowanego w pozycji bocznej" }],
+                goodAnswer: 2
+            },
+            {
+                id: 204,
+                title: "Jak nazywa się schorzenie, które objawia się bólem, drętwieniem i zaburzeniami czucia kciuka, palca wskazującego i środkowego, a często wynika z długotrwałej pracy z myszą i klawiaturą?",
+                answers: [{ id: 0, text: "Dyskopatia" }, { id: 1, text: "Zespół cieśni kanału nadgarstka" }, { id: 2, text: "Kifoza" }, { id: 3, text: "Zespół suchego oka" }],
+                goodAnswer: 1
+            },
+            {
+                id: 205,
+                title: "Jak należy postąpić w przypadku silnego krwawienia z rany na przedramieniu?",
+                answers: [{ id: 0, text: "Założyć opatrunek uciskowy i unieść kończynę powyżej serca" }, { id: 1, text: "Założyć luźny bandaż elastyczny bez ucisku na ranę" }, { id: 2, text: "Przemyć ranę wodą utlenioną i pozostawić ją bez opatrunku do wyschnięcia" }, { id: 3, text: "Odczekać, aż krwawienie samo ustanie, i obserwować ranę" }],
+                goodAnswer: 0
+            },
+            {
+                id: 206,
+                title: "Ryzyko zawodowe to:",
+                answers: [{ id: 0, text: "ciężkość skutków zdarzeń niepożądanych, które już wystąpiły w miejscu pracy" }, { id: 1, text: "zagrożenie wypadkowe występujące na stanowisku pracy" }, { id: 2, text: "prawdopodobieństwo, że zagrożenia w pracy spowodują szkody, np. zdrowotne" }, { id: 3, text: "skutki zagrożeń wypadkowych występujących w miejscu pracy" }],
+                goodAnswer: 2
+            },
+            {
+                id: 207,
+                title: "Czym jest choroba zawodowa?",
+                answers: [{ id: 0, text: "Niezdolnością do pracy trwającą krócej niż siedem dni" }, { id: 1, text: "Chorobą, która może wystąpić wyłącznie u pracowników zatrudnionych w przemyśle" }, { id: 2, text: "Każdą chorobą, która wystąpiła u pracownika w godzinach pracy" }, { id: 3, text: "Chorobą spowodowaną działaniem czynników szkodliwych w środowisku pracy" }],
+                goodAnswer: 3
+            },
+            {
+                id: 208,
+                title: "Który czynnik występujący w środowisku pracy zalicza się do czynników psychofizycznych?",
+                answers: [{ id: 0, text: "Zapylenie powietrza" }, { id: 1, text: "Stres i monotonia pracy" }, { id: 2, text: "Promieniowanie elektromagnetyczne" }, { id: 3, text: "Nadmierne natężenie światła" }],
+                goodAnswer: 1
+            },
+            {
+                id: 209,
+                title: "Jakie jest minimalne wymagane natężenie oświetlenia na biurowym stanowisku pracy z komputerem?",
+                answers: [{ id: 0, text: "200 lx" }, { id: 1, text: "800 lx" }, { id: 2, text: "100 lx" }, { id: 3, text: "500 lx" }],
+                goodAnswer: 3
+            },
+            {
+                id: 210,
+                title: "Który czynnik jest przykładem zagrożenia fizycznego w miejscu pracy?",
+                answers: [{ id: 0, text: "Promieniowanie UV" }, { id: 1, text: "Obciążenie psychiczne" }, { id: 2, text: "Kontakt z bakteriami i wirusami" }, { id: 3, text: "Konflikty w zespole" }],
+                goodAnswer: 0
+            },
+            {
+                id: 211,
+                title: "Który objaw może wskazywać na zawał serca?",
+                answers: [{ id: 0, text: "Ból brzucha pojawiający się zaraz po posiłku" }, { id: 1, text: "Gorączka z dreszczami utrzymująca się od kilku dni po przeziębieniu" }, { id: 2, text: "Silny ból w klatce piersiowej promieniujący do lewej ręki" }, { id: 3, text: "Swędząca wysypka na skórze przedramion i dłoni" }],
+                goodAnswer: 2
+            },
+            {
+                id: 212,
+                title: "Prawidłową, ergonomiczną pozycję przy pracy z komputerem zapewnia krzesło, którego:",
+                answers: [{ id: 0, text: "oparcie w odcinku szyjnym jest pochylone do przodu o 40°" }, { id: 1, text: "podłokietniki są 20 cm niżej niż blat biurka" }, { id: 2, text: "oparcie podpiera lędźwiowy odcinek kręgosłupa (lordozę)" }, { id: 3, text: "podłokietniki są 30 cm wyżej niż blat biurka" }],
+                goodAnswer: 2
+            },
+            {
+                id: 213,
+                title: "Jaki jest jednolity europejski numer alarmowy, pod którym w Polsce można wezwać m.in. pogotowie ratunkowe?",
+                answers: [{ id: 0, text: "911" }, { id: 1, text: "112" }, { id: 2, text: "997" }, { id: 3, text: "998" }],
+                goodAnswer: 1
+            },
+            {
+                id: 214,
+                title: "Jaki skutek dla pracownika może mieć długotrwała, monotonna praca?",
+                answers: [{ id: 0, text: "Wzrost motywacji oraz zaangażowania w wykonywane codziennie zadania" }, { id: 1, text: "Poprawa kondycji fizycznej i wydolności organizmu" }, { id: 2, text: "Większa odporność na stres i presję czasu w pracy" }, { id: 3, text: "Spadek koncentracji i większe ryzyko popełniania błędów" }],
+                goodAnswer: 3
+            },
+            {
+                id: 215,
+                title: "Które działanie najlepiej zapobiega porażeniom prądem elektrycznym w biurze?",
+                answers: [{ id: 0, text: "Regularne przeglądy instalacji i sprzętu elektrycznego" }, { id: 1, text: "Regularna kontrola jakości powietrza w pomieszczeniu" }, { id: 2, text: "Używanie krzeseł o ergonomicznym kształcie" }, { id: 3, text: "Stosowanie monitorów LCD zamiast starszych monitorów kineskopowych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 216,
+                title: "Co pomaga przeciwdziałać uzależnieniu od internetu?",
+                answers: [{ id: 0, text: "Instalowanie kolejnych aplikacji rozrywkowych" }, { id: 1, text: "Wydłużanie czasu spędzanego w mediach społecznościowych" }, { id: 2, text: "Korzystanie z komputera wyłącznie w godzinach nocnych" }, { id: 3, text: "Planowanie regularnych przerw od urządzeń cyfrowych" }],
+                goodAnswer: 3
+            },
+            {
+                id: 217,
+                title: "Które zagrożenie związane z długotrwałym korzystaniem z komputera i internetu dotyczy zdrowia fizycznego?",
+                answers: [{ id: 0, text: "Uzależnienie od gier komputerowych" }, { id: 1, text: "Rozprzestrzenianie się fałszywych informacji" }, { id: 2, text: "Bóle kręgosłupa spowodowane wielogodzinnym siedzeniem" }, { id: 3, text: "Obniżony nastrój i depresja wywołane cyberprzemocą w sieci" }],
+                goodAnswer: 2
+            },
+            {
+                id: 218,
+                title: "Jak długo, co do zasady, trwają autorskie prawa majątkowe w Polsce i innych krajach Unii Europejskiej?",
+                answers: [{ id: 0, text: "50 lat od pierwszej publikacji utworu" }, { id: 1, text: "70 lat od śmierci twórcy" }, { id: 2, text: "75 lat od dnia powstania utworu" }, { id: 3, text: "Bezterminowo, niezależnie od daty śmierci twórcy" }],
+                goodAnswer: 1
+            },
+            {
+                id: 219,
+                title: "Jakie jest podstawowe zadanie zapory sieciowej (firewalla)?",
+                answers: [{ id: 0, text: "Filtrowanie ruchu sieciowego i blokowanie nieautoryzowanego dostępu" }, { id: 1, text: "Szyfrowanie wszystkich danych przesyłanych przez sieć" }, { id: 2, text: "Tworzenie kopii zapasowych danych na wypadek awarii systemu" }, { id: 3, text: "Wyszukiwanie i usuwanie wirusów z plików zapisanych na dysku komputera" }],
+                goodAnswer: 0
+            },
+            {
+                id: 220,
+                title: "W której topologii sieci każde urządzenie jest połączone bezpośrednio z każdym innym?",
+                answers: [{ id: 0, text: "Gwiazdy" }, { id: 1, text: "Magistrali" }, { id: 2, text: "Siatki" }, { id: 3, text: "Pierścienia" }],
+                goodAnswer: 2
+            },
+            {
+                id: 221,
+                title: "Który protokół stosu TCP/IP zapewnia niezawodne, połączeniowe przesyłanie danych?",
+                answers: [{ id: 0, text: "ICMP" }, { id: 1, text: "IP" }, { id: 2, text: "UDP" }, { id: 3, text: "TCP" }],
+                goodAnswer: 3
+            },
+            {
+                id: 222,
+                title: "Jaka jest przepustowość łącza, przez które w ciągu 10 sekund przesłano 500 MB danych?",
+                answers: [{ id: 0, text: "400 Mb/s" }, { id: 1, text: "40 Mb/s" }, { id: 2, text: "50 Mb/s" }, { id: 3, text: "500 Mb/s" }],
+                goodAnswer: 0
+            },
+            {
+                id: 223,
+                title: "Który protokół służy do przesyłania plików między klientem a serwerem?",
+                answers: [{ id: 0, text: "DNS" }, { id: 1, text: "FTP" }, { id: 2, text: "SMTP" }, { id: 3, text: "POP3" }],
+                goodAnswer: 1
+            },
+            {
+                id: 224,
+                title: "Jakim symbolem oznacza się Polskie Normy?",
+                answers: [{ id: 0, text: "IEC" }, { id: 1, text: "ISO" }, { id: 2, text: "EN" }, { id: 3, text: "PN" }],
+                goodAnswer: 3
+            },
+            {
+                id: 225,
+                title: "Do czego służy pamięć operacyjna RAM w komputerze?",
+                answers: [{ id: 0, text: "Do trwałego przechowywania systemu operacyjnego" }, { id: 1, text: "Do tymczasowego przechowywania danych i rozkazów dla procesora" }, { id: 2, text: "Do tworzenia kopii zapasowej danych użytkownika" }, { id: 3, text: "Do sterowania przesyłaniem danych do urządzeń wejścia-wyjścia" }],
+                goodAnswer: 1
+            },
+            {
+                id: 226,
+                title: "Która sytuacja jest naruszeniem praw autorskich?",
+                answers: [{ id: 0, text: "Udostępnianie w sieci filmu bez zgody właściciela praw" }, { id: 1, text: "Zakup licencji na oprogramowanie biurowe dla wszystkich pracowników firmy" }, { id: 2, text: "Używanie programu open source zgodnie z jego licencją" }, { id: 3, text: "Wykonanie kopii zapasowej legalnie kupionego programu" }],
+                goodAnswer: 0
+            },
+            {
+                id: 227,
+                title: "Która forma komunikacji jest komunikacją werbalną?",
+                answers: [{ id: 0, text: "Postawa ciała" }, { id: 1, text: "Gestykulacja" }, { id: 2, text: "Mowa" }, { id: 3, text: "Mimika" }],
+                goodAnswer: 2
+            },
+            {
+                id: 228,
+                title: "Czym jest klasa w programowaniu obiektowym?",
+                answers: [{ id: 0, text: "Instrukcją sterującą przebiegiem programu" }, { id: 1, text: "Typem danych zdefiniowanym przez programistę" }, { id: 2, text: "Wskaźnikiem na obiekt w pamięci" }, { id: 3, text: "Zmienną przechowującą stan programu" }],
+                goodAnswer: 1
+            },
+            {
+                id: 229,
+                title: "Co przedstawia poniższy fragment kodu w JavaScript?\n\n```\nlet modulo = (x, y) => x % y;\n```",
+                answers: [{ id: 0, text: "Definicję zmiennej typu tablicowego" }, { id: 1, text: "Prototyp metody klasy" }, { id: 2, text: "Definicję funkcji strzałkowej" }, { id: 3, text: "Prototyp interfejsu" }],
+                goodAnswer: 2
+            },
+            {
+                id: 230,
+                title: "Czym jest `localStorage` w aplikacjach internetowych?",
+                answers: [{ id: 0, text: "Bazą danych NoSQL działającą na serwerze, z którym łączy się aplikacja" }, { id: 1, text: "Pamięcią RAM przydzieloną aplikacji na czas jej działania" }, { id: 2, text: "Katalogiem plików tymczasowych tworzonych przez przeglądarkę" }, { id: 3, text: "Magazynem danych w przeglądarce, które nie mają daty wygaśnięcia" }],
+                goodAnswer: 3
+            },
+            {
+                id: 231,
+                title: "W którym środowisku programistycznym tworzy się natywne aplikacje na system iOS?",
+                answers: [{ id: 0, text: "Xcode" }, { id: 1, text: "NetBeans" }, { id: 2, text: "Eclipse" }, { id: 3, text: "Android Studio" }],
+                goodAnswer: 0
+            },
+            {
+                id: 232,
+                title: "Czym jest JWT (JSON Web Token)?",
+                answers: [{ id: 0, text: "Standardem bezpiecznego przekazywania informacji w postaci obiektu JSON" }, { id: 1, text: "Biblioteką JavaScript do walidacji formularzy na stronach WWW" }, { id: 2, text: "Protokołem przesyłania plików między klientem a serwerem" }, { id: 3, text: "Formatem zapisu dokumentów używanym w nierelacyjnych bazach danych NoSQL" }],
+                goodAnswer: 0
+            },
+            {
+                id: 233,
+                title: "Która właściwość obiektu `window` w JavaScript pozwala przypisać funkcję uruchamianą po całkowitym załadowaniu strony?",
+                answers: [{ id: 0, text: "`onrender`" }, { id: 1, text: "`onload`" }, { id: 2, text: "`onready`" }, { id: 3, text: "`oncomplete`" }],
+                goodAnswer: 1
+            },
+            {
+                id: 234,
+                title: "Do czego służy funkcja `fetch()` w JavaScript?",
+                answers: [{ id: 0, text: "Do filtrowania elementów tablicy według podanego warunku" }, { id: 1, text: "Do sortowania kolekcji obiektów" }, { id: 2, text: "Do modyfikowania i usuwania elementów drzewa DOM strony" }, { id: 3, text: "Do asynchronicznego pobierania zasobów przez sieć" }],
+                goodAnswer: 3
+            },
+            {
+                id: 235,
+                title: "Co robi polecenie `git pull`?",
+                answers: [{ id: 0, text: "Zapisuje zmiany z poczekalni w historii lokalnego repozytorium" }, { id: 1, text: "Tworzy nową gałąź w lokalnym repozytorium i od razu się na nią przełącza" }, { id: 2, text: "Pobiera zmiany ze zdalnego repozytorium i scala je z bieżącą gałęzią" }, { id: 3, text: "Usuwa plik z repozytorium i z katalogu roboczego" }],
+                goodAnswer: 2
+            },
+            {
+                id: 236,
+                title: "Jakie dane zwykle zapisuje się w ciasteczkach (cookies) przeglądarki?",
+                answers: [{ id: 0, text: "Preferencje użytkownika, np. wybrany język lub motyw strony" }, { id: 1, text: "Całą zawartość bazy danych aplikacji" }, { id: 2, text: "Hasła użytkownika zapisane jawnym tekstem" }, { id: 3, text: "Kod źródłowy aplikacji internetowej pobierany przy każdej wizycie" }],
+                goodAnswer: 0
+            },
+            {
+                id: 237,
+                title: "Co charakteryzuje architekturę klient-serwer?",
+                answers: [{ id: 0, text: "Każdy klient działa samodzielnie, bez wymiany danych z innymi" }, { id: 1, text: "Klient wysyła żądania, a serwer przetwarza je i odsyła odpowiedzi" }, { id: 2, text: "Serwer jedynie odbiera dane, nigdy nie wysyła odpowiedzi do klientów" }, { id: 3, text: "Urządzenia klienckie komunikują się wyłącznie bezpośrednio ze sobą" }],
+                goodAnswer: 1
+            },
+            {
+                id: 238,
+                title: "Czym jest Docker?",
+                answers: [{ id: 0, text: "Systemem zarządzania relacyjnymi bazami danych działającym w chmurze" }, { id: 1, text: "Frameworkiem JavaScript do tworzenia aplikacji mobilnych" }, { id: 2, text: "Narzędziem do generowania dokumentacji kodu źródłowego" }, { id: 3, text: "Platformą do budowania i uruchamiania aplikacji w kontenerach" }],
+                goodAnswer: 3
+            },
+            {
+                id: 239,
+                title: "Elementy o jakich indeksach wyświetli poniższy kod w języku C++?\n\n```\nint tab[10] = {0};\nfor (int i = 0; i < 10; i++)\n    if (i % 3 != 0)\n        cout << tab[i] << \", \";\n```",
+                answers: [{ id: 0, text: "1, 3, 5, 7, 9" }, { id: 1, text: "0, 3, 6, 9" }, { id: 2, text: "1, 2, 4, 5, 7, 8" }, { id: 3, text: "0, 2, 4, 6, 8" }],
+                goodAnswer: 2
+            },
+            {
+                id: 240,
+                title: "Na czym polega wzorzec MVVM (Model-View-ViewModel) stosowany w aplikacjach desktopowych i mobilnych?",
+                answers: [{ id: 0, text: "Pozwala tworzyć aplikacje zawierające wyłącznie interfejs" }, { id: 1, text: "Łączy kontrolki interfejsu bezpośrednio z kodem bazy danych" }, { id: 2, text: "Oddziela interfejs użytkownika od logiki aplikacji" }, { id: 3, text: "Umieszcza interfejs i logikę aplikacji w jednym pliku" }],
+                goodAnswer: 2
+            },
+            {
+                id: 241,
+                title: "Jakie liczby z zakresu od 2 do 20 wyświetli poniższy kod w JavaScript?\n\n```\nfor (let n = 2; n <= 20; n++) {\n    let ok = true;\n    for (let d = 2; d < n; d++)\n        if (n % d === 0) {\n            ok = false;\n            break;\n        }\n    if (ok) console.log(n);\n}\n```",
+                answers: [{ id: 0, text: "Liczby parzyste" }, { id: 1, text: "Liczby pierwsze" }, { id: 2, text: "Liczby złożone" }, { id: 3, text: "Liczby nieparzyste" }],
+                goodAnswer: 1
+            },
+            {
+                id: 242,
+                title: "Która instrukcja importuje z biblioteki React tylko komponent `Component`?",
+                answers: [{ id: 0, text: "`import { Component } from 'react';`" }, { id: 1, text: "`import Component from 'react';`" }, { id: 2, text: "`import [ Component ] from 'react';`" }, { id: 3, text: "`import React.Component from 'react';`" }],
+                goodAnswer: 0
+            },
+            {
+                id: 243,
+                title: "Która zmienna w języku Java może przechować wartość `'T'`?\n\n```\nint zm1;\nfloat zm2;\nchar zm3;\nboolean zm4;\n```",
+                answers: [{ id: 0, text: "`zm1`" }, { id: 1, text: "`zm2`" }, { id: 2, text: "`zm4`" }, { id: 3, text: "`zm3`" }],
+                goodAnswer: 3
+            },
+            {
+                id: 244,
+                title: "Interfejs aplikacji WPF zapisano w XAML. Jakie zdarzenie obsługuje metoda `fun1`?\n\n```\n<RadioButton Content=\"opcja1\" />\n<RadioButton Content=\"opcja2\" />\n<Button Content=\"OK\" Click=\"fun1\" />\n```",
+                answers: [{ id: 0, text: "Kliknięcie przycisku OK" }, { id: 1, text: "Zaznaczenie pola opcja1" }, { id: 2, text: "Utratę fokusu przez pole opcji" }, { id: 3, text: "Załadowanie okna aplikacji" }],
+                goodAnswer: 0
+            },
+            {
+                id: 245,
+                title: "Jak zostaną rozmieszczone elementy opisane poniższym kodem XAML (Xamarin.Forms, .NET MAUI)?\n\n```\n<StackLayout Orientation=\"Vertical\">\n    <Label Text=\"Fotograf\" />\n    <Image Source=\"obraz.jpg\" />\n    <StackLayout Orientation=\"Horizontal\">\n        <Button Text=\"Like\" />\n        <Button Text=\"Share\" />\n    </StackLayout>\n</StackLayout>\n```",
+                answers: [{ id: 0, text: "Napis Fotograf będzie po prawej stronie obrazu" }, { id: 1, text: "Obraz będzie po lewej stronie, a pozostałe elementy po prawej" }, { id: 2, text: "Wszystkie elementy będą jeden pod drugim, w jednej kolumnie" }, { id: 3, text: "Przyciski Like i Share będą obok siebie w jednym wierszu" }],
+                goodAnswer: 3
+            },
+            {
+                id: 246,
+                title: "Który typ danych jest typem rekordowym (strukturalnym)?",
+                answers: [{ id: 0, text: "`float` w języku C" }, { id: 1, text: "`bool` w języku Java" }, { id: 2, text: "`struct` w języku C++" }, { id: 3, text: "`int` w języku Python" }],
+                goodAnswer: 2
+            },
+            {
+                id: 247,
+                title: "W jakim języku pisze się aplikacje we frameworku Django?",
+                answers: [{ id: 0, text: "C#" }, { id: 1, text: "Python" }, { id: 2, text: "JavaScript" }, { id: 3, text: "Java" }],
+                goodAnswer: 1
+            },
+            {
+                id: 248,
+                title: "Które narzędzie służy do projektowania makiet interfejsu użytkownika?",
+                answers: [{ id: 0, text: "Postman" }, { id: 1, text: "Figma" }, { id: 2, text: "Webpack" }, { id: 3, text: "Jenkins" }],
+                goodAnswer: 1
+            },
+            {
+                id: 249,
+                title: "Czym jest framework?",
+                answers: [{ id: 0, text: "Szkieletem aplikacji z gotowymi komponentami, narzucającym sposób jej budowy" }, { id: 1, text: "Zbiorem procedur i typów danych wykorzystywanych w kodzie aplikacji" }, { id: 2, text: "Narzędziem do edycji, testowania i uruchamiania oprogramowania" }, { id: 3, text: "Programem pozwalającym zbudować interfejs aplikacji metodą przeciągnij i upuść" }],
+                goodAnswer: 0
+            },
+            {
+                id: 250,
+                title: "Jak zaczyna się komentarz jednowierszowy w języku Python?",
+                answers: [{ id: 0, text: "`--`" }, { id: 1, text: "`//`" }, { id: 2, text: "`/*`" }, { id: 3, text: "`#`" }],
+                goodAnswer: 3
+            },
+            {
+                id: 251,
+                title: "Do czego służy wzorzec projektowy Metoda szablonowa (Template Method)?",
+                answers: [{ id: 0, text: "Do przechowywania obiektów różnego rodzaju w jednej, jednorodnej kolekcji" }, { id: 1, text: "Do łączenia obiektów w hierarchiczne struktury drzewiaste" }, { id: 2, text: "Do określenia szkieletu algorytmu, którego kroki definiują podklasy" }, { id: 3, text: "Do zapewnienia, że klasa ma tylko jedną instancję" }],
+                goodAnswer: 2
+            },
+            {
+                id: 252,
+                title: "Które zadanie należy do warstwy back-end aplikacji internetowej?",
+                answers: [{ id: 0, text: "Obsługa bazy danych" }, { id: 1, text: "Obsługa zdarzeń elementów strony" }, { id: 2, text: "Wyświetlanie danych formularza w przeglądarce" }, { id: 3, text: "Sprawdzanie pól formularza w trakcie wpisywania" }],
+                goodAnswer: 0
+            },
+            {
+                id: 253,
+                title: "Który wzorzec projektowy upraszcza korzystanie ze złożonego systemu, udostępniając jeden prosty interfejs?",
+                answers: [{ id: 0, text: "Obserwator" }, { id: 1, text: "Fasada" }, { id: 2, text: "Singleton" }, { id: 3, text: "Kompozyt" }],
+                goodAnswer: 1
+            },
+            {
+                id: 254,
+                title: "Co powinien zawierać przypadek testowy (scenariusz testu)?",
+                answers: [{ id: 0, text: "Pełną dokumentację techniczną oprogramowania" }, { id: 1, text: "Szczegółowe wytyczne dotyczące stylu i formatowania pisanego kodu" }, { id: 2, text: "Warunki początkowe, kroki do wykonania i oczekiwane wyniki" }, { id: 3, text: "Plan wdrożenia aplikacji w środowisku produkcyjnym" }],
+                goodAnswer: 2
+            },
+            {
+                id: 255,
+                title: "Czym różni się struktura (`struct`) od unii (`union`) w języku C?",
+                answers: [{ id: 0, text: "Unii nie obsługują współczesne kompilatory języka C" }, { id: 1, text: "Unia pozwala zmieniać typ pól w czasie działania programu" }, { id: 2, text: "Struktura może zawierać tylko pola tego samego typu, a unia dowolne" }, { id: 3, text: "Struktura przechowuje wszystkie pola naraz, a unia tylko jedno z nich" }],
+                goodAnswer: 3
+            },
+            {
+                id: 256,
+                title: "Czym jest WebSocket?",
+                answers: [{ id: 0, text: "Standardem zapisu danych w formacie binarnym przesyłanych do przeglądarki" }, { id: 1, text: "Protokołem dwukierunkowej komunikacji przez jedno połączenie TCP" }, { id: 2, text: "Narzędziem do automatycznego testowania aplikacji internetowych" }, { id: 3, text: "Biblioteką JavaScript do tworzenia formularzy" }],
+                goodAnswer: 1
+            },
+            {
+                id: 257,
+                title: "Jakie zdarzenie obsługuje poniższy kod aplikacji na system Android, napisany w Javie?\n\n```\nprzycisk = (Button) findViewById(R.id.yes);\nprzycisk.setOnClickListener(...);\n```",
+                answers: [{ id: 0, text: "Wybranie daty w kalendarzu" }, { id: 1, text: "Przełączenie kontrolki Switch" }, { id: 2, text: "Zmianę tekstu w polu edycyjnym" }, { id: 3, text: "Kliknięcie przycisku" }],
+                goodAnswer: 3
+            },
+            {
+                id: 258,
+                title: "Który zapis jest komentarzem wielowierszowym w języku Java?",
+                answers: [{ id: 0, text: "`/* ... */`" }, { id: 1, text: "`\"\"\" ... \"\"\"`" }, { id: 2, text: "`// ... //`" }, { id: 3, text: "`<!-- ... -->`" }],
+                goodAnswer: 0
+            },
+            {
+                id: 259,
+                title: "Które wyrażenie sprawdza, czy liczba całkowita `x` jest dodatnią liczbą dwucyfrową podzielną przez 4?",
+                answers: [{ id: 0, text: "`(x > 9 || x < 100) && (x / 4 == 0)`" }, { id: 1, text: "`(x > 9 && x < 100) || (x % 4 == 0)`" }, { id: 2, text: "`(x > 9 && x < 100) && (x % 4 == 0)`" }, { id: 3, text: "`(x > 0 && x < 100) && (x % 4 == 0)`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 260,
+                title: "Która deklaracja w klasie `Mieszkaniec` jest konstruktorem kopiującym w języku C++?",
+                answers: [{ id: 0, text: "`Mieszkaniec(int rokUrodzenia);`" }, { id: 1, text: "`Mieszkaniec(const Mieszkaniec &m);`" }, { id: 2, text: "`Mieszkaniec(string imie, string nazwisko);`" }, { id: 3, text: "`Mieszkaniec();`" }],
+                goodAnswer: 1
+            },
+            {
+                id: 261,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nfunction Osoba(imie) {\n    this.imie = imie;\n}\nOsoba.prototype.przywitaj = function () {\n    return \"Cześć, \" + this.imie + \"!\";\n};\nconst o = new Osoba(\"Jan\");\nconsole.log(o.przywitaj());\n```",
+                answers: [{ id: 0, text: "Cześć, [object Object]!" }, { id: 1, text: "TypeError: o.przywitaj is not a function" }, { id: 2, text: "Cześć, Jan!" }, { id: 3, text: "Cześć, undefined!" }],
+                goodAnswer: 2
+            },
+            {
+                id: 262,
+                title: "Który algorytm sortowania NIE jest stabilny?",
+                answers: [{ id: 0, text: "Sortowanie przez scalanie" }, { id: 1, text: "Sortowanie bąbelkowe" }, { id: 2, text: "Sortowanie przez wstawianie" }, { id: 3, text: "Sortowanie szybkie (quicksort)" }],
+                goodAnswer: 3
+            },
+            {
+                id: 263,
+                title: "Które narzędzie zarządza zależnościami (pakietami) w projekcie JavaScript?",
+                answers: [{ id: 0, text: "npm" }, { id: 1, text: "Docker" }, { id: 2, text: "Git" }, { id: 3, text: "Postman" }],
+                goodAnswer: 0
+            },
+            {
+                id: 264,
+                title: "Który framework służy do tworzenia aplikacji z graficznym interfejsem użytkownika w języku C++?",
+                answers: [{ id: 0, text: "Express.js" }, { id: 1, text: "Qt" }, { id: 2, text: "Django" }, { id: 3, text: "TensorFlow" }],
+                goodAnswer: 1
+            },
+            {
+                id: 265,
+                title: "Aplikacja mobilna wyświetla listę, której elementy można dotknąć palcem, aby zobaczyć szczegóły. Jak nazywa się zdarzenie odpowiadające tej czynności?",
+                answers: [{ id: 0, text: "`Tapped`" }, { id: 1, text: "`Toggled`" }, { id: 2, text: "`Scrolled`" }, { id: 3, text: "`ValueChanged`" }],
+                goodAnswer: 0
+            },
+            {
+                id: 266,
+                title: "Jaką strukturę danych tworzy poniższa instrukcja w języku C#?\n\n```\nint[,] tab = new int[3, 3];\n```",
+                answers: [{ id: 0, text: "Tablicę jednowymiarową" }, { id: 1, text: "Listę" }, { id: 2, text: "Tablicę dwuwymiarową" }, { id: 3, text: "Stos" }],
+                goodAnswer: 2
+            },
+            {
+                id: 267,
+                title: "W którym środowisku programistycznym tworzy się aplikacje WPF (Windows Presentation Foundation)?",
+                answers: [{ id: 0, text: "NetBeans" }, { id: 1, text: "PyCharm" }, { id: 2, text: "Android Studio" }, { id: 3, text: "Visual Studio" }],
+                goodAnswer: 3
+            },
+            {
+                id: 268,
+                title: "Jaki algorytm realizuje poniższa metoda w języku Java?\n\n```\nstatic String fun1(String s) {\n    String w = \"\";\n    for (int i = s.length() - 1; i >= 0; i--)\n        w += s.charAt(i);\n    return w;\n}\n```",
+                answers: [{ id: 0, text: "Sortowanie znaków napisu według kodów ASCII" }, { id: 1, text: "Sprawdzanie, czy napis jest palindromem" }, { id: 2, text: "Odwracanie kolejności znaków w napisie" }, { id: 3, text: "Wyszukiwanie litery w napisie" }],
+                goodAnswer: 2
+            },
+            {
+                id: 269,
+                title: "Jakiego rodzaju aplikacje tworzy się z użyciem frameworka Angular?",
+                answers: [{ id: 0, text: "Natywne aplikacje mobilne" }, { id: 1, text: "Aplikacje internetowe typu front-end" }, { id: 2, text: "Aplikacje serwerowe typu back-end" }, { id: 3, text: "Natywne aplikacje desktopowe" }],
+                goodAnswer: 1
+            },
+            {
+                id: 270,
+                title: "Co sprawdza poniższa funkcja w języku C++?\n\n```\nbool wykonaj(int x) {\n    int T[] = {4, 15, -2, 9, 202};\n    for (int i = 0; i < 5; i++)\n        if (T[i] == x)\n            return true;\n    return false;\n}\n```",
+                answers: [{ id: 0, text: "Czy wartość `x` występuje w tablicy `T`" }, { id: 1, text: "Czy `x` należy do przedziału od 0 do 4" }, { id: 2, text: "Czy wszystkie elementy tablicy `T` są równe `x`" }, { id: 3, text: "Czy tablica `T` zawiera tylko liczby dodatnie" }],
+                goodAnswer: 0
+            },
+            {
+                id: 271,
+                title: "Jaką odpowiedzialność karną przewiduje polskie prawo za bezprawne rozpowszechnianie cudzego programu komputerowego?",
+                answers: [{ id: 0, text: "Wyłącznie obowiązek publicznych przeprosin" }, { id: 1, text: "Unieważnienie wszystkich licencji posiadanych przez sprawcę" }, { id: 2, text: "Dożywotni zakaz korzystania z jakiegokolwiek oprogramowania open source" }, { id: 3, text: "Grzywnę, karę ograniczenia wolności lub pozbawienia wolności" }],
+                goodAnswer: 3
+            },
+            {
+                id: 272,
+                title: "Czym jest ORM (Object-Relational Mapping)?",
+                answers: [{ id: 0, text: "Metodą zarządzania niezawodnością serwerów w chmurze" }, { id: 1, text: "Modelem organizacji zasobów statycznych w aplikacjach webowych" }, { id: 2, text: "Techniką odwzorowania obiektów w kodzie na tabele relacyjnej bazy danych" }, { id: 3, text: "Modułem renderującym dane wyjściowe aplikacji w szablonach stron HTML" }],
+                goodAnswer: 2
+            },
+            {
+                id: 273,
+                title: "Które typy liczbowe języka C++ są typami stałoprzecinkowymi?",
+                answers: [{ id: 0, text: "`float`, `double`" }, { id: 1, text: "`bool`, `char`, `string`" }, { id: 2, text: "`long double`, `float`" }, { id: 3, text: "`int`, `short`, `long`" }],
+                goodAnswer: 3
+            },
+            {
+                id: 274,
+                title: "Czym różnią się testy funkcjonalne od testów niefunkcjonalnych?",
+                answers: [{ id: 0, text: "Funkcjonalne sprawdzają, co robi aplikacja, a niefunkcjonalne np. wydajność" }, { id: 1, text: "Funkcjonalne dotyczą interfejsu, a niefunkcjonalne zaplecza aplikacji" }, { id: 2, text: "Funkcjonalne sprawdzają wydajność, a niefunkcjonalne poprawność kodu" }, { id: 3, text: "Funkcjonalne wykonują użytkownicy, a niefunkcjonalne programiści" }],
+                goodAnswer: 0
+            },
+            {
+                id: 275,
+                title: "Czym jest Service Worker w aplikacjach PWA (Progressive Web App)?",
+                answers: [{ id: 0, text: "Narzędziem do mierzenia wydajności i czasu ładowania aplikacji" }, { id: 1, text: "Skryptem działającym w tle przeglądarki, niezależnie od strony" }, { id: 2, text: "Protokołem komunikacji między przeglądarką a serwerem" }, { id: 3, text: "Usługą hostingową przeznaczoną dla aplikacji webowych" }],
+                goodAnswer: 1
+            },
+            {
+                id: 276,
+                title: "Jaki jest wynik dodawania liczb binarnych 1101 i 1001?",
+                answers: [{ id: 0, text: "10110" }, { id: 1, text: "10111" }, { id: 2, text: "11110" }, { id: 3, text: "1110" }],
+                goodAnswer: 0
+            },
+            {
+                id: 277,
+                title: "Aplikacja ma umożliwiać cofanie do 20 ostatnich operacji (undo). Która struktura danych najlepiej się do tego nadaje?",
+                answers: [{ id: 0, text: "Drzewo binarne" }, { id: 1, text: "Kolejka" }, { id: 2, text: "Graf" }, { id: 3, text: "Stos" }],
+                goodAnswer: 3
+            },
+            {
+                id: 278,
+                title: "Na czym polega leniwe ładowanie (lazy loading) w aplikacjach internetowych?",
+                answers: [{ id: 0, text: "Na zapisywaniu danych w pamięci podręcznej przeglądarki" }, { id: 1, text: "Na kompresowaniu obrazów przed wysłaniem ich na serwer" }, { id: 2, text: "Na wczytywaniu zasobów dopiero wtedy, gdy są potrzebne" }, { id: 3, text: "Na mierzeniu czasu ładowania poszczególnych elementów strony" }],
+                goodAnswer: 2
+            },
+            {
+                id: 279,
+                title: "Które narzędzie służy do automatyzacji budowania, testowania i wdrażania aplikacji (CI/CD)?",
+                answers: [{ id: 0, text: "Figma" }, { id: 1, text: "Jenkins" }, { id: 2, text: "Swagger" }, { id: 3, text: "Postman" }],
+                goodAnswer: 1
+            },
+            {
+                id: 280,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku Python?\n\n```\ndane = [1, 2, 3, 4, 5]\nwynik = list(map(lambda x: x * 2,\n    filter(lambda x: x % 2 == 0, dane)))\nprint(wynik)\n```",
+                answers: [{ id: 0, text: "`[2, 4]`" }, { id: 1, text: "`[2, 6, 10]`" }, { id: 2, text: "`[4, 8]`" }, { id: 3, text: "`[2, 4, 6, 8, 10]`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 281,
+                title: "Do czego służy polecenie `git rebase`?",
+                answers: [{ id: 0, text: "Do automatycznego rozwiązania konfliktów w plikach" }, { id: 1, text: "Do przeniesienia commitów gałęzi tak, by zaczynały się od innego commita" }, { id: 2, text: "Do utworzenia kopii zapasowej całego repozytorium na zdalnym serwerze" }, { id: 3, text: "Do utworzenia nowego, pustego repozytorium w katalogu" }],
+                goodAnswer: 1
+            },
+            {
+                id: 282,
+                title: "Do czego służy poniższy kod w języku C#?\n\n```\nvar r = new Random();\nstring pula = \"abcdefghijklmnopqrstuvwxyz\";\nstring wynik = \"\";\nfor (int i = 0; i < 8; i++)\n    wynik += pula[r.Next(0, pula.Length)];\n```",
+                answers: [{ id: 0, text: "Tworzy losowy napis z 8 małych liter" }, { id: 1, text: "Tworzy napis z 8 kolejnych liter alfabetu" }, { id: 2, text: "Losuje jedną literę z puli znaków" }, { id: 3, text: "Wypełnia tablicę 8 liczbami pseudolosowymi" }],
+                goodAnswer: 0
+            },
+            {
+                id: 283,
+                title: "Które działanie zagraża bezpieczeństwu tożsamości cyfrowej?",
+                answers: [{ id: 0, text: "Włączenie uwierzytelniania dwuskładnikowego" }, { id: 1, text: "Regularna zmiana haseł do wszystkich kont internetowych" }, { id: 2, text: "Tworzenie unikalnych, silnych haseł" }, { id: 3, text: "Klikanie w podejrzane linki w wiadomościach e-mail" }],
+                goodAnswer: 3
+            },
+            {
+                id: 284,
+                title: "Jak poprawnie wywołać poniższą funkcję w języku C++ dla zmiennych całkowitych `a` i `b`?\n\n```\nvoid zamien(int *a, int *b) {\n    int tmp = *a;\n    *a = *b;\n    *b = tmp;\n}\n```",
+                answers: [{ id: 0, text: "`zamien(a, b);`" }, { id: 1, text: "`zamien(&a, &b);`" }, { id: 2, text: "`zamien(*a, *b);`" }, { id: 3, text: "`zamien(12, 34);`" }],
+                goodAnswer: 1
+            },
+            {
+                id: 285,
+                title: "Która grupa zawiera wyłącznie typy złożone języka C++?",
+                answers: [{ id: 0, text: "`class`, `struct`, `float`" }, { id: 1, text: "`unsigned`, `struct`, `float`" }, { id: 2, text: "`class`, `struct`, `union`" }, { id: 3, text: "`char`, `struct`, `union`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 286,
+                title: "Czym jest odśmiecanie pamięci (garbage collection)?",
+                answers: [{ id: 0, text: "Usuwaniem pustych wierszy z tabel bazy danych" }, { id: 1, text: "Kompresją danych przechowywanych w tabelach relacyjnej bazy danych SQL" }, { id: 2, text: "Usuwaniem nieużywanych elementów z interfejsu użytkownika" }, { id: 3, text: "Automatycznym zwalnianiem pamięci zajmowanej przez nieużywane obiekty" }],
+                goodAnswer: 3
+            },
+            {
+                id: 287,
+                title: "Który komentarz można wstawić w miejscu `???` w kodzie C#, aby był poprawny i opisywał wykonywaną operację?\n\n```\nstring[] langs = {\"C++\", \"C#\", \"Java\"};\nforeach (string s in langs) {\n    Console.WriteLine(s); ???\n}\n```",
+                answers: [{ id: 0, text: "`// wyświetlenie elementu tablicy`" }, { id: 1, text: "`# wyświetlenie elementu tablicy`" }, { id: 2, text: "`// wypełnienie elementu tablicy`" }, { id: 3, text: "`# wypełnienie elementu tablicy`" }],
+                goodAnswer: 0
+            },
+            {
+                id: 288,
+                title: "Czym jest Cypress?",
+                answers: [{ id: 0, text: "Biblioteką gotowych komponentów UI dla Reacta" }, { id: 1, text: "Frameworkiem do testów end-to-end aplikacji internetowych" }, { id: 2, text: "Kompilatorem kodu TypeScript do starszych wersji JavaScriptu" }, { id: 3, text: "Systemem bazodanowym dla aplikacji mobilnych" }],
+                goodAnswer: 1
+            },
+            {
+                id: 289,
+                title: "Do czego przede wszystkim służy biblioteka jQuery?",
+                answers: [{ id: 0, text: "Do projektowania struktur relacyjnych baz danych" }, { id: 1, text: "Do tworzenia interfejsów programów desktopowych" }, { id: 2, text: "Do upraszczania operacji na DOM i obsługi zdarzeń w JavaScript" }, { id: 3, text: "Do budowania natywnych aplikacji mobilnych na systemy Android i iOS" }],
+                goodAnswer: 2
+            },
+            {
+                id: 290,
+                title: "Którym poleceniem rozpoczyna się tworzenie procedury składowanej `dodajUsera` w MS SQL Server?",
+                answers: [{ id: 0, text: "`CREATE PROCEDURE dodajUsera`" }, { id: 1, text: "`CREATE dodajUsera PROCEDURE`" }, { id: 2, text: "`ADD PROCEDURE dodajUsera`" }, { id: 3, text: "`ADD dodajUsera PROCEDURE`" }],
+                goodAnswer: 0
+            },
+            {
+                id: 291,
+                title: "Którego diagramu można użyć do monitorowania wykonywania zadań przez członków zespołu projektowego?",
+                answers: [{ id: 0, text: "Diagramu związków encji" }, { id: 1, text: "Diagramu aktywności UML" }, { id: 2, text: "Diagramu Venna" }, { id: 3, text: "Diagramu Gantta" }],
+                goodAnswer: 3
+            },
+            {
+                id: 292,
+                title: "Jakiej jednostki zaleca się używać w interfejsie aplikacji na system Android, aby elementy miały ten sam rozmiar na ekranach o różnej gęstości pikseli?",
+                answers: [{ id: 0, text: "mm" }, { id: 1, text: "px" }, { id: 2, text: "pt" }, { id: 3, text: "dp" }],
+                goodAnswer: 3
+            },
+            {
+                id: 293,
+                title: "Jak w języku C++ zdefiniować własny typ wyjątku?",
+                answers: [{ id: 0, text: "Włączyć domyślną obsługę błędów w kompilatorze" }, { id: 1, text: "Napisać blok try z pustym blokiem catch" }, { id: 2, text: "Utworzyć klasę dziedziczącą po klasie std::exception" }, { id: 3, text: "Wywołać instrukcję throw bez żadnego argumentu" }],
+                goodAnswer: 2
+            },
+            {
+                id: 294,
+                title: "Do jakiej grupy należą operatory `*`, `/`, `++`, `--` i `%`?",
+                answers: [{ id: 0, text: "Operatorów logicznych" }, { id: 1, text: "Operatorów arytmetycznych" }, { id: 2, text: "Operatorów przypisania" }, { id: 3, text: "Operatorów porównania" }],
+                goodAnswer: 1
+            },
+            {
+                id: 295,
+                title: "Co opisuje dokumentacja wdrożeniowa aplikacji?",
+                answers: [{ id: 0, text: "Instalację i konfigurację aplikacji w środowisku produkcyjnym" }, { id: 1, text: "Sposób tworzenia zadań w systemie kontroli wersji" }, { id: 2, text: "Wyniki testów wydajnościowych przeprowadzonych przed wydaniem aplikacji" }, { id: 3, text: "Strukturę tabel w bazie danych aplikacji" }],
+                goodAnswer: 0
+            },
+            {
+                id: 296,
+                title: "W aplikacji zaprojektowanej obiektowo program jest sterowany przez:",
+                answers: [{ id: 0, text: "definicję warunków rozwiązania końcowego" }, { id: 1, text: "moduły z funkcjami i zmiennymi globalnymi" }, { id: 2, text: "zbiór współpracujących ze sobą instancji klas" }, { id: 3, text: "pętlę dyspozytora wywołującą funkcje dla zdarzeń" }],
+                goodAnswer: 2
+            },
+            {
+                id: 297,
+                title: "Jaka będzie wartość zmiennej `b` po wykonaniu kodu w języku C++?\n\n```\nint a = 1, b = 20, c = 3;\nwhile (a <= 10) {\n    b = b - c;\n    a += 2;\n}\n```",
+                answers: [{ id: 0, text: "11" }, { id: 1, text: "20" }, { id: 2, text: "2" }, { id: 3, text: "5" }],
+                goodAnswer: 3
+            },
+            {
+                id: 298,
+                title: "W jakim języku pisze się aplikacje we frameworku Angular?",
+                answers: [{ id: 0, text: "Python" }, { id: 1, text: "TypeScript" }, { id: 2, text: "C#" }, { id: 3, text: "PHP" }],
+                goodAnswer: 1
+            },
+            {
+                id: 299,
+                title: "Jaką strukturę danych tworzy poniższy zapis w języku Python?\n\n```\npierwiastki = {\"N\": \"Azot\", \"O\": \"Tlen\"}\n```",
+                answers: [{ id: 0, text: "Słownik (tablicę asocjacyjną)" }, { id: 1, text: "Zbiór" }, { id: 2, text: "Kolejkę" }, { id: 3, text: "Stos" }],
+                goodAnswer: 0
+            },
+            {
+                id: 300,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nclass Zwierze {\n    constructor(i) { this.imie = i; }\n    glos() { return \"dźwięk\"; }\n}\nclass Pies extends Zwierze {\n    glos() { return \"hau\"; }\n}\nconst p = new Pies(\"Reks\");\nconsole.log(p.imie, p.glos());\n```",
+                answers: [{ id: 0, text: "Reks dźwięk" }, { id: 1, text: "TypeError" }, { id: 2, text: "Reks hau" }, { id: 3, text: "undefined hau" }],
+                goodAnswer: 2
+            },
+            {
+                id: 301,
+                title: "Który algorytm sortowania wykorzystuje metodę dziel i zwyciężaj?",
+                answers: [{ id: 0, text: "Sortowanie bąbelkowe" }, { id: 1, text: "Sortowanie przez wstawianie" }, { id: 2, text: "Sortowanie przez wybieranie" }, { id: 3, text: "Sortowanie szybkie (quicksort)" }],
+                goodAnswer: 3
+            },
+            {
+                id: 302,
+                title: "Do programowania w jakim języku powstały pierwotnie środowiska IntelliJ IDEA, Eclipse i NetBeans?",
+                answers: [{ id: 0, text: "Python" }, { id: 1, text: "Java" }, { id: 2, text: "C++" }, { id: 3, text: "C#" }],
+                goodAnswer: 1
+            },
+            {
+                id: 303,
+                title: "Czym jest aplikacja SPA (Single Page Application)?",
+                answers: [{ id: 0, text: "Aplikacją, która podmienia treść strony bez jej ponownego przeładowania" }, { id: 1, text: "Techniką zmniejszania rozmiaru kodu JavaScript przed publikacją strony" }, { id: 2, text: "Metodą projektowania interfejsu tylko dla urządzeń mobilnych" }, { id: 3, text: "Formatem pliku używanym do przechowywania danych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 304,
+                title: "Do czego służy instrukcja `throw` w języku C++?",
+                answers: [{ id: 0, text: "Do zgłoszenia wyjątku, który można przechwycić w bloku catch" }, { id: 1, text: "Do ograniczenia zasięgu zmiennych w bloku try" }, { id: 2, text: "Do natychmiastowego zakończenia programu bez obsługi błędu" }, { id: 3, text: "Do zdefiniowania bloku wykonywanego zawsze na końcu" }],
+                goodAnswer: 0
+            },
+            {
+                id: 305,
+                title: "Jednym z etapów publikacji aplikacji w sklepie Google Play są testy beta. Kto je przeprowadza?",
+                answers: [{ id: 0, text: "Wyłącznie programiści, którzy napisali aplikację" }, { id: 1, text: "Automatyczne skrypty Google, bez udziału ludzi" }, { id: 2, text: "Testerzy zatrudnieni przez firmę Google" }, { id: 3, text: "Grupa docelowych użytkowników aplikacji" }],
+                goodAnswer: 3
+            },
+            {
+                id: 306,
+                title: "Który algorytm jest jednokierunkową funkcją skrótu?",
+                answers: [{ id: 0, text: "DES" }, { id: 1, text: "RSA" }, { id: 2, text: "MD5" }, { id: 3, text: "AES" }],
+                goodAnswer: 2
+            },
+            {
+                id: 307,
+                title: "Co zwróci poniższe zapytanie SQL?\n\n```\nSELECT COUNT(*)\nFROM pracownicy\nWHERE pensja > (SELECT AVG(pensja)\n                FROM pracownicy);\n```",
+                answers: [{ id: 0, text: "Średnią pensję wszystkich pracowników" }, { id: 1, text: "Liczbę pracowników z pensją wyższą od średniej" }, { id: 2, text: "Błąd składni, bo podzapytania są niedozwolone" }, { id: 3, text: "Liczbę pracowników z najwyższą pensją" }],
+                goodAnswer: 1
+            },
+            {
+                id: 308,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nlet a = { value: 10 };\nlet b = a;\nb.value = 20;\nconsole.log(a.value);\n```",
+                answers: [{ id: 0, text: "20" }, { id: 1, text: "ReferenceError" }, { id: 2, text: "10" }, { id: 3, text: "undefined" }],
+                goodAnswer: 0
+            },
+            {
+                id: 309,
+                title: "Dla której wartości zmiennej `index` poniższy kod w języku Java wyświetli napis \"Błąd\"?\n\n```\ntry {\n    int[] t = {1, 2, 3, 4, 5, 6};\n    System.out.println(t[index]);\n} catch (Exception e) {\n    System.out.println(\"Błąd\");\n}\n```",
+                answers: [{ id: 0, text: "1" }, { id: 1, text: "0" }, { id: 2, text: "5" }, { id: 3, text: "7" }],
+                goodAnswer: 3
+            },
+            {
+                id: 310,
+                title: "Co charakteryzuje bibliotekę dynamiczną (np. plik DLL)?",
+                answers: [{ id: 0, text: "Może być używana tylko przez jeden program naraz" }, { id: 1, text: "Jest ładowana do pamięci w trakcie działania programu" }, { id: 2, text: "Zawiera kod źródłowy aplikacji w postaci tekstowej" }, { id: 3, text: "Jest dołączana do pliku wykonywalnego podczas kompilacji" }],
+                goodAnswer: 1
+            },
+            {
+                id: 311,
+                title: "Do czego służy środowisko Node.js?",
+                answers: [{ id: 0, text: "Do tworzenia natywnych aplikacji mobilnych" }, { id: 1, text: "Do automatycznego testowania interfejsów API" }, { id: 2, text: "Do uruchamiania JavaScriptu po stronie serwera" }, { id: 3, text: "Do projektowania graficznego interfejsu użytkownika" }],
+                goodAnswer: 2
+            },
+            {
+                id: 312,
+                title: "Czym jest `rysunek` w poniższym kodzie w języku Java?\n\n```\nMojaKlasa obj1 = new MojaKlasa();\nobj1.rysunek();\n```",
+                answers: [{ id: 0, text: "Metodą" }, { id: 1, text: "Konstruktorem" }, { id: 2, text: "Obiektem" }, { id: 3, text: "Polem" }],
+                goodAnswer: 0
+            },
+            {
+                id: 313,
+                title: "Jaki jest główny cel normalizacji relacyjnej bazy danych?",
+                answers: [{ id: 0, text: "Zmniejszenie rozmiaru bazy kosztem integralności danych" }, { id: 1, text: "Przyspieszenie zapytań przez celowe powielenie danych" }, { id: 2, text: "Usunięcie nadmiarowości danych i zapewnienie ich spójności" }, { id: 3, text: "Zwiększenie liczby tabel w celu lepszego porządku" }],
+                goodAnswer: 2
+            },
+            {
+                id: 314,
+                title: "Co robi poniższy kod w języku C++?\n\n```\nvector<int> liczby;\nfor (int i = 0; i < 10; i++)\n    liczby.push_back(2 * i);\n```",
+                answers: [{ id: 0, text: "Usuwa w każdym obiegu pętli pierwszy element" }, { id: 1, text: "Dodaje kolejne wartości na początek wektora" }, { id: 2, text: "Usuwa w każdym obiegu pętli ostatni element" }, { id: 3, text: "Dodaje kolejne wartości na koniec wektora" }],
+                goodAnswer: 3
+            },
+            {
+                id: 315,
+                title: "Co wyświetli poniższy kod w języku C#?\n\n```\nint x = 5;\nint y = 10;\nConsole.WriteLine($\"{x} + {y} = {x + y}\");\n```",
+                answers: [{ id: 0, text: "5 + 10 = x + y" }, { id: 1, text: "5 + 10 = 15" }, { id: 2, text: "x + y = 15" }, { id: 3, text: "{x} + {y} = {x + y}" }],
+                goodAnswer: 1
+            },
+            {
+                id: 316,
+                title: "Który poziom zgodności ze standardem WCAG 2.0 jest najwyższy?",
+                answers: [{ id: 0, text: "A+" }, { id: 1, text: "AAA" }, { id: 2, text: "A" }, { id: 3, text: "AA" }],
+                goodAnswer: 1
+            },
+            {
+                id: 317,
+                title: "Które zdarzenie zachodzi, gdy kontrolka lub okno staje się aktywne, np. po kliknięciu myszą?",
+                answers: [{ id: 0, text: "`keyup`" }, { id: 1, text: "`blur`" }, { id: 2, text: "`focus`" }, { id: 3, text: "`change`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 318,
+                title: "Na czym polega błąd logiczny w poniższym kodzie w języku C++?\n\n```\nint x = 0;\nwhile (x != 0 || x != 5) {\n    cout << x << \" \";\n    x++;\n}\n```",
+                answers: [{ id: 0, text: "Instrukcja cout wczytuje wartość zmiennej w pętli" }, { id: 1, text: "Zmienna x nie została zainicjalizowana przed pętlą" }, { id: 2, text: "Warunek pętli jest od razu fałszywy, więc pętla nie wykona się ani razu" }, { id: 3, text: "Warunek pętli jest zawsze prawdziwy, więc pętla jest nieskończona" }],
+                goodAnswer: 3
+            },
+            {
+                id: 319,
+                title: "Co oznacza skrót MVP w projektowaniu aplikacji?",
+                answers: [{ id: 0, text: "Minimum Viable Product – najprostszą działającą wersję produktu" }, { id: 1, text: "Most Valuable Program – najcenniejszy program w firmie" }, { id: 2, text: "Mobile Virtual Platform – platformę do testów aplikacji mobilnych" }, { id: 3, text: "Multiple Value Platform – platformę obsługującą wiele typów danych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 320,
+                title: "Czym jest Webpack?",
+                answers: [{ id: 0, text: "Frameworkiem do tworzenia natywnych aplikacji mobilnych" }, { id: 1, text: "Systemem bazodanowym przeznaczonym dla aplikacji Node.js" }, { id: 2, text: "Biblioteką do pisania i uruchamiania testów jednostkowych kodu JavaScript" }, { id: 3, text: "Narzędziem łączącym moduły JavaScript i zasoby w pakiety (bundler)" }],
+                goodAnswer: 3
+            },
+            {
+                id: 321,
+                title: "Czym jest REST API?",
+                answers: [{ id: 0, text: "Stylem budowy API opartym na zasobach i standardowych metodach HTTP" }, { id: 1, text: "Frameworkiem do automatycznego testowania interfejsów API" }, { id: 2, text: "Biblioteką JavaScript do bezpośredniego łączenia się z bazami danych SQL" }, { id: 3, text: "Protokołem sieciowym do przesyłania danych binarnych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 322,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nconst p = new Promise(resolve => {\n    setTimeout(() => resolve(\"A\"), 1000);\n});\np.then(res => {\n    console.log(res);\n    return \"B\";\n}).then(res => console.log(res));\n```",
+                answers: [{ id: 0, text: "Tylko A" }, { id: 1, text: "A, a następnie B" }, { id: 2, text: "B, a następnie A" }, { id: 3, text: "Tylko B" }],
+                goodAnswer: 1
+            },
+            {
+                id: 323,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nconsole.log(0.1 + 0.2 === 0.3);\nconsole.log(0.1 + 0.2);\n```",
+                answers: [{ id: 0, text: "false i 0.3" }, { id: 1, text: "true i 0.30000000000000004" }, { id: 2, text: "false i 0.30000000000000004" }, { id: 3, text: "true i 0.3" }],
+                goodAnswer: 2
+            },
+            {
+                id: 324,
+                title: "Reguła zaangażowania i konsekwencji, jedna z zasad wywierania wpływu, odnosi się do skłonności ludzi do:",
+                answers: [{ id: 0, text: "kierowania się zdaniem większości grupy" }, { id: 1, text: "odwzajemniania się osobie, która im pomogła" }, { id: 2, text: "ulegania osobom uważanym za autorytety" }, { id: 3, text: "doprowadzania do końca spraw, w które się zaangażowali" }],
+                goodAnswer: 3
+            },
+            {
+                id: 325,
+                title: "Który operator w języku C++ zwraca adres zmiennej?",
+                answers: [{ id: 0, text: "`->`" }, { id: 1, text: "`*`" }, { id: 2, text: "`&`" }, { id: 3, text: "`::`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 326,
+                title: "Jaki jest efekt wykonania poniższych poleceń Git w folderze projektu?\n\n```\ngit init\ngit add .\ngit commit -m \"first commit\"\n```",
+                answers: [{ id: 0, text: "Utworzenie repozytorium i zatwierdzenie w nim wszystkich plików projektu" }, { id: 1, text: "Pobranie kodu projektu z istniejącego zdalnego repozytorium" }, { id: 2, text: "Zarchiwizowanie wszystkich rewizji projektu w pliku first commit" }, { id: 3, text: "Utworzenie kopii istniejącego repozytorium z jedną rewizją" }],
+                goodAnswer: 0
+            },
+            {
+                id: 327,
+                title: "Jak nazywa się metoda wyszukiwania w posortowanej tablicy, która dzieli ją na bloki i przeszukuje liniowo tylko blok, w którym może być szukany element?",
+                answers: [{ id: 0, text: "Exponential search" }, { id: 1, text: "Jump search" }, { id: 2, text: "Ternary search" }, { id: 3, text: "Binary search" }],
+                goodAnswer: 1
+            },
+            {
+                id: 328,
+                title: "Co charakteryzuje klasę statyczną w języku C#?",
+                answers: [{ id: 0, text: "Może być klasą bazową dla innych klas" }, { id: 1, text: "Może zawierać tylko statyczne pola i metody" }, { id: 2, text: "Nie może zawierać żadnych pól ani metod" }, { id: 3, text: "Jest automatycznie usuwana po zakończeniu programu" }],
+                goodAnswer: 1
+            },
+            {
+                id: 329,
+                title: "Do której kategorii własności intelektualnej należą znaki towarowe?",
+                answers: [{ id: 0, text: "Autorskich praw osobistych" }, { id: 1, text: "Autorskich praw majątkowych" }, { id: 2, text: "Praw pokrewnych" }, { id: 3, text: "Własności przemysłowej" }],
+                goodAnswer: 3
+            },
+            {
+                id: 330,
+                title: "Czym jest Redux?",
+                answers: [{ id: 0, text: "Systemem kontroli wersji dla projektów JavaScript" }, { id: 1, text: "Frameworkiem do tworzenia natywnych aplikacji mobilnych" }, { id: 2, text: "Biblioteką do zarządzania stanem aplikacji JavaScript" }, { id: 3, text: "Narzędziem do mierzenia wydajności aplikacji React" }],
+                goodAnswer: 2
+            },
+            {
+                id: 331,
+                title: "Które narzędzie najczęściej wykorzystuje się do ręcznego testowania API REST?",
+                answers: [{ id: 0, text: "Postman" }, { id: 1, text: "Figma" }, { id: 2, text: "Selenium" }, { id: 3, text: "Git" }],
+                goodAnswer: 0
+            },
+            {
+                id: 332,
+                title: "Co oznacza poniższa definicja klasy `Car` w języku C#?\n\n```\npublic class Car : Vehicle { ... }\n```",
+                answers: [{ id: 0, text: "Klasa `Car` korzysta z prywatnych pól klasy `Vehicle`" }, { id: 1, text: "Klasa `Vehicle` dziedziczy po klasie `Car`" }, { id: 2, text: "Klasa `Car` dziedziczy po klasie `Vehicle`" }, { id: 3, text: "Klasa `Car` jest zaprzyjaźniona z klasą `Vehicle`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 333,
+                title: "Typ `DECIMAL` w SQL wymaga podania liczby wszystkich cyfr i liczby cyfr po przecinku. Jakiego rodzaju jest to zapis liczby?",
+                answers: [{ id: 0, text: "Łańcuchowy" }, { id: 1, text: "Stałoprzecinkowy" }, { id: 2, text: "Logiczny" }, { id: 3, text: "Zmiennoprzecinkowy" }],
+                goodAnswer: 1
+            },
+            {
+                id: 334,
+                title: "Który protokół komunikacyjny jest powszechnie stosowany w urządzeniach Internetu rzeczy (IoT)?",
+                answers: [{ id: 0, text: "FTP" }, { id: 1, text: "POP3" }, { id: 2, text: "SMTP" }, { id: 3, text: "MQTT" }],
+                goodAnswer: 3
+            },
+            {
+                id: 335,
+                title: "Której kolekcji .NET należy użyć, aby powiązany z nią element interfejsu był powiadamiany o dodaniu, usunięciu lub zmianie jej zawartości?",
+                answers: [{ id: 0, text: "`ObservableCollection`" }, { id: 1, text: "`ReadOnlyCollection`" }, { id: 2, text: "`List`" }, { id: 3, text: "`KeyedCollection`" }],
+                goodAnswer: 0
+            },
+            {
+                id: 336,
+                title: "Która grupa zawiera wyłącznie frameworki i biblioteki do tworzenia aplikacji internetowych?",
+                answers: [{ id: 0, text: "ASP.NET Core, Django, Angular, React" }, { id: 1, text: "WPF, Qt, Angular, Django" }, { id: 2, text: "Visual Studio, Eclipse, Angular, React" }, { id: 3, text: "Android Studio, Xamarin, Django, React" }],
+                goodAnswer: 0
+            },
+            {
+                id: 337,
+                title: "Jaką kontrolkę definiuje poniższy kod XML w aplikacji na system Android?\n\n```\n<Switch\n    android:id=\"@+id/switch1\"\n    android:layout_width=\"wrap_content\"\n    android:layout_height=\"wrap_content\" />\n```",
+                answers: [{ id: 0, text: "Listę rozwijaną" }, { id: 1, text: "Pole wyboru daty" }, { id: 2, text: "Suwak" }, { id: 3, text: "Przełącznik" }],
+                goodAnswer: 3
+            },
+            {
+                id: 338,
+                title: "Który dokument standardu IEEE 829 zawiera informacje o tym, jakie przypadki testowe wykonano, kto je wykonał i czy zakończyły się sukcesem?",
+                answers: [{ id: 0, text: "Specyfikacja procedury testowej" }, { id: 1, text: "Dziennik testów" }, { id: 2, text: "Raport podsumowujący testy" }, { id: 3, text: "Plan testów" }],
+                goodAnswer: 1
+            },
+            {
+                id: 339,
+                title: "Które środowisko programistyczne jest przeznaczone do tworzenia aplikacji w języku Python, np. z użyciem Django?",
+                answers: [{ id: 0, text: "Unity" }, { id: 1, text: "Android Studio" }, { id: 2, text: "PyCharm" }, { id: 3, text: "Xcode" }],
+                goodAnswer: 2
+            },
+            {
+                id: 340,
+                title: "Jakie elementy są typowe dla środowiska IDE do tworzenia aplikacji mobilnych?",
+                answers: [{ id: 0, text: "Przeglądarka internetowa, serwer WWW i edytor tekstu" }, { id: 1, text: "Arkusz kalkulacyjny, serwer poczty i system CRM" }, { id: 2, text: "Edytor grafiki, narzędzia analityczne i klient FTP" }, { id: 3, text: "Kompilator, debuger i emulator urządzenia mobilnego" }],
+                goodAnswer: 3
+            },
+            {
+                id: 341,
+                title: "Czym różni się konstruktor od zwykłej metody klasy w językach C++, Java i C#?",
+                answers: [{ id: 0, text: "Ma taką samą nazwę jak klasa i nie zwraca wartości" }, { id: 1, text: "Może zostać wywołany wyłącznie przez destruktor klasy" }, { id: 2, text: "Zawsze musi zwracać wartość typu bool" }, { id: 3, text: "Można go wywołać bez tworzenia obiektu, jak metodę statyczną" }],
+                goodAnswer: 0
+            },
+            {
+                id: 342,
+                title: "Co zostanie wyświetlone po wykonaniu kodu w języku Python?\n\n```\ndef dodaj(x, lista=[]):\n    lista.append(x)\n    return lista\n\nprint(dodaj(1))\nprint(dodaj(2))\n```",
+                answers: [{ id: 0, text: "`[1]` i `[1]`" }, { id: 1, text: "`[1]` i `[2]`" }, { id: 2, text: "`[1]` i `[1, 2]`" }, { id: 3, text: "`[1, 2]` i `[1, 2]`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 343,
+                title: "Co wyświetli poniższy kod w języku C++?\n\n```\nclass A {\npublic:\n    virtual void f() { cout << \"A\"; }\n};\nclass B : public A {\npublic:\n    void f() { cout << \"B\"; }\n};\n\nA *p = new B();\np->f();\n```",
+                answers: [{ id: 0, text: "Błąd kompilacji" }, { id: 1, text: "B" }, { id: 2, text: "A" }, { id: 3, text: "AB" }],
+                goodAnswer: 1
+            },
+            {
+                id: 344,
+                title: "Która kontrolka WPF jest elementem menu aplikacji desktopowej?",
+                answers: [{ id: 0, text: "`MenuItem`" }, { id: 1, text: "`ScrollBar`" }, { id: 2, text: "`Canvas`" }, { id: 3, text: "`CheckBox`" }],
+                goodAnswer: 0
+            },
+            {
+                id: 345,
+                title: "Na czym polega wstrzykiwanie zależności (dependency injection)?",
+                answers: [{ id: 0, text: "Baza danych automatycznie optymalizuje wykonywane zapytania" }, { id: 1, text: "Obiekt otrzymuje z zewnątrz obiekty, od których zależy" }, { id: 2, text: "Interfejs użytkownika jest generowany na podstawie modelu danych" }, { id: 3, text: "Kompilator dołącza do programu wszystkie biblioteki statyczne" }],
+                goodAnswer: 1
+            },
+            {
+                id: 346,
+                title: "Jakie wartości będą miały zmienne `x` i `y` po wykonaniu kodu w języku C++, w którym użyto preinkrementacji?\n\n```\nint x = 7;\nint y = ++x;\n```",
+                answers: [{ id: 0, text: "`x = 8, y = 7`" }, { id: 1, text: "`x = 7, y = 8`" }, { id: 2, text: "`x = 8, y = 8`" }, { id: 3, text: "`x = 7, y = 7`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 347,
+                title: "Jaka wartość zostanie zapisana w zmiennej `b` po wykonaniu kodu w języku C++?\n\n```\ndouble x = 5.96;\nint b = (int)x;\n```",
+                answers: [{ id: 0, text: "5.96" }, { id: 1, text: "6" }, { id: 2, text: "596" }, { id: 3, text: "5" }],
+                goodAnswer: 3
+            },
+            {
+                id: 348,
+                title: "Do czego służy mechanizm wiązania danych (data binding) pokazany w poniższym kodzie XAML?\n\n```\n<Label Text=\"{Binding Path=Imie}\" />\n```",
+                answers: [{ id: 0, text: "Do powiązania właściwości kontrolki z danymi innego obiektu" }, { id: 1, text: "Do wywoływania funkcji w odpowiedzi na zdarzenia kontrolek" }, { id: 2, text: "Do obsługi obietnic w programowaniu asynchronicznym" }, { id: 3, text: "Do łączenia i eksportowania plików z różnych modułów aplikacji" }],
+                goodAnswer: 0
+            },
+            {
+                id: 349,
+                title: "Który protokół zapewnia szyfrowaną komunikację ze stroną internetową?",
+                answers: [{ id: 0, text: "HTTP" }, { id: 1, text: "HTTPS" }, { id: 2, text: "SMTP" }, { id: 3, text: "FTP" }],
+                goodAnswer: 1
+            },
+            {
+                id: 350,
+                title: "Który plik nagłówkowy należy dołączyć w języku C++, aby korzystać ze strumieni plikowych `ifstream` i `ofstream`?",
+                answers: [{ id: 0, text: "`<string>`" }, { id: 1, text: "`<fileio.h>`" }, { id: 2, text: "`<iostream>`" }, { id: 3, text: "`<fstream>`" }],
+                goodAnswer: 3
+            },
+            {
+                id: 351,
+                title: "Czym jest wskaźnik w języku C?",
+                answers: [{ id: 0, text: "Zmienną przechowującą wartość logiczną" }, { id: 1, text: "Funkcją przydzielającą pamięć dynamicznie" }, { id: 2, text: "Zmienną przechowującą adres w pamięci" }, { id: 3, text: "Typem danych do przechowywania tekstu" }],
+                goodAnswer: 2
+            },
+            {
+                id: 352,
+                title: "Który operator w języku Python sprawdza, czy element należy do listy?",
+                answers: [{ id: 0, text: "`is`" }, { id: 1, text: "`==`" }, { id: 2, text: "`and`" }, { id: 3, text: "`in`" }],
+                goodAnswer: 3
+            },
+            {
+                id: 353,
+                title: "Która funkcja w języku C dynamicznie przydziela pamięć, np. dla tablicy?",
+                answers: [{ id: 0, text: "`free()`" }, { id: 1, text: "`sizeof()`" }, { id: 2, text: "`malloc()`" }, { id: 3, text: "`printf()`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 354,
+                title: "Jak nazywa się algorytmy stosowane do problemów, których nie da się rozwiązać dokładnie w rozsądnym czasie, np. do przewidywania pogody lub wykrywania nowych wirusów?",
+                answers: [{ id: 0, text: "Rekurencyjne" }, { id: 1, text: "Heurystyczne" }, { id: 2, text: "Liniowe" }, { id: 3, text: "Iteracyjne" }],
+                goodAnswer: 1
+            },
+            {
+                id: 355,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nconsole.log(typeof [], typeof NaN);\n```",
+                answers: [{ id: 0, text: "object number" }, { id: 1, text: "array undefined" }, { id: 2, text: "array number" }, { id: 3, text: "object NaN" }],
+                goodAnswer: 0
+            },
+            {
+                id: 356,
+                title: "Jaką wartość otrzyma zmienna `liczba` po wykonaniu kodu w języku C++?\n\n```\nint liczba = rand() % 1000;\n```",
+                answers: [{ id: 0, text: "Pseudolosową liczbę całkowitą z przedziału od 0 do 999" }, { id: 1, text: "Dowolną pseudolosową liczbę z zakresu typu int" }, { id: 2, text: "Zawsze tę samą liczbę 1000, niezależnie od ziarna generatora" }, { id: 3, text: "Pseudolosową liczbę rzeczywistą podzielną przez 1000" }],
+                goodAnswer: 0
+            },
+            {
+                id: 357,
+                title: "Które narzędzie służy do emulowania urządzeń z systemem Android podczas tworzenia aplikacji?",
+                answers: [{ id: 0, text: "Postman" }, { id: 1, text: "NumPy" }, { id: 2, text: "Genymotion" }, { id: 3, text: "TensorFlow" }],
+                goodAnswer: 2
+            },
+            {
+                id: 358,
+                title: "Do czego służy polecenie `git merge`?",
+                answers: [{ id: 0, text: "Do wycofania ostatniego commita z historii repozytorium" }, { id: 1, text: "Do scalenia zmian z innej gałęzi z bieżącą gałęzią" }, { id: 2, text: "Do utworzenia nowego repozytorium w bieżącym katalogu" }, { id: 3, text: "Do wysłania lokalnych commitów do zdalnego repozytorium" }],
+                goodAnswer: 1
+            },
+            {
+                id: 359,
+                title: "Jaka cecha jest wspólna dla wszystkich kontrolek zdefiniowanych w poniższym kodzie XAML?\n\n```\n<Label Text=\"5\" BackgroundColor=\"Blue\"\n    TextColor=\"Tan\" IsVisible=\"True\" />\n<Stepper Value=\"5\" BackgroundColor=\"Blue\" />\n<Entry Placeholder=\"5\" TextColor=\"Tan\"\n    BackgroundColor=\"Blue\" />\n<Slider Value=\"5\" BackgroundColor=\"Blue\"\n    IsVisible=\"False\" />\n```",
+                answers: [{ id: 0, text: "Mają ten sam kolor czcionki" }, { id: 1, text: "Mają ustawioną tę samą wartość" }, { id: 2, text: "Wszystkie są widoczne" }, { id: 3, text: "Mają tło w tym samym kolorze" }],
+                goodAnswer: 3
+            },
+            {
+                id: 360,
+                title: "Czym jest zasięg (zakres) zmiennej w programowaniu?",
+                answers: [{ id: 0, text: "Ilością pamięci zajmowanej przez zmienną" }, { id: 1, text: "Obszarem kodu, w którym zmienna jest dostępna" }, { id: 2, text: "Przedziałem wartości, jakie może przyjąć zmienna danego typu" }, { id: 3, text: "Czasem, przez jaki zmienna istnieje w pamięci" }],
+                goodAnswer: 1
+            },
+            {
+                id: 361,
+                title: "Co wyświetli poniższy kod w języku C# (z użyciem LINQ)?\n\n```\nstring t = \"hello world\";\nvar w = string.Join(\"\", t.Split(' ')\n    .Select(s => char.ToUpper(s[0])\n        + s.Substring(1)));\nConsole.WriteLine(w);\n```",
+                answers: [{ id: 0, text: "elloorld" }, { id: 1, text: "HW" }, { id: 2, text: "Hello World" }, { id: 3, text: "HelloWorld" }],
+                goodAnswer: 3
+            },
+            {
+                id: 362,
+                title: "Co robi poniższa pętla w języku C++, działająca na tablicy znaków `ciag`?\n\n```\nint i = 0;\nwhile (ciag[i] != 0) {\n    if (ciag[i] > 96 && ciag[i] < 123)\n        ciag[i] = ciag[i] - 32;\n    i++;\n}\n```",
+                answers: [{ id: 0, text: "Zamienia małe litery na wielkie" }, { id: 1, text: "Odejmuje 32 od kodu każdego znaku" }, { id: 2, text: "Usuwa z napisu wszystkie cyfry" }, { id: 3, text: "Zamienia wielkie litery na małe" }],
+                goodAnswer: 0
+            },
+            {
+                id: 363,
+                title: "Która metoda klasy w języku Python jest wywoływana automatycznie, gdy obiekt jest usuwany?",
+                answers: [{ id: 0, text: "`__init__`" }, { id: 1, text: "`__str__`" }, { id: 2, text: "`__del__`" }, { id: 3, text: "`__repr__`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 364,
+                title: "Jakie wartości zostaną zapisane w tablicy po wykonaniu kodu w języku Java?\n\n```\nint[] t = new int[10];\nint j = 2;\nfor (int i = 0; i < 10; i++) {\n    t[i] = j;\n    j += 2;\n}\n```",
+                answers: [{ id: 0, text: "0, 2, 4, …, 18" }, { id: 1, text: "2, 2, 2, …, 2" }, { id: 2, text: "2, 4, 6, …, 20" }, { id: 3, text: "1, 2, 3, …, 10" }],
+                goodAnswer: 2
+            },
+            {
+                id: 365,
+                title: "Co się stanie, gdy wyjątek zgłoszony w programie nie zostanie przechwycony przez żaden blok `catch`?",
+                answers: [{ id: 0, text: "Program będzie działał dalej, pomijając błąd" }, { id: 1, text: "Program zakończy działanie z błędem" }, { id: 2, text: "Wyjątek zostanie automatycznie zapisany w bazie danych" }, { id: 3, text: "Kompilator usunie instrukcję, która zgłosiła wyjątek" }],
+                goodAnswer: 1
+            },
+            {
+                id: 366,
+                title: "Która metoda tablicy w JavaScript dodaje nowy element na jej końcu?",
+                answers: [{ id: 0, text: "`push()`" }, { id: 1, text: "`shift()`" }, { id: 2, text: "`unshift()`" }, { id: 3, text: "`pop()`" }],
+                goodAnswer: 0
+            },
+            {
+                id: 367,
+                title: "Czym jest ESLint?",
+                answers: [{ id: 0, text: "Kompilatorem nowego JavaScriptu do starszych wersji" }, { id: 1, text: "Menedżerem zależności w projektach Node.js" }, { id: 2, text: "Frameworkiem do testowania aplikacji JavaScript" }, { id: 3, text: "Narzędziem do statycznej analizy kodu JavaScript" }],
+                goodAnswer: 3
+            },
+            {
+                id: 368,
+                title: "Co zostanie wyświetlone w nagłówku po wyrenderowaniu kodu `<h2>{2+2}</h2>` w React lub `<h2>{{2+2}}</h2>` w Angularze?",
+                answers: [{ id: 0, text: "2+2" }, { id: 1, text: "4" }, { id: 2, text: "{2+2}" }, { id: 3, text: "{{2+2}}" }],
+                goodAnswer: 1
+            },
+            {
+                id: 369,
+                title: "Czego NIE należy robić, pracując w zespole i dbając o jego skuteczność?",
+                answers: [{ id: 0, text: "Brać odpowiedzialność za swoje decyzje" }, { id: 1, text: "Wykonywać zadania sumiennie i w terminie" }, { id: 2, text: "Skupiać się wyłącznie na własnych korzyściach" }, { id: 3, text: "Wspierać innych członków zespołu" }],
+                goodAnswer: 2
+            },
+            {
+                id: 370,
+                title: "Gdzie w aplikacji na system Android można trwale zapisać proste ustawienia użytkownika w postaci par klucz–wartość?",
+                answers: [{ id: 0, text: "W SharedPreferences" }, { id: 1, text: "Wyłącznie w pamięci RAM" }, { id: 2, text: "W pliku AndroidManifest.xml" }, { id: 3, text: "W rejestrze systemu" }],
+                goodAnswer: 0
+            },
+            {
+                id: 371,
+                title: "Dlaczego poniższy kod w języku C# się nie skompiluje?\n\n```\nclass Dokument {\n    public string nazwa;\n    protected string autor;\n}\n// w metodzie Main innej klasy:\nDokument doc = new Dokument();\nConsole.WriteLine(doc.autor);\n```",
+                answers: [{ id: 0, text: "Obiekt został utworzony z błędną składnią" }, { id: 1, text: "Brakuje argumentów konstruktora przy tworzeniu obiektu" }, { id: 2, text: "Klasa nie ma zdefiniowanego konstruktora" }, { id: 3, text: "Pole autor jest niedostępne poza klasą i jej potomkami" }],
+                goodAnswer: 3
+            },
+            {
+                id: 372,
+                title: "Kiedy lista (np. `List` w C#) jest lepszym wyborem niż zwykła tablica?",
+                answers: [{ id: 0, text: "Gdy potrzebny jest dostęp do elementu przez indeks" }, { id: 1, text: "Gdy liczba elementów nigdy się nie zmienia" }, { id: 2, text: "Gdy liczba elementów zmienia się w trakcie działania programu" }, { id: 3, text: "Gdy rozmiar kolekcji jest znany przed kompilacją" }],
+                goodAnswer: 2
+            },
+            {
+                id: 373,
+                title: "Czym jest ransomware?",
+                answers: [{ id: 0, text: "Oprogramowaniem, które wyświetla użytkownikowi niechciane reklamy w przeglądarce" }, { id: 1, text: "Oprogramowaniem blokującym dostęp do danych w celu wymuszenia okupu" }, { id: 2, text: "Programem zbierającym dane użytkownika bez jego zgody" }, { id: 3, text: "Programem wykorzystywanym do przeprowadzania ataków DDoS" }],
+                goodAnswer: 1
+            },
+            {
+                id: 374,
+                title: "Czym jest WebAssembly (WASM)?",
+                answers: [{ id: 0, text: "Binarnym formatem kodu wykonywanym przez współczesne przeglądarki" }, { id: 1, text: "Metodą łączenia kodu JavaScript z arkuszami stylów CSS" }, { id: 2, text: "Frameworkiem JavaScript do tworzenia aplikacji mobilnych" }, { id: 3, text: "Narzędziem do automatycznego testowania aplikacji webowych" }],
+                goodAnswer: 0
+            },
+            {
+                id: 375,
+                title: "Jaki jest wynik bitowej operacji AND na liczbach binarnych 1010 i 1100?",
+                answers: [{ id: 0, text: "0110" }, { id: 1, text: "1010" }, { id: 2, text: "1110" }, { id: 3, text: "1000" }],
+                goodAnswer: 3
+            },
+            {
+                id: 376,
+                title: "Jakie elementy może przechowywać kolekcja zadeklarowana w języku C#?\n\n```\nList<int> wykaz = new List<int>();\n```",
+                answers: [{ id: 0, text: "Liczby całkowite" }, { id: 1, text: "Elementy dowolnego typu" }, { id: 2, text: "Obiekty typu List" }, { id: 3, text: "Liczby rzeczywiste" }],
+                goodAnswer: 0
+            },
+            {
+                id: 377,
+                title: "Dlaczego poniższy program w języku C++ wyświetla 0, a nie 50?\n\n```\nint oblicz(int x) {\n    x = x + 50;\n    return x;\n}\nint main() {\n    int x = 0;\n    oblicz(x);\n    cout << x;\n}\n```",
+                answers: [{ id: 0, text: "Funkcja nie powinna zwracać żadnej wartości" }, { id: 1, text: "Zmienna x powinna mieć wartość początkową 1" }, { id: 2, text: "Argument został przekazany przez wartość, a nie przez referencję" }, { id: 3, text: "Działanie wewnątrz funkcji jest zapisane niepoprawnie" }],
+                goodAnswer: 2
+            },
+            {
+                id: 378,
+                title: "Który element interfejsu aplikacji mobilnej służy do nawigacji między ekranami za pomocą wysuwanego bocznego menu?",
+                answers: [{ id: 0, text: "ProgressBar" }, { id: 1, text: "Snackbar" }, { id: 2, text: "ListView" }, { id: 3, text: "Navigation Drawer" }],
+                goodAnswer: 3
+            },
+            {
+                id: 379,
+                title: "Jaka liczba zostanie wyświetlona po wykonaniu kodu w języku C++?\n\n```\nint a = 0x73;\ncout << a;\n```",
+                answers: [{ id: 0, text: "0" }, { id: 1, text: "115" }, { id: 2, text: "73" }, { id: 3, text: "108" }],
+                goodAnswer: 1
+            },
+            {
+                id: 380,
+                title: "W jakiej sytuacji kompilator języka Java zgłosi błąd \"incompatible types\"?",
+                answers: [{ id: 0, text: "Gdy do zmiennej typu int przypisuje się napis" }, { id: 1, text: "Gdy do zmiennej typu int przypisuje się liczbę 243" }, { id: 2, text: "Gdy wynik metody typu void nie zostanie nigdzie przypisany" }, { id: 3, text: "Gdy w kodzie jest nieużywana zmienna lokalna" }],
+                goodAnswer: 0
+            },
+            {
+                id: 381,
+                title: "Jakie jest zadanie kontrolera we wzorcu MVC?",
+                answers: [{ id: 0, text: "Szyfrowanie danych przesyłanych do bazy" }, { id: 1, text: "Przyjmowanie działań użytkownika i aktualizowanie modelu oraz widoku" }, { id: 2, text: "Przechowywanie danych aplikacji i reguł ich zapisywania w bazie danych" }, { id: 3, text: "Prezentowanie danych użytkownikowi na ekranie" }],
+                goodAnswer: 1
+            },
+            {
+                id: 382,
+                title: "Klient mówi: „Potrzebuję aplikacji, która działa szybko, niezależnie od tego, czy korzysta z niej kilku, czy tysiąc użytkowników”. Która odpowiedź jest parafrazą, czyli techniką aktywnego słuchania?",
+                answers: [{ id: 0, text: "Wyczuwam niepewność. Czy mogę zadać kilka pytań?" }, { id: 1, text: "Ilu dokładnie użytkowników będzie z niej korzystać?" }, { id: 2, text: "Dlaczego szuka Pani właśnie takiej aplikacji?" }, { id: 3, text: "Jeśli dobrze rozumiem, chodzi o aplikację, która dobrze się skaluje" }],
+                goodAnswer: 3
+            },
+            {
+                id: 383,
+                title: "Jak nazywa się złośliwe oprogramowanie, które działa w tle i rejestruje naciśnięcia klawiszy, np. wpisywane hasła?",
+                answers: [{ id: 0, text: "Rootkit" }, { id: 1, text: "Ransomware" }, { id: 2, text: "Keylogger" }, { id: 3, text: "Adware" }],
+                goodAnswer: 2
+            },
+            {
+                id: 384,
+                title: "Na czym polega model prototypowy wytwarzania oprogramowania?",
+                answers: [{ id: 0, text: "Na wykonaniu pełnej wersji produktu przed rozpoczęciem testów" }, { id: 1, text: "Na budowie uproszczonej wersji systemu, aby zebrać opinie użytkownika" }, { id: 2, text: "Na dostarczaniu produktu w krótkich, powtarzalnych sprintach" }, { id: 3, text: "Na szczegółowym zaplanowaniu wszystkich etapów przed realizacją" }],
+                goodAnswer: 1
+            },
+            {
+                id: 385,
+                title: "Ile zmiennych poszczególnych typów zadeklarowano w poniższym kodzie w języku Java?\n\n```\nString imie = \"Anna\";\nshort wiek = 12;\nint i = 0;\nchar plec = 'K';\nboolean uczen = true;\n```",
+                answers: [{ id: 0, text: "Jedną tekstową, jedną rzeczywistą, jedną całkowitą, znakową i logiczną" }, { id: 1, text: "Dwie tekstowe, dwie całkowite i jedną logiczną" }, { id: 2, text: "Jedną tekstową, trzy całkowite i jedną logiczną" }, { id: 3, text: "Jedną tekstową, dwie całkowite, jedną znakową i jedną logiczną" }],
+                goodAnswer: 3
+            },
+            {
+                id: 386,
+                title: "Dla jakich danych sortowanie bąbelkowe (rosnąco), przerywane po przebiegu bez żadnej zamiany, działa najszybciej?",
+                answers: [{ id: 0, text: "Dla tablicy z losowymi wartościami" }, { id: 1, text: "Dla tablicy posortowanej malejąco" }, { id: 2, text: "Dla tablicy już posortowanej rosnąco" }, { id: 3, text: "Dla tablicy z wieloma powtórzeniami" }],
+                goodAnswer: 2
+            },
+            {
+                id: 387,
+                title: "Czym jest GraphQL?",
+                answers: [{ id: 0, text: "Językiem zapytań do API wraz ze środowiskiem ich wykonywania" }, { id: 1, text: "Formatem zapisu danych podobnym do JSON, używanym w plikach konfiguracyjnych" }, { id: 2, text: "Systemem zarządzania grafowymi bazami danych" }, { id: 3, text: "Biblioteką do rysowania wykresów i diagramów" }],
+                goodAnswer: 0
+            },
+            {
+                id: 388,
+                title: "Czym jest pętla zdarzeń (event loop) w JavaScript?",
+                answers: [{ id: 0, text: "Pętlą, która co sekundę odświeża całą zawartość strony WWW" }, { id: 1, text: "Techniką obsługi zdarzeń dostępną wyłącznie w komponentach biblioteki React" }, { id: 2, text: "Protokołem komunikacji między modułami aplikacji webowej" }, { id: 3, text: "Mechanizmem, który pozwala wykonywać kod asynchronicznie w jednym wątku" }],
+                goodAnswer: 3
+            },
+            {
+                id: 389,
+                title: "Co zostanie wyświetlone w konsoli po wykonaniu kodu w JavaScript?\n\n```\nconst [a, , b] = [1, 2, 3];\nconst { x, y = 5 } = { x: 10 };\nconsole.log(a, b, x, y);\n```",
+                answers: [{ id: 0, text: "1 3 10 5" }, { id: 1, text: "1 3 10 undefined" }, { id: 2, text: "1 2 10 5" }, { id: 3, text: "SyntaxError" }],
+                goodAnswer: 0
+            },
+            {
+                id: 390,
+                title: "Na czym polega wyszukiwanie liniowe z wartownikiem?",
+                answers: [{ id: 0, text: "Na wcześniejszym posortowaniu zbioru danych wejściowych" }, { id: 1, text: "Na dzieleniu zbioru na połowy w każdym kroku" }, { id: 2, text: "Na dopisaniu szukanej wartości na końcu zbioru, by uprościć warunek pętli" }, { id: 3, text: "Na przeszukiwaniu zbioru jednocześnie od początku i od końca w dwóch pętlach" }],
+                goodAnswer: 2
+            },
+            {
+                id: 391,
+                title: "Jaką wartość pokaże etykieta `label` po wykonaniu kodu w języku C#?\n\n```\nint tmp = 0;\nfor (int i = 0; i <= 100; i += 2)\n    tmp += i;\nlabel.Content = tmp;\n```",
+                answers: [{ id: 0, text: "5050" }, { id: 1, text: "2550" }, { id: 2, text: "2500" }, { id: 3, text: "51" }],
+                goodAnswer: 1
+            },
+            {
+                id: 392,
+                title: "Co oznacza niezmienność (immutability) obiektu?",
+                answers: [{ id: 0, text: "Stanu obiektu nie można zmienić po jego utworzeniu" }, { id: 1, text: "Obiekt można przypisać do zmiennej jak funkcję" }, { id: 2, text: "Obiekt jest automatycznie usuwany z pamięci po użyciu" }, { id: 3, text: "Metody obiektu mogą działać równolegle w wielu wątkach" }],
+                goodAnswer: 0
+            },
+            {
+                id: 393,
+                title: "Do czego służy operator `|` w języku C++?",
+                answers: [{ id: 0, text: "Do logicznej alternatywy (OR)" }, { id: 1, text: "Do bitowej alternatywy (OR)" }, { id: 2, text: "Do bitowej różnicy symetrycznej (XOR)" }, { id: 3, text: "Do przesunięcia bitów w prawo" }],
+                goodAnswer: 1
+            },
+            {
+                id: 394,
+                title: "Co wyświetli poniższy kod w języku Java?\n\n```\nString a = \"hello\";\nString b = \"hello\";\nString c = new String(\"hello\");\nSystem.out.println(a == b);\nSystem.out.println(a == c);\nSystem.out.println(a.equals(c));\n```",
+                answers: [{ id: 0, text: "true, false, false" }, { id: 1, text: "false, false, true" }, { id: 2, text: "true, true, true" }, { id: 3, text: "true, false, true" }],
+                goodAnswer: 3
+            },
+            {
+                id: 395,
+                title: "Co charakteryzuje szyfrowanie symetryczne?",
+                answers: [{ id: 0, text: "Można nim szyfrować wyłącznie pliki tekstowe" }, { id: 1, text: "Szyfruje dane bez użycia jakiegokolwiek klucza" }, { id: 2, text: "Do szyfrowania i odszyfrowania używa się tego samego klucza" }, { id: 3, text: "Do szyfrowania i odszyfrowania używa się dwóch różnych kluczy" }],
+                goodAnswer: 2
+            },
+            {
+                id: 396,
+                title: "Jaka będzie wartość zmiennej `wynik` po wykonaniu kodu w JavaScript?\n\n```\nconst items = [\n    { name: \"phone\", price: 500 },\n    { name: \"laptop\", price: 1000 },\n    { name: \"tablet\", price: 750 }\n];\nconst wynik = items\n    .filter(i => i.price > 600)\n    .map(i => i.name);\n```",
+                answers: [{ id: 0, text: "`[\"laptop\", \"tablet\", \"phone\"]`" }, { id: 1, text: "`[1000, 750]`" }, { id: 2, text: "`[\"laptop\", \"tablet\"]`" }, { id: 3, text: "`[\"phone\"]`" }],
+                goodAnswer: 2
+            },
+            {
+                id: 397,
+                title: "Zasada SMART opisuje dobrze sformułowany cel jako specyficzny, mierzalny, ambitny, realny i terminowy. Która cecha oznacza, że osiągnięcie celu wymaga wysiłku i jest wyzwaniem?",
+                answers: [{ id: 0, text: "Specyficzny" }, { id: 1, text: "Mierzalny" }, { id: 2, text: "Terminowy" }, { id: 3, text: "Ambitny" }],
+                goodAnswer: 3
+            },
+            {
+                id: 398,
+                title: "Liczba szesnastkowa A4 zapisana w systemie dwójkowym to:",
+                answers: [{ id: 0, text: "10100010" }, { id: 1, text: "10100100" }, { id: 2, text: "1011100" }, { id: 3, text: "1010100" }],
+                goodAnswer: 1
+            },
+            {
+                id: 399,
+                title: "Kolor ma zapis szesnastkowy #AA41FF. Jakie są dziesiętne wartości jego składowych R, G i B?",
+                answers: [{ id: 0, text: "170, 65, 255" }, { id: 1, text: "170, 64, 255" }, { id: 2, text: "160, 64, 255" }, { id: 3, text: "160, 65, 255" }],
+                goodAnswer: 0
             }
         ],
         available: true
