@@ -60,8 +60,9 @@ function Main() {
             {(quiz.length === 0) ?
                 <>
                     <h3 ref={textRef} className='text-3xl font-semibold tracking-tight text-balance text-white py-0'>Wybierz kwalifikacje</h3>
+                    {/* Row 1 holds the cards, row 2 their results (see Card). shortcut: no wrapping, fits 4 cards at max-w-7xl. */}
                     <div className=
-                        'flex flex-col flex-wrap md:flex-row gap-6 px-6'
+                        'flex flex-col md:grid md:grid-flow-col md:grid-rows-[auto_auto] gap-6 md:gap-y-0 px-6'
                     >
                         {data.map(e => (
                             <Card key={e.name} id={e.name} name={e.name} fullName={e.fullName} available={e.available} handleClick={() => { choiceQualification(e.name, e.questions) }} />
