@@ -9,14 +9,14 @@ function loadAll() {
     }
 }
 
-// The last 5 finished tests of a qualification, newest first.
+// The last 4 finished tests of a qualification, newest first.
 export function loadResults(name) {
     return loadAll()[name] ?? []
 }
 
 export function saveResult(name, points, total) {
     const all = loadAll()
-    all[name] = [{ date: Date.now(), points, total }, ...(all[name] ?? [])].slice(0, 5)
+    all[name] = [{ date: Date.now(), points, total }, ...(all[name] ?? [])].slice(0, 4)
     try {
         localStorage.setItem(KEY, JSON.stringify(all))
     } catch {

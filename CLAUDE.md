@@ -45,7 +45,7 @@ packages/web-site/               The only package
     index.css                    Tailwind import, Inter @font-face, :root styles, .pointer, .disabled, .text-shadow, .clip-text
     data/data.js                 The entire question bank
     scripts/splitCode.js         Splits a string into plain text and code parts
-    scripts/results.js           Saves and loads the last 5 finished results per qualification in localStorage
+    scripts/results.js           Saves and loads the last 4 finished results per qualification in localStorage
     components/
       Main.jsx                   All quiz state, and the switch between menu and quiz views
       Card.jsx                   Qualification card in the menu, with its saved results below; registers the GSAP plugins
@@ -69,7 +69,7 @@ All quiz state is in `Main.jsx`:
 - The number 40 is hard-coded twice: in `shuffle40Questions` and in the "Odpowiedz na 40 pytań:" heading.
 - `ScoreStatus` shows the percentage of answered questions, not of all 40. It turns green at 50% or more.
 - When the last question is answered, `checkAnswer` calls `saveResult`. The chosen qualification's name is kept in a ref, because it is never rendered.
-- `Card` reads its results once, on mount, and shows the average and the last 5 under the card, with the same 50% colours. On md the card list is a grid, and each `Card` is a two-row subgrid, so cards keep equal heights while results sit in the row below.
+- `Card` reads its results once, on mount, and shows the average and the last 4 under the card: red below 50% (failed), yellow up to 65%, green above. On md the card list is a grid, and each `Card` is a two-row subgrid, so cards keep equal heights while results sit in the row below.
 
 `Header`, `Card` and the menu heading in `Main` animate with GSAP and `SplitText`. Plugins are registered once, in `Card.jsx`. `Main.jsx` uses `SplitText` and `useGSAP` without registering them, so it depends on that import.
 
